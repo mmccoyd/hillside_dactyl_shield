@@ -642,7 +642,7 @@
     "netclass_patterns": [
       {
         "netclass": "Display",
-        "pattern": "SCK|MOSI|MISO|CS|LED"
+        "pattern": "SCK|MOSI|MISO|CS|LED|LED_out"
       },
       {
         "netclass": "col",
