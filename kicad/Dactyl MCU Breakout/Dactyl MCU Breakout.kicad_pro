@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 1.1,
-          "height": 1.6,
-          "width": 1.6
+          "drill": 3.2,
+          "height": 5.6,
+          "width": 5.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -132,7 +132,7 @@
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,
-        "solder_mask_to_copper_clearance": 0.0,
+        "solder_mask_to_copper_clearance": 0.005,
         "use_height_for_length_calcs": true
       },
       "teardrop_options": [
@@ -576,7 +576,7 @@
         "microvia_drill": 0.1,
         "name": "Display",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(204, 102, 0)",
+        "schematic_color": "rgb(0, 132, 132)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -593,7 +593,7 @@
         "microvia_drill": 0.1,
         "name": "col",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 0, 132)",
+        "schematic_color": "rgb(132, 0, 132)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -627,7 +627,7 @@
         "microvia_drill": 0.1,
         "name": "row",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 72, 0)",
+        "schematic_color": "rgb(0, 0, 132)",
         "track_width": 0.25,
         "via_diameter": 0.8,
         "via_drill": 0.4,
@@ -642,27 +642,27 @@
     "netclass_patterns": [
       {
         "netclass": "Display",
-        "pattern": "SCK|MOSI|MISO|CS|LED|LED_out"
+        "pattern": "/(Left|Right)/SPI0.(SCK.+|COPI.+|CIPO|SC|)"
       },
       {
         "netclass": "col",
-        "pattern": "col*"
+        "pattern": "/*/col*"
       },
       {
         "netclass": "row",
-        "pattern": "row*"
-      },
-      {
-        "netclass": "power",
-        "pattern": "RAW|VCC|VCC_LED*"
-      },
-      {
-        "netclass": "power",
-        "pattern": "bat+"
+        "pattern": "/*/row*"
       },
       {
         "netclass": "power",
         "pattern": "GND"
+      },
+      {
+        "netclass": "power",
+        "pattern": "/(Left|Right)/(RAW|bat.|VCC|VCC_LED.)"
+      },
+      {
+        "netclass": "Display",
+        "pattern": "/(Left|Right)/(LED|LED_out)"
       }
     ]
   },
@@ -743,6 +743,12 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part #",
+          "name": "LCSC Part #",
+          "show": true
         }
       ],
       "filter_string": "",
