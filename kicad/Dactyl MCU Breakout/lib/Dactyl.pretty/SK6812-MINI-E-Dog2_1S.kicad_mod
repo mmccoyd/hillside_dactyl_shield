@@ -1,4 +1,4 @@
-(footprint "SK6812-MINI-E-Dog2"
+(footprint "SK6812-MINI-E-Dog2_1S"
 	(version 20240108)
 	(generator "pcbnew")
 	(generator_version "8.0")
@@ -15,7 +15,7 @@
 			)
 		)
 	)
-	(property "Value" "SK6812-MINI-E-Dog2"
+	(property "Value" "SK6812-MINI-E-Dog2_1S"
 		(at 0.15 -2.32 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -65,9 +65,10 @@
 		)
 	)
 	(attr through_hole)
+	(private_layers "User.9")
 	(fp_line
-		(start -1.696447 1.496447)
-		(end -1.696447 -0.85)
+		(start -1.696447 1.176)
+		(end -1.696447 -1.170447)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -76,8 +77,8 @@
 		(uuid "dd415b6a-8df3-4934-a253-77b5a61e4d7c")
 	)
 	(fp_line
-		(start -1.196447 -1.35)
-		(end 1.196446 -1.35)
+		(start -1.196447 -1.670447)
+		(end 1.196446 -1.670447)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -86,8 +87,8 @@
 		(uuid "21ad5837-d729-4756-b619-3a77dd4ddb4d")
 	)
 	(fp_line
-		(start 1.196447 1.996447)
-		(end -1.196447 1.996447)
+		(start 1.196447 1.676)
+		(end -1.196447 1.676)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -96,8 +97,8 @@
 		(uuid "8f47fa7c-8634-46c0-9736-4b370e55977a")
 	)
 	(fp_line
-		(start 1.696446 -0.85)
-		(end 1.696447 1.496447)
+		(start 1.696446 -1.170447)
+		(end 1.696447 1.176)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -106,9 +107,9 @@
 		(uuid "68d07a66-8e78-4869-86a9-aa27bfd51db9")
 	)
 	(fp_arc
-		(start -1.696447 -0.85)
-		(mid -1.55 -1.203553)
-		(end -1.196447 -1.35)
+		(start -1.696447 -1.170447)
+		(mid -1.55 -1.524)
+		(end -1.196447 -1.670447)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -117,9 +118,9 @@
 		(uuid "b7998344-2349-46c1-ad4f-9c84a92d7f0e")
 	)
 	(fp_arc
-		(start -1.196447 1.996447)
-		(mid -1.55 1.85)
-		(end -1.696447 1.496447)
+		(start -1.196447 1.676)
+		(mid -1.55 1.529553)
+		(end -1.696447 1.176)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -128,9 +129,9 @@
 		(uuid "e2fa37ad-013f-4cb6-a207-4450811b29cd")
 	)
 	(fp_arc
-		(start 1.196446 -1.35)
-		(mid 1.550001 -1.203555)
-		(end 1.696446 -0.85)
+		(start 1.196446 -1.670447)
+		(mid 1.549998 -1.524001)
+		(end 1.696446 -1.170447)
 		(stroke
 			(width 0.12)
 			(type solid)
@@ -139,27 +140,15 @@
 		(uuid "f32117fc-3114-4dae-96b8-fd952d136424")
 	)
 	(fp_arc
-		(start 1.696447 1.496447)
-		(mid 1.55 1.85)
-		(end 1.196447 1.996447)
+		(start 1.696447 1.176)
+		(mid 1.55 1.529553)
+		(end 1.196447 1.676)
 		(stroke
 			(width 0.12)
 			(type solid)
 		)
 		(layer "B.Adhes")
 		(uuid "40badbea-65ff-4f4b-9f14-b3b5e16a1095")
-	)
-	(fp_poly
-		(pts
-			(xy 2.2 2) (xy 2.2 1.4) (xy 2.8 1.4)
-		)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill solid)
-		(layer "B.SilkS")
-		(uuid "edf14a6b-0d70-4db0-9e28-784d655ee5be")
 	)
 	(fp_poly
 		(pts
@@ -319,11 +308,23 @@
 			)
 		)
 	)
-	(pad "1" smd rect
-		(at -2.7 -0.75)
-		(size 1.4 0.82)
-		(layers "B.Cu" "B.Paste" "B.Mask")
-		(uuid "91693c2d-393b-42f7-a860-3895f87b3638")
+	(fp_text_box "One sided"
+		(start -4.572 4.064)
+		(end 4.826 6.35)
+		(layer "User.9")
+		(uuid "123f08f9-ec3d-42be-807c-a48a981567f7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
 	)
 	(pad "1" smd rect
 		(at -2.7 0.75)
@@ -337,31 +338,12 @@
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "39ea8622-ff03-464a-b272-99edd2919443")
 	)
-	(pad "2" smd rect
-		(at -2.7 0.75)
-		(size 1.4 0.82)
-		(layers "B.Cu" "B.Paste" "B.Mask")
-		(uuid "b134eb71-28da-4fab-b4ff-66250b349fbc")
-	)
 	(pad "3" smd roundrect
 		(at 2.7 -0.75)
 		(size 1.4 0.82)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(roundrect_rratio 0.25)
 		(uuid "c4250139-e044-4f1e-ada6-325e27678faf")
-	)
-	(pad "3" smd roundrect
-		(at 2.7 0.75)
-		(size 1.4 0.82)
-		(layers "B.Cu" "B.Paste" "B.Mask")
-		(roundrect_rratio 0.25)
-		(uuid "f33292b6-e256-451d-9bfa-7d07ba9e670f")
-	)
-	(pad "4" smd rect
-		(at 2.7 -0.75)
-		(size 1.4 0.82)
-		(layers "B.Cu" "B.Paste" "B.Mask")
-		(uuid "f0eaad98-d205-41c4-a0e6-ff5881df4ae0")
 	)
 	(pad "4" smd rect
 		(at 2.7 0.75)
