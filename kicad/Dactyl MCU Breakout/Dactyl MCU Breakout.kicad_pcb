@@ -187,10 +187,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e235f658-1906-464a-832e-0ac06e788394/41ab626f-9770-4c23-a563-ee99fa0e74ab")
-		(sheetname "Right")
-		(sheetfile "board_half.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -539,7 +536,7 @@
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 0.5)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -1109,10 +1106,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e235f658-1906-464a-832e-0ac06e788394/5fcab8d4-678c-4847-a958-5c750c8dbafb")
-		(sheetname "Right")
-		(sheetfile "board_half.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -3.556 8.636)
@@ -1423,7 +1417,7 @@
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 0.5)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -1774,10 +1768,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e235f658-1906-464a-832e-0ac06e788394/fd4479d8-b087-405a-bb45-89df73ad7927")
-		(sheetname "Right")
-		(sheetfile "board_half.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 1.33 1.27)
@@ -2078,7 +2069,7 @@
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 0.5)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -2922,7 +2913,7 @@
 			(uuid "4f662545-0d99-4ef2-a5ee-51f7a34cc31e")
 		)
 		(fp_text user "SPI.COPI"
-			(at 3.936286 -1.788911 -0)
+			(at 3.936286 -1.788911 0)
 			(layer "B.SilkS")
 			(uuid "06c248ed-481f-4e7a-b3d5-28812b6c0507")
 			(effects
@@ -2934,7 +2925,7 @@
 			)
 		)
 		(fp_text user "COL1"
-			(at -10.482285 3.302 -0)
+			(at -10.482285 3.302 0)
 			(layer "B.SilkS")
 			(uuid "1befdb18-bf54-43d7-ae0c-4e1f758a62bd")
 			(effects
@@ -2946,7 +2937,7 @@
 			)
 		)
 		(fp_text user "COL3"
-			(at -10.482285 8.382 -0)
+			(at -10.482285 8.382 0)
 			(layer "B.SilkS")
 			(uuid "29631de0-3262-4b7a-9f52-90e702d57acf")
 			(effects
@@ -2958,7 +2949,7 @@
 			)
 		)
 		(fp_text user "LED"
-			(at 5.050571 8.356541 -0)
+			(at 5.050571 8.356541 0)
 			(layer "B.SilkS")
 			(uuid "2cbd75da-1943-4657-b41f-dc95ae54d6aa")
 			(effects
@@ -2970,7 +2961,7 @@
 			)
 		)
 		(fp_text user "ROW1"
-			(at 4.622 3.283815 -0)
+			(at 4.622 3.283815 0)
 			(layer "B.SilkS")
 			(uuid "3807d7cb-da8a-4cda-9cb1-b08cb62af072")
 			(effects
@@ -2982,7 +2973,7 @@
 			)
 		)
 		(fp_text user "ROW0"
-			(at 4.622 -14.470726 -0)
+			(at 4.622 -14.470726 0)
 			(layer "B.SilkS")
 			(uuid "3ab1e904-7a2c-4188-8047-c937413ca472")
 			(effects
@@ -2994,7 +2985,7 @@
 			)
 		)
 		(fp_text user "GND"
-			(at -10.253714 -11.938 -0)
+			(at -10.253714 -11.938 0)
 			(layer "B.SilkS")
 			(uuid "3cf72246-c121-4d6c-b27f-a41ca54597bc")
 			(effects
@@ -3006,7 +2997,7 @@
 			)
 		)
 		(fp_text user "GND"
-			(at 4.950571 -9.398 -0)
+			(at 4.950571 -9.398 0)
 			(layer "B.SilkS")
 			(uuid "4513ec77-4b44-4f83-b354-688f57e0139b")
 			(effects
@@ -3057,7 +3048,7 @@
 			)
 		)
 		(fp_text user "ROW3"
-			(at 4.622 10.892904 -0)
+			(at 4.622 10.892904 0)
 			(layer "B.SilkS")
 			(uuid "5bb52544-f3a7-4420-9cd5-fd56db8f502e")
 			(effects
@@ -3069,7 +3060,7 @@
 			)
 		)
 		(fp_text user "ROW2"
-			(at 4.622 5.820178 -0)
+			(at 4.622 5.820178 0)
 			(layer "B.SilkS")
 			(uuid "5f335c6c-9e38-4c87-ad4a-fdea2ca90037")
 			(effects
@@ -3081,7 +3072,7 @@
 			)
 		)
 		(fp_text user "V_AD1"
-			(at -10.668 -4.318 -0)
+			(at -10.668 -4.318 0)
 			(layer "B.SilkS")
 			(uuid "65b8c0ad-2e83-4fb2-b5c2-2ee82747dce2")
 			(effects
@@ -3093,7 +3084,7 @@
 			)
 		)
 		(fp_text user "SPI.SCK"
-			(at 4.107714 -4.325274 -0)
+			(at 4.107714 -4.325274 0)
 			(layer "B.SilkS")
 			(uuid "668dc06c-5b52-47a4-be1a-f709856a2ee8")
 			(effects
@@ -3118,7 +3109,7 @@
 			)
 		)
 		(fp_text user "SPI.CIPO"
-			(at 3.936286 0.747452 -0)
+			(at 3.936286 0.747452 0)
 			(layer "B.SilkS")
 			(uuid "7adb5936-375c-4802-a00e-4bba35c4abeb")
 			(effects
@@ -3130,7 +3121,7 @@
 			)
 		)
 		(fp_text user "ROW4"
-			(at 4.622 13.429274 -0)
+			(at 4.622 13.429274 0)
 			(layer "B.SilkS")
 			(uuid "84a2e8e0-2dfb-435b-8dea-c83bc48b09fe")
 			(effects
@@ -3142,7 +3133,7 @@
 			)
 		)
 		(fp_text user "RAW"
-			(at -10.239428 -14.478 -0)
+			(at -10.239428 -14.478 0)
 			(unlocked yes)
 			(layer "B.SilkS")
 			(uuid "9244be98-ebd6-4b49-b047-a48829f03096")
@@ -3155,7 +3146,7 @@
 			)
 		)
 		(fp_text user "COL0"
-			(at -10.482285 0.762 -0)
+			(at -10.482285 0.762 0)
 			(layer "B.SilkS")
 			(uuid "9bbb817f-bc25-4b54-8d38-198a3bc7ce23")
 			(effects
@@ -3167,7 +3158,7 @@
 			)
 		)
 		(fp_text user "GND"
-			(at 4.950571 -6.861637 -0)
+			(at 4.950571 -6.861637 0)
 			(layer "B.SilkS")
 			(uuid "a09e3210-b258-4828-aa26-c96baff8ca34")
 			(effects
@@ -3179,7 +3170,7 @@
 			)
 		)
 		(fp_text user "SPI.CS"
-			(at 4.407714 -11.934363 -0)
+			(at 4.407714 -11.934363 0)
 			(layer "B.SilkS")
 			(uuid "aa794ba2-ab8b-4d74-ad5a-39767fad391b")
 			(effects
@@ -3191,7 +3182,7 @@
 			)
 		)
 		(fp_text user "VCC"
-			(at -10.196571 -6.858 -0)
+			(at -10.196571 -6.858 0)
 			(layer "B.SilkS")
 			(uuid "c3794cc1-7733-4358-91a7-3534512a7b92")
 			(effects
@@ -3203,7 +3194,7 @@
 			)
 		)
 		(fp_text user "COL4"
-			(at -10.482285 10.922 -0)
+			(at -10.482285 10.922 0)
 			(layer "B.SilkS")
 			(uuid "c57d37c9-9c66-4439-9878-d56fa7b56811")
 			(effects
@@ -3215,7 +3206,7 @@
 			)
 		)
 		(fp_text user "V_AD2"
-			(at -10.668 -1.778 -0)
+			(at -10.668 -1.778 0)
 			(layer "B.SilkS")
 			(uuid "cb39e37e-0528-4999-a000-a06e20b7681c")
 			(effects
@@ -3227,7 +3218,7 @@
 			)
 		)
 		(fp_text user "COL2"
-			(at -10.482285 5.842 -0)
+			(at -10.482285 5.842 0)
 			(layer "B.SilkS")
 			(uuid "d11593ba-2b55-4f2b-b9fa-24f0530fa64c")
 			(effects
@@ -3252,7 +3243,7 @@
 			)
 		)
 		(fp_text user "COL5"
-			(at -10.482285 13.462 -0)
+			(at -10.482285 13.462 0)
 			(layer "B.SilkS")
 			(uuid "e441427e-2d97-4268-9051-e5b64559b988")
 			(effects
@@ -3264,7 +3255,7 @@
 			)
 		)
 		(fp_text user "RST"
-			(at -10.153714 -9.398 -0)
+			(at -10.153714 -9.398 0)
 			(layer "B.SilkS")
 			(uuid "f636f472-d218-41a5-a57c-68c3376c2a42")
 			(effects
@@ -3900,10 +3891,10 @@
 		)
 		(model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x12_P2.54mm_Vertical.wrl"
 			(offset
-				(xyz 7.5 14 0)
+				(xyz 7.5 14 -1)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 0.6)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -3911,10 +3902,10 @@
 		)
 		(model "${KICAD6_3DMODEL_DIR}/Connector_PinSocket_2.54mm.3dshapes/PinSocket_1x12_P2.54mm_Vertical.wrl"
 			(offset
-				(xyz -7.5 14 0)
+				(xyz -7.5 14 -1)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 0.6)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -6170,10 +6161,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e235f658-1906-464a-832e-0ac06e788394/05d2dcfb-dcf1-40e5-8f68-23bca2aedf49")
-		(sheetname "Right")
-		(sheetfile "board_half.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -6450,7 +6438,7 @@
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 0.5)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -6529,6 +6517,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6540,6 +6529,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6551,6 +6541,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6562,6 +6553,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -6573,6 +6565,7 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -7019,7 +7012,7 @@
 		)
 		(fp_arc
 			(start 0.950062 4.900002)
-			(mid 0.455085 4.694978)
+			(mid 0.455088 4.694976)
 			(end 0.250061 4.200002)
 			(stroke
 				(width 0.12)
@@ -8371,10 +8364,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e235f658-1906-464a-832e-0ac06e788394/3b0a1ebe-2dd7-45e2-b8c1-e9dcbb8def84")
-		(sheetname "Right")
-		(sheetfile "board_half.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -8699,7 +8689,7 @@
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 0.5)
 			)
 			(rotate
 				(xyz 0 0 0)
@@ -8880,10 +8870,7 @@
 				)
 			)
 		)
-		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e235f658-1906-464a-832e-0ac06e788394/83d50dcf-ec8a-465c-8871-4fcf40088964")
-		(sheetname "Right")
-		(sheetfile "board_half.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -9136,7 +9123,7 @@
 				(xyz 0 0 0)
 			)
 			(scale
-				(xyz 1 1 1)
+				(xyz 1 1 0.5)
 			)
 			(rotate
 				(xyz 0 0 0)
