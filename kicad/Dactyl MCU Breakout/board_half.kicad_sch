@@ -3754,7 +3754,7 @@
 		(uuid "12a76eb8-6b12-4cf8-a124-2da403e738cd")
 	)
 	(no_connect
-		(at 86.36 92.71)
+		(at 86.36 87.63)
 		(uuid "5b3acb18-3c44-4700-9337-4517ac9a346d")
 	)
 	(bus_entry
@@ -5821,7 +5821,7 @@
 		(uuid "8aaa75c9-d6fc-446c-add5-39b90046d9aa")
 	)
 	(label "RAW"
-		(at 86.36 87.63 0)
+		(at 86.36 92.71 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5832,13 +5832,13 @@
 		(uuid "8d863dae-bc5d-4761-a6b5-423f8c79ee25")
 	)
 	(label "RST"
-		(at 74.93 71.12 0)
+		(at 64.77 71.12 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "8dd0ccb1-e3ad-43cc-bd0d-c9c995d760d2")
 	)
@@ -7955,7 +7955,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 64.77 71.12 0)
+		(at 74.93 71.12 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7965,7 +7965,7 @@
 		(fields_autoplaced yes)
 		(uuid "ce1f5f2a-15e9-4525-9112-56bb0554f40b")
 		(property "Reference" "#PWR010"
-			(at 64.77 77.47 0)
+			(at 74.93 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7974,7 +7974,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 64.77 76.2 0)
+			(at 74.93 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7983,7 +7983,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 71.12 0)
+			(at 74.93 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7992,7 +7992,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 64.77 71.12 0)
+			(at 74.93 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8001,7 +8001,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 71.12 0)
+			(at 74.93 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
