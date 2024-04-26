@@ -65,7 +65,7 @@
 		)
 		(uuid "3219a71e-3be5-40a4-aaab-931cf5d72b17")
 	)
-	(text "The full keyboard uses left and right mirrored  \nPCBs of the same schematic. See the sub sheet \nfor the details and descriptions."
+	(text "The full keyboard uses left and right mirrored  \nPCBs of the same schematic. See the shared \nsub sheet for the details and descriptions."
 		(exclude_from_sim no)
 		(at 94.742 99.822 0)
 		(effects

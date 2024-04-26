@@ -4016,7 +4016,7 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 93.98) (xy 168.91 93.98)
+			(xy 176.53 93.98) (xy 168.91 93.98)
 		)
 		(stroke
 			(width 0)
@@ -4134,19 +4134,9 @@
 		)
 		(uuid "3fa5550f-2b78-4edd-b98f-825b494536ba")
 	)
-	(wire
-		(pts
-			(xy 190.5 93.98) (xy 190.5 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fc8ad17-a683-4ac6-aaf0-768bd16f9dff")
-	)
 	(polyline
 		(pts
-			(xy 172.72 100.33) (xy 128.27 100.33)
+			(xy 173.99 100.33) (xy 128.27 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4276,7 +4266,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.72 81.28) (xy 172.72 100.33)
+			(xy 173.99 81.28) (xy 173.99 100.33)
 		)
 		(stroke
 			(width 0)
@@ -4296,7 +4286,7 @@
 	)
 	(wire
 		(pts
-			(xy 168.91 91.44) (xy 190.5 91.44)
+			(xy 168.91 91.44) (xy 191.77 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4306,7 +4296,7 @@
 	)
 	(polyline
 		(pts
-			(xy 198.12 148.59) (xy 198.12 128.27)
+			(xy 171.45 148.59) (xy 171.45 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4316,7 +4306,7 @@
 	)
 	(polyline
 		(pts
-			(xy 204.47 81.28) (xy 172.72 81.28)
+			(xy 204.47 81.28) (xy 173.99 81.28)
 		)
 		(stroke
 			(width 0)
@@ -4336,7 +4326,7 @@
 	)
 	(polyline
 		(pts
-			(xy 162.56 128.27) (xy 162.56 148.59)
+			(xy 135.89 128.27) (xy 135.89 148.59)
 		)
 		(stroke
 			(width 0)
@@ -4436,7 +4426,7 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 86.36) (xy 190.5 86.36)
+			(xy 180.34 86.36) (xy 191.77 86.36)
 		)
 		(stroke
 			(width 0)
@@ -4496,7 +4486,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 88.9) (xy 190.5 88.9)
+			(xy 177.8 88.9) (xy 191.77 88.9)
 		)
 		(stroke
 			(width 0)
@@ -4566,7 +4556,7 @@
 	)
 	(polyline
 		(pts
-			(xy 97.79 149.86) (xy 40.64 149.86)
+			(xy 97.79 54.61) (xy 40.64 54.61)
 		)
 		(stroke
 			(width 0)
@@ -4596,6 +4586,16 @@
 	)
 	(wire
 		(pts
+			(xy 191.77 93.98) (xy 191.77 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a185d8cb-e1ce-4d98-8b4f-76244765f1ee")
+	)
+	(wire
+		(pts
 			(xy 50.8 127) (xy 64.77 127)
 		)
 		(stroke
@@ -4613,6 +4613,16 @@
 			(type default)
 		)
 		(uuid "a4fe9d92-b79a-463a-92ca-cc9060c125d9")
+	)
+	(wire
+		(pts
+			(xy 191.77 83.82) (xy 190.5 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5bf21f3-99f7-4d81-8c78-eb7c69ae814e")
 	)
 	(wire
 		(pts
@@ -4696,7 +4706,7 @@
 	)
 	(polyline
 		(pts
-			(xy 162.56 128.27) (xy 198.12 128.27)
+			(xy 135.89 128.27) (xy 171.45 128.27)
 		)
 		(stroke
 			(width 0)
@@ -4816,7 +4826,7 @@
 	)
 	(polyline
 		(pts
-			(xy 162.56 148.59) (xy 198.12 148.59)
+			(xy 135.89 148.59) (xy 171.45 148.59)
 		)
 		(stroke
 			(width 0)
@@ -5074,10 +5084,10 @@
 		)
 		(uuid "fe1968d8-ca43-41b1-99e4-b77b54695889")
 	)
-	(text_box "Partial Vic connector support:\n\nA Nice!Nano has the Vik GP_AD1, plus the Vik GP_AD2 if it has no number/macro row.\n\nIf a 2040 needs the full Vik, the breakout can't provide that itself.\nBut 2040 MCUs built in Vik exist now."
+	(text_box "Partial Vic connector support:\n\nA Nice!Nano has the Vik GP_AD1, plus the Vik GP_AD2 \nif it has no number/macro row.\n\nIf a 2040 needs the full Vik, the breakout can't provide it.\nBut 2040 MCUs with built in Vik now exist."
 		(exclude_from_sim no)
-		(at 213.36 149.86 0)
-		(size 69.85 15.24)
+		(at 219.71 127 0)
+		(size 60.96 15.24)
 		(stroke
 			(width 0)
 			(type dash)
@@ -5185,7 +5195,7 @@
 	)
 	(text "        Case back PCB panel\nReset   | center up: USB  |  Battery\n"
 		(exclude_from_sim no)
-		(at 43.18 147.32 0)
+		(at 43.18 52.07 0)
 		(effects
 			(font
 				(size 1.7 1.7)
@@ -5207,7 +5217,7 @@
 	)
 	(text "2040 Split"
 		(exclude_from_sim no)
-		(at 172.72 133.604 0)
+		(at 146.05 133.604 0)
 		(effects
 			(font
 				(size 2 2)
@@ -5240,7 +5250,7 @@
 	)
 	(text "5 v \n"
 		(exclude_from_sim no)
-		(at 173.482 139.446 0)
+		(at 146.812 139.446 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5393,7 +5403,7 @@
 		(uuid "f0d31c4d-7989-4e15-a7b6-4420c453ed02")
 	)
 	(label "row5_VIK_GP_AD2"
-		(at 190.5 97.79 180)
+		(at 191.77 97.79 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5525,7 +5535,7 @@
 		(uuid "324d1495-f009-45d2-b7e1-bad9fcd4c20c")
 	)
 	(label "SPLIT_VIK_GP_AD1"
-		(at 181.61 137.16 180)
+		(at 154.94 137.16 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5580,7 +5590,7 @@
 		(uuid "3c7ae6df-bf48-4380-90b0-a50777824fbe")
 	)
 	(label "row4"
-		(at 173.99 93.98 0)
+		(at 176.53 93.98 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -5954,7 +5964,7 @@
 		(uuid "c697d263-9c2a-43d6-a265-53c7d608d2c5")
 	)
 	(label "RAW"
-		(at 181.61 139.7 180)
+		(at 154.94 139.7 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -6793,7 +6803,7 @@
 				)
 			)
 		)
-		(property "Value" "LEDs bypass"
+		(property "Value" "Vik LED bypass"
 			(at 53.848 137.16 0)
 			(effects
 				(font
@@ -6801,7 +6811,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm"
+		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
 			(at 53.34 132.08 0)
 			(effects
 				(font
@@ -6953,7 +6963,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x05")
-		(at 195.58 88.9 0)
+		(at 196.85 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6961,7 +6971,7 @@
 		(dnp no)
 		(uuid "5fcab8d4-678c-4847-a958-5c750c8dbafb")
 		(property "Reference" "J2"
-			(at 198.12 87.6299 0)
+			(at 199.39 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6970,7 +6980,7 @@
 			)
 		)
 		(property "Value" "Rows"
-			(at 198.12 90.1699 0)
+			(at 199.39 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6979,7 +6989,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical"
-			(at 195.58 88.9 0)
+			(at 196.85 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6988,7 +6998,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 195.58 88.9 0)
+			(at 196.85 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6997,7 +7007,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 195.58 88.9 0)
+			(at 196.85 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7372,7 +7382,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
-		(at 186.69 139.7 0)
+		(at 160.02 139.7 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7381,7 +7391,7 @@
 		(fields_autoplaced yes)
 		(uuid "83d50dcf-ec8a-465c-8871-4fcf40088964")
 		(property "Reference" "J8"
-			(at 189.23 138.4299 0)
+			(at 162.56 138.4299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7390,7 +7400,7 @@
 			)
 		)
 		(property "Value" "Split"
-			(at 189.23 140.9699 0)
+			(at 162.56 140.9699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7399,7 +7409,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical"
-			(at 186.69 139.7 0)
+			(at 160.02 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7408,7 +7418,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 186.69 139.7 0)
+			(at 160.02 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7417,7 +7427,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 186.69 139.7 0)
+			(at 160.02 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8206,7 +8216,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 181.61 142.24 0)
+		(at 154.94 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8215,7 +8225,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9c4ee3f-9062-4989-9caf-b3eb6059e29e")
 		(property "Reference" "#PWR04"
-			(at 181.61 148.59 0)
+			(at 154.94 148.59 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8224,7 +8234,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.61 147.32 0)
+			(at 154.94 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8233,7 +8243,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 181.61 142.24 0)
+			(at 154.94 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8242,7 +8252,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 181.61 142.24 0)
+			(at 154.94 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8251,7 +8261,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 181.61 142.24 0)
+			(at 154.94 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
