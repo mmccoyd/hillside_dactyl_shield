@@ -3,8 +3,8 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(descr "Mounting Hole 2.1mm, no annular")
-	(tags "mounting hole 2.1mm no annular")
+	(descr "Tooling Hole 1.152mm, no annular")
+	(tags "Tooling Hole 1.152mm no annular")
 	(property "Reference" "H24"
 		(at 0 -3.2 0)
 		(layer "F.SilkS")
