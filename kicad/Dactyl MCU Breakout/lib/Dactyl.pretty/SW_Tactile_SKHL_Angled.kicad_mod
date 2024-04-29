@@ -477,7 +477,7 @@
 		(remove_unused_layers no)
 		(uuid "a38f733d-803e-4adf-b803-96f34fb60ea8")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Tactile_SKHH_Angled.wrl"
+	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_Tactile_SKHH_Angled.wrl"
 		(offset
 			(xyz 0 0 0)
 		)
