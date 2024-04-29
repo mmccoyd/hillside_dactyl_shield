@@ -706,7 +706,7 @@
 		(remove_unused_layers no)
 		(uuid "e8ba357b-fee2-4016-b97b-b5867c6640b3")
 	)
-	(model "${KICAD6_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_CuK_JS202011AQN_DPDT_Angled.wrl"
+	(model "${KICAD8_3DMODEL_DIR}/Button_Switch_THT.3dshapes/SW_CK_JS202011AQN_DPDT_Angled.step"
 		(offset
 			(xyz -2.5 1.6 0)
 		)
