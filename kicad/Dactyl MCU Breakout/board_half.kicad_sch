@@ -7064,6 +7064,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "DNF"
+			(at 137.16 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Dactyl MCU Breakout"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
@@ -7185,6 +7194,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "DNF"
 			(at 138.43 83.82 0)
 			(effects
 				(font
@@ -7398,6 +7416,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "DNF"
+			(at 46.99 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "868a1811-0993-4aab-b840-af2481ccb882")
 		)
@@ -7535,6 +7562,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "DNF"
+			(at 116.84 179.705 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Dactyl MCU Breakout"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
@@ -7664,6 +7700,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "DNF"
+			(at 158.75 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Dactyl MCU Breakout"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
@@ -7720,6 +7765,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 115.57 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "DNF"
 			(at 115.57 63.5 0)
 			(effects
 				(font
@@ -7876,6 +7930,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "DNF"
+			(at 115.57 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "084c0a65-1f12-4c8c-bd9e-7ddda76e7f4e")
 		)
@@ -7967,6 +8030,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCBA Type" "Standard"
+			(at 137.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 137.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4868244c-7679-449d-b39e-a25884bbe99b")
 		)
@@ -8029,6 +8110,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
+			(at 184.15 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "DNF"
 			(at 184.15 146.05 0)
 			(effects
 				(font
@@ -8107,6 +8197,24 @@
 			)
 		)
 		(property "LCSC Part #" "C2906115"
+			(at 257.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCBA Type" "Economic"
+			(at 257.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
 			(at 257.81 64.77 0)
 			(effects
 				(font
@@ -8206,6 +8314,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 195.58 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "DNF"
 			(at 195.58 66.04 0)
 			(effects
 				(font
@@ -8424,6 +8541,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "DNF"
+			(at 158.75 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Dactyl MCU Breakout"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
@@ -8553,6 +8679,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "DNF"
+			(at 203.2 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "703770f0-8872-4754-bda2-cd236c26e0b7")
 		)
@@ -8627,6 +8762,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "DNF"
+			(at 193.04 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "7b9da4d2-31e1-45b5-a2c8-a2cd8a9a561c")
 		)
@@ -8686,6 +8830,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 148.59 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "DNF"
 			(at 148.59 60.96 0)
 			(effects
 				(font
@@ -8827,6 +8980,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "DNF"
+			(at 181.61 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "873cd04b-285b-4ef7-9edf-f81632b0807c")
 		)
@@ -8896,6 +9058,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "DNF"
+			(at 137.16 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Dactyl MCU Breakout"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
@@ -8953,6 +9124,15 @@
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 110.744 137.414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 110.49 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9035,6 +9215,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "DNF"
+			(at 137.16 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Dactyl MCU Breakout"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
@@ -9090,6 +9279,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 125.73 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
 			(at 125.73 147.32 0)
 			(effects
 				(font
@@ -9159,6 +9357,15 @@
 			)
 		)
 		(property "Description" "RGB LED with integrated controller"
+			(at 184.15 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "DNF"
 			(at 184.15 133.35 0)
 			(effects
 				(font
@@ -9242,6 +9449,24 @@
 			)
 		)
 		(property "LCSC Part #" "C221662"
+			(at 166.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "JLC PCBA Type" "Standard"
+			(at 166.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
 			(at 166.37 128.27 0)
 			(effects
 				(font
@@ -9447,6 +9672,15 @@
 			)
 		)
 		(property "Description" ""
+			(at 116.84 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "DNF"
 			(at 116.84 173.99 0)
 			(effects
 				(font
@@ -9720,6 +9954,24 @@
 				(hide yes)
 			)
 		)
+		(property "JLC PCBA Type" "Economic"
+			(at 26.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" ""
+			(at 26.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "A1"
 			(uuid "a9e15e9e-4b69-4390-b8eb-4a4530f15db9")
 		)
@@ -9835,6 +10087,15 @@
 				(hide yes)
 			)
 		)
+		(property "Config" "DNF"
+			(at 158.75 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Dactyl MCU Breakout"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
@@ -9890,6 +10151,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 245.11 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "DNF"
 			(at 245.11 92.71 0)
 			(effects
 				(font
@@ -9969,6 +10239,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 49.53 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "DNF"
 			(at 49.53 148.59 0)
 			(effects
 				(font
