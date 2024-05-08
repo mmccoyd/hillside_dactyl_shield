@@ -23,9 +23,9 @@ jobs:
   generate_fab_files:
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
-    with:
-      board: Dactyl MCU Breakout
-      short_name: hill_breakout
+    env:
+      BOARD: Dactyl MCU Breakout
+      SHORT_NAME: hill_breakout
 
     steps:
 
@@ -43,17 +43,17 @@ jobs:
         with:
           config: ./bin/fab.kibot.yml
           dir: ./kicad/kibot_output
-          schema: ./kicad/${{ board }}/${{ board }}.kicad_sch
-          board: ./kicad/${{ board }}/${{ board }}.kicad_pcb
+          schema: ./kicad/${{ env.BOARD}}/${{ env.BOARD}}.kicad_sch
+          board: ./kicad/${{ env.BOARD }}/${{ env.BOARD }}.kicad_pcb
           verbose: 1
 
       - name: Upload outputs Gerber zip, BOM, position
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ short_name }}-gerber-and-pcba
+          name: $SHORT_NAME-gerber-and-pcba
           path: |
             ./kicad/kibot_output/*
-            ./${{ board }}-gerbers.zip
+            ./${{ env.BOARD }}-gerbers.zip
             ./pcba/*
             ./schematics/*
 
@@ -69,7 +69,7 @@ jobs:
         if: ${{ always() }}
         uses: actions/upload-artifact@v4
         with:
-          name: ${{ short_name }}_logs_fab
+          name: $SHORT_NAME_logs_fab
           path: |
-            ./${{ board }}/*.log
-            ./${{ board }}/*.txt
+            ./${{ env.BOARD }}/*.log
+            ./${{ env.BOARD }}/*.txt
