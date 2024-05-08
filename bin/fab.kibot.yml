@@ -13,6 +13,14 @@ preflight:
     #    change_to: "ignore"
     #    regex: "(solder_mask_bridge)"
 
+filters:
+  - name: _only_jlc_parts
+    comment: 'Only parts with JLC (LCSC) code'
+    type: generic
+    include_only:
+      - column: LCSC Part \#
+        regex: '^C\d+'
+
 outputs:
 
   - name: 'Print Schema as PDF'
@@ -103,7 +111,7 @@ outputs:
     run_by_default: True
     options:
       pre_transform: ['_kicost_rename', '_rot_footprint']
-      #dnf_filter: _remove_extra
+      dnf_filter: _only_jlc_parts
       output: '%f_cpl_jlc.%x'
       format: CSV
       units: millimeters
@@ -130,7 +138,7 @@ outputs:
     run_by_default: True
     options:
       output: '%f_%i_jlc.%x'
-      #exclude_filter: '_only_jlc_parts'
+      exclude_filter: '_only_jlc_parts'
       ref_separator: ','
       columns:
         - field: Value
