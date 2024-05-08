@@ -6,9 +6,10 @@ name: "Build fab files for MCU breakout"
 on:
   push:
     paths:
-      - '*.kicad_sch' # fix
-      - '*.kicad_pcb'
+      - '**.kicad_sch' # fix
+      - '**.kicad_pcb'
       - '.github/workflows/kibot_fab.yml'
+      - 'bin/fab.kibot.yml'
   pull_request:
     paths:
       - '*.kicad_sch'
@@ -18,24 +19,28 @@ on:
   repository_dispatch: # remove?
     types: [run_qs]
 
-# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+env:
+  BOARD: Dactyl MCU Breakout
+  SHORT_NAME: hill_breakout
+
 jobs:
   generate_fab_files:
     runs-on: ubuntu-latest
     container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
-    env:
-      BOARD: Dactyl MCU Breakout
-      SHORT_NAME: hill_breakout
 
     steps:
+      # Everything should happend in kicad/
+      # with output going into kicad/kibot_output/
 
       - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Create PCBA and position folders with write access
         run: |
-          mkdir pcba
-          mkdir kicad/kibot_output
+          cd kicad
+          #mkdir pcba
+          mkdir kibot_output
+          pwd
           ls -la
 
       - name: Run KiBot
@@ -48,28 +53,30 @@ jobs:
           verbose: 1
 
       - name: Upload outputs Gerber zip, BOM, position
+        if: ${{ always() }}
         uses: actions/upload-artifact@v4
         with:
-          name: $SHORT_NAME-gerber-and-pcba
+          name: ${{ env.SHORT_NAME }}-gerber-and-pcba
           path: |
             ./kicad/kibot_output/*
-            ./${{ env.BOARD }}-gerbers.zip
-            ./pcba/*
-            ./schematics/*
 
       ####
       # Logs
       - name: Debug list directory
         if: ${{ always() }}
         run: |
+          cd kicad
           pwd
-          ls -lA . gerber pcba
+          ls -la
+          cd kibot_output
+          pwd
+          ls -la 
 
       - name: Upload Logs
         if: ${{ always() }}
         uses: actions/upload-artifact@v4
         with:
-          name: $SHORT_NAME_logs_fab
+          name: ${{ env.SHORT_NAME }}_logs_fab
           path: |
-            ./${{ env.BOARD }}/*.log
-            ./${{ env.BOARD }}/*.txt
+            ./kicad/kibot_output/*.log
+            ./kicad/kibot_output/*.txt

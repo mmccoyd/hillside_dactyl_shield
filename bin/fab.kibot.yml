@@ -1,16 +1,17 @@
 #
 # Create board fab for JLCPCB using KiBot
 
-
-
 kibot:
   version: 1
 
 preflight:
-  run_erc: true
+  erc: true
   check_zone_fills: true
-  run_drc: true
-  ignore_unconnected: true
+  drc: true
+    #filters:
+    #  - filter: "Allow fiducial marks" 
+    #    change_to: "ignore"
+    #    regex: "(solder_mask_bridge)"
 
 outputs:
 
@@ -68,3 +69,29 @@ outputs:
       - layer: 'Edge.Cuts'
         suffix: 'Edge_Cuts'
         description: 'Board shape'
+
+
+  - name: _JLCPCB_drill
+    comment: Drill files compatible with JLCPCB
+    type: excellon
+    dir: Manufacturers/JLCPCB
+    options:
+      pth_and_npth_single_file: false
+      pth_id: '-PTH'
+      npth_id: '-NPTH'
+      metric_units: true
+      map: gerber
+      route_mode_for_oval_holes: false
+      output: "%f%i.%x"
+
+
+
+  - name: gerbers
+    comment: Zip of fabrication artifacts
+    type: compress
+    options:
+      files:
+        - from_output: _JLCPCB_gerbers
+          dest: /
+        - from_output: _JLCPCB_drill
+            dest: /
