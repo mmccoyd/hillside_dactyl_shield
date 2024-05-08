@@ -26,7 +26,7 @@ outputs:
   - name: _JLCPCB_gerbers
     comment: Gerbers compatible with JLCPCB
     type: gerber
-    dir: Manufacturers/JLCPCB
+    dir: gerbers_and_drill
     options: &gerber_options
       exclude_edge_layer: true
       exclude_pads_from_silkscreen: true
@@ -74,7 +74,7 @@ outputs:
   - name: _JLCPCB_drill
     comment: Drill files compatible with JLCPCB
     type: excellon
-    dir: Manufacturers/JLCPCB
+    dir: gerbers_and_drill
     options:
       pth_and_npth_single_file: false
       pth_id: '-PTH'
@@ -95,3 +95,52 @@ outputs:
           dest: /
         - from_output: _JLCPCB_drill
           dest: /
+
+  - name: _JLCPCB_position
+    comment: "Pick and place file, JLCPCB style"
+    type: position
+    dir: pcba
+    run_by_default: True
+    options:
+      pre_transform: ['_kicost_rename', '_rot_footprint']
+      #dnf_filter: _remove_extra
+      output: '%f_cpl_jlc.%x'
+      format: CSV
+      units: millimeters
+      separate_files_for_front_and_back: false
+      only_smd: True
+      columns:
+        - id: Ref
+          name: Designator
+        - Val
+        - Package
+        - id: PosX
+          name: "Mid X"
+        - id: PosY
+          name: "Mid Y"
+        - id: Rot
+          name: Rotation
+        - id: Side
+          name: Layer
+
+  - name: _JLCPCB_bom
+    comment: "BoM for JLCPCB"
+    type: bom
+    dir: pcba
+    run_by_default: True
+    options:
+      output: '%f_%i_jlc.%x'
+      #exclude_filter: '_only_jlc_parts'
+      ref_separator: ','
+      columns:
+        - field: Value
+          name: Comment
+        - field: References
+          name: Designator
+        - Footprint
+        - field: _field_lcsc_part
+          name: 'LCSC Part #'
+      csv:
+        hide_pcb_info: true
+        hide_stats_info: true
+        quote_all: true
