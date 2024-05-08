@@ -1,0 +1,21 @@
+#
+# Create board fab for JLCPCB using KiBot
+
+
+
+kibot:
+  version: 1
+
+preflight:
+  run_erc: true
+  check_zone_fills: true
+  run_drc: true
+  ignore_unconnected: false
+
+outputs:
+  - name: 'Print Schema as PDF'
+    comment: "Print schematic (PDF)"
+    type: pdf_sch_print
+    dir: schematics
+    options:
+      output: '%p-Schematic.%x'

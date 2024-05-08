@@ -1,0 +1,75 @@
+
+name: "Build fab files for MCU breakout"
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  push:
+    paths:
+      - '*.kicad_sch' # fix
+      - '*.kicad_pcb'
+      - '.github/workflows/kibot_fab.yml'
+  pull_request:
+    paths:
+      - '*.kicad_sch'
+      - '*.kicad_pcb'
+      - '.github/workflows/kibot_fab.yml'
+  workflow_dispatch:
+  repository_dispatch: # remove?
+    types: [run_qs]
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  generate_fab_files:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad8_auto_full:latest
+    with:
+      board: Dactyl MCU Breakout
+      short_name: hill_breakout
+
+    steps:
+
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Create PCBA and position folders with write access
+        run: |
+          mkdir pcba
+          mkdir kicad/kibot_output
+          ls -la
+
+      - name: Run KiBot
+        uses: INTI-CMNB/KiBot@v2_k8
+        with:
+          config: ./bin/fab.kibot.yml
+          dir: ./kicad/kibot_output
+          schema: ./kicad/${{ board }}/${{ board }}.kicad_sch
+          board: ./kicad/${{ board }}/${{ board }}.kicad_pcb
+          verbose: 1
+
+      - name: Upload outputs Gerber zip, BOM, position
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ short_name }}-gerber-and-pcba
+          path: |
+            ./kicad/kibot_output/*
+            ./${{ board }}-gerbers.zip
+            ./pcba/*
+            ./schematics/*
+
+      ####
+      # Logs
+      - name: Debug list directory
+        if: ${{ always() }}
+        run: |
+          pwd
+          ls -lA . gerber pcba
+
+      - name: Upload Logs
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: ${{ short_name }}_logs_fab
+          path: |
+            ./${{ board }}/*.log
+            ./${{ board }}/*.txt
