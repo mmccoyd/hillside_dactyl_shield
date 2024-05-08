@@ -1,5 +1,4 @@
-#
-# Create board fab for JLCPCB using KiBot
+# Create fabrication files for JLCPCB using KiBot
 
 kibot:
   version: 1
@@ -14,7 +13,7 @@ filters:
     comment: 'Only parts with JLC (LCSC) code'
     type: generic
     include_only:
-      - column: LCSC Part \#
+      - column: LCSC Part
         regex: '^C\d+'
 
 outputs:
