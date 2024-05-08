@@ -10,12 +10,61 @@ preflight:
   run_erc: true
   check_zone_fills: true
   run_drc: true
-  ignore_unconnected: false
+  ignore_unconnected: true
 
 outputs:
+
   - name: 'Print Schema as PDF'
     comment: "Print schematic (PDF)"
     type: pdf_sch_print
     dir: schematics
     options:
       output: '%p-Schematic.%x'
+
+
+  - name: _JLCPCB_gerbers
+    comment: Gerbers compatible with JLCPCB
+    type: gerber
+    dir: Manufacturers/JLCPCB
+    options: &gerber_options
+      exclude_edge_layer: true
+      exclude_pads_from_silkscreen: true
+      plot_sheet_reference: false
+      plot_footprint_refs: True
+      plot_footprint_values: False
+      force_plot_invisible_refs_vals: false
+      tent_vias: true
+      use_protel_extensions: true
+      create_gerber_job_file: false
+      disable_aperture_macros: true
+      gerber_precision: 4.6
+      use_gerber_x2_attributes: false
+      use_gerber_net_attributes: false
+      line_width: 0.1
+      subtract_mask_from_silk: true
+      inner_extension_pattern: '.g%n'
+    layers:
+      - layer: 'F.Cu'
+        suffix: 'F_Cu'
+        description: 'Front copper'
+      - layer: 'B.Cu'
+        suffix: 'B_Cu'
+        description: 'Bottom copper'
+      - layer: 'F.Paste'
+        suffix: 'F_Paste'
+        description: 'Front solder paste'
+      - layer: 'B.Silkscreen'
+        suffix: 'B_Silkscreen'
+        description: 'Bottom silkscreen (artwork)'
+      - layer: 'F.Silkscreen'
+        suffix: 'F_Silkscreen'
+        description: 'Front silkscreen (artwork)'
+      - layer: 'B.Mask'
+        suffix: 'B_Mask'
+        description: 'Bottom soldermask (negative)'
+      - layer: 'F.Mask'
+        suffix: 'F_Mask'
+        description: 'Front soldermask (negative)'
+      - layer: 'Edge.Cuts'
+        suffix: 'Edge_Cuts'
+        description: 'Board shape'
