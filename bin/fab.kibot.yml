@@ -16,6 +16,19 @@ filters:
       - column: LCSC Part
         regex: '^C\d+'
 
+  - name: rot_hillside
+    comment: 'Adjust rotation and position of Vic and USB-C'
+    type: rot_footprint
+    rotations_and_offsets:
+      - field: _field_lcsc_part
+        regex: 'C2906115' # Vic
+        offset_y: -0.6  # minus is in direction of the pins
+      - field: _field_lcsc_part
+        regex: 'C165948' # USB-C
+        angle: 180
+        offset_y: -1.4 # minus is in direction of the pins
+        offset_x: 0
+
 outputs:
 
   - name: _JLCPCB_gerbers
@@ -91,33 +104,6 @@ outputs:
           dest: /
 
 
-  - name: _JLCPCB_position
-    comment: "Pick and place file, JLCPCB style"
-    type: position
-    dir: pcba
-    run_by_default: True
-    options:
-      pre_transform: ['_kicost_rename', '_rot_footprint']
-      dnf_filter: only_jlc_parts
-      output: '%f_cpl_jlc.%x'
-      format: CSV
-      units: millimeters
-      separate_files_for_front_and_back: false
-      only_smd: True
-      columns:
-        - id: Ref
-          name: Designator
-        - Val
-        - Package
-        - id: PosX
-          name: "Mid X"
-        - id: PosY
-          name: "Mid Y"
-        - id: Rot
-          name: Rotation
-        - id: Side
-          name: Layer
-
   - name: _JLCPCB_bom
     comment: "BoM for JLCPCB"
     type: bom
@@ -139,3 +125,31 @@ outputs:
         hide_pcb_info: true
         hide_stats_info: true
         quote_all: true
+
+  - name: _JLCPCB_position
+    comment: "Pick and place file, JLCPCB style"
+    type: position
+    dir: pcba
+    run_by_default: True
+    options:
+      pre_transform: ['_kicost_rename', '_rot_footprint_jlcpcb', 'rot_hillside']
+      dnf_filter: only_jlc_parts
+      output: '%f_cpl_jlc.%x'
+      format: CSV
+      units: millimeters
+      separate_files_for_front_and_back: false
+      only_smd: True
+      columns:
+        - id: Ref
+          name: Designator
+        - Val
+        - Package
+        - id: PosX
+          name: "Mid X"
+        - id: PosY
+          name: "Mid Y"
+        - id: Rot
+          name: Rotation
+        - id: Side
+          name: Layer
+

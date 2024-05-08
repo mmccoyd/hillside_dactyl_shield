@@ -82,3 +82,4 @@ jobs:
           path: |
             ./kicad/kibot_output/*.log
             ./kicad/kibot_output/*.txt
+            ./kicad/kibot_output/*.html
