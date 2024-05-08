@@ -129,6 +129,10 @@
 	(net 43 "Net-(J4-SBU1)")
 	(net 44 "unconnected-(J4-SHIELD-PadS1)_2")
 	(net 45 "/Right/split_RAW")
+	(net 46 "unconnected-(SW1-A-Pad1)")
+	(net 47 "unconnected-(SW1-A-Pad1)_0")
+	(net 48 "unconnected-(SW4-C-Pad3)")
+	(net 49 "unconnected-(SW4-C-Pad3)_1")
 	(footprint "Connector_PinHeader_2.54mm:PinHeader_1x07_P2.54mm_Vertical"
 		(layer "F.Cu")
 		(uuid "0ff586d2-3ece-4f0a-8966-b2984c06697b")
@@ -190,6 +194,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" "DNF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0f8d335b-7ae1-4a24-b2e4-d2198abc4c1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -613,6 +630,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "33ac94dd-7a47-4cf3-9c87-281de4c20815")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1104,7 +1134,23 @@
 				)
 			)
 		)
+		(property "Config" "DNF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d05cd111-4063-4d85-a0c5-71a44471e2c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e235f658-1906-464a-832e-0ac06e788394/5fcab8d4-678c-4847-a958-5c750c8dbafb")
+		(sheetname "Right")
+		(sheetfile "board_half.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -1476,6 +1522,19 @@
 				)
 			)
 		)
+		(property "Config" "DNF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "290819d1-4f7c-44eb-8564-18ed4e307523")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SolderJumper*Bridged*")
 		(path "/e235f658-1906-464a-832e-0ac06e788394/88d44f54-3d04-4ea8-9a4d-0973ab229956")
 		(sheetname "Right")
@@ -1757,14 +1816,15 @@
 				)
 			)
 		)
-		(property "exclude_from_bom" ""
+		(property "Config" "DNF"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "6a5dc0d5-5785-46e5-bbf1-3d2fff48506e")
+			(uuid "33628cf3-6c74-49fd-ab91-4e1fcb7d9729")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -1885,6 +1945,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" "DNF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e84e8236-c1cd-476c-ae00-6811590f72d0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -2264,14 +2337,15 @@
 				)
 			)
 		)
-		(property "exclude_from_bom" ""
+		(property "Config" "DNF"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "7e4b4108-d018-48e1-9fcb-aa59caea13eb")
+			(uuid "3e95dfa7-af16-48e4-b736-f8ffd83ee3fb")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -2395,6 +2469,19 @@
 				)
 			)
 		)
+		(property "Config" "DNF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8ebc18b8-db07-4ae8-9567-6fd59611a800")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/e235f658-1906-464a-832e-0ac06e788394/154f3e39-eacb-4abe-8567-a177dc61c377")
 		(sheetname "Right")
@@ -2468,7 +2555,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Dactyl:ProMicro_v2_1"
+		(property "Footprint" "Dactyl:ProMicro_v2_1S"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2504,7 +2591,7 @@
 				)
 			)
 		)
-		(property "Config" "Core"
+		(property "Config" "DNF"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -2517,6 +2604,8 @@
 			)
 		)
 		(path "/e235f658-1906-464a-832e-0ac06e788394/866f5a48-3910-4444-ad04-3d6bb143c9fe")
+		(sheetname "Right")
+		(sheetfile "board_half.kicad_sch")
 		(attr through_hole)
 		(private_layers "User.9")
 		(fp_line
@@ -3940,6 +4029,19 @@
 				)
 			)
 		)
+		(property "Config" "DNF"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "dabefcaf-1b76-479d-a91c-4c5102a802d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*")
 		(path "/e235f658-1906-464a-832e-0ac06e788394/b3b89172-84cd-435a-8246-97a279171a6f")
 		(sheetname "Right")
@@ -4319,6 +4421,19 @@
 				)
 			)
 		)
+		(property "Config" "DNF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9418b5e9-ebce-431f-aa62-454e96d00ec8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/e235f658-1906-464a-832e-0ac06e788394/3899520f-8bd8-42c5-8665-255e501252f2")
 		(sheetname "Right")
@@ -4429,12 +4544,38 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C221662"
+		(property "JLC PCBA Type" "Standard"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "ca428649-2f1d-4a33-9b1d-465cf71f15cc")
+			(uuid "f8c93b1b-3aed-4603-80bd-f659f85e7567")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fc18cca-9041-44c9-96b0-9c4462ae2f05")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C221662"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6fe11c57-f7c8-4d3a-8765-4afbfe4a7970")
 			(effects
 				(font
 					(size 1 1)
@@ -4443,6 +4584,8 @@
 			)
 		)
 		(path "/e235f658-1906-464a-832e-0ac06e788394/b82cd861-0fc8-46e0-889a-1203d46a70cf")
+		(sheetname "Right")
+		(sheetfile "board_half.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -3.496447 -1.123553)
@@ -5086,7 +5229,7 @@
 			(at 2.5 1.68)
 			(size 1 1)
 			(layers "F.Cu")
-			(net 28 "unconnected-(SW4-C-Pad3)_0")
+			(net 49 "unconnected-(SW4-C-Pad3)_1")
 			(pinfunction "C")
 			(pintype "passive+no_connect")
 			(thermal_bridge_angle 90)
@@ -5109,7 +5252,7 @@
 			(drill oval 0.9 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 28 "unconnected-(SW4-C-Pad3)_0")
+			(net 48 "unconnected-(SW4-C-Pad3)")
 			(pinfunction "C")
 			(pintype "passive+no_connect")
 			(uuid "59236071-674b-4a05-9fe7-005c0b0766ee")
@@ -5187,6 +5330,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" "DNF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "319ae934-715d-494c-855f-e152d641ada2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -5301,6 +5457,19 @@
 				)
 			)
 		)
+		(property "Config" "DNF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3addc02d-0d3e-4452-a7ae-48efdbd52b7d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Fiducial*")
 		(path "/e235f658-1906-464a-832e-0ac06e788394/fc67969a-4d79-4a59-b6ba-54c162e5d2ae")
 		(sheetname "Right")
@@ -5412,12 +5581,38 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C221662"
+		(property "JLC PCBA Type" "Standard"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "f5860f6b-4996-4e51-a6e0-ecc9f39dbea5")
+			(uuid "5a527574-eac9-4384-81bc-953279eed222")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "559fe761-f557-4238-9839-02e3436ed688")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C221662"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a266e286-b66c-4ed3-84b8-0f96eb9f2ca1")
 			(effects
 				(font
 					(size 1 1)
@@ -5426,6 +5621,8 @@
 			)
 		)
 		(path "/e235f658-1906-464a-832e-0ac06e788394/422df5b3-43cd-4d8d-aa89-7c31459d6630")
+		(sheetname "Right")
+		(sheetfile "board_half.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.503554 -2.216446)
@@ -5973,7 +6170,7 @@
 			(drill oval 0.9 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 30 "unconnected-(SW1-A-Pad1)_1")
+			(net 47 "unconnected-(SW1-A-Pad1)_0")
 			(pinfunction "A")
 			(pintype "passive+no_connect")
 			(uuid "697d6e1f-2ccb-4ffd-9f76-2a1a1db47445")
@@ -6005,7 +6202,7 @@
 			(drill oval 0.9 1)
 			(layers "*.Cu" "*.Mask")
 			(remove_unused_layers no)
-			(net 30 "unconnected-(SW1-A-Pad1)_1")
+			(net 46 "unconnected-(SW1-A-Pad1)")
 			(pinfunction "A")
 			(pintype "passive+no_connect")
 			(uuid "5a8cc963-82e1-4ad2-abd0-ecc74dae577e")
@@ -6172,12 +6369,38 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C165948"
+		(property "JLC PCBA Type" "Economic"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "1b90a93b-6b2d-4f30-af4d-161a6163fc93")
+			(uuid "3b9047ca-23e3-48e6-b616-0079c7901523")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ccd6c180-58e9-4ecc-a641-47b6fe899818")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C165948"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "7ade5787-3354-4335-ba67-562c932c984e")
 			(effects
 				(font
 					(size 1 1)
@@ -6610,6 +6833,19 @@
 				)
 			)
 		)
+		(property "Config" "DNF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d78ed719-fabb-42d2-86ef-79c31533cdde")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e235f658-1906-464a-832e-0ac06e788394/05d2dcfb-dcf1-40e5-8f68-23bca2aedf49")
 		(sheetname "Right")
@@ -6961,59 +7197,11 @@
 				)
 			)
 		)
-		(property "Config" "Wireless"
+		(property "Config" ""
 			(at 0.1 9.4 180)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "2823d720-3462-4e4a-b0d3-f2e80d807797")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "JLC Type" "Extended"
-			(at -0.1 9.6 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9382a764-909a-40e9-b7f1-f05fe97119a3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "LCSC" "C173752"
-			(at -0.7 9.6 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f4e19976-0655-4713-b413-d315cf22e130")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Price" ".03 @ 2+"
-			(at -0.2 9.6 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eb07a0e7-1c7e-4b8c-abe6-12a23e346dfa")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Purpose" "Battery"
-			(at -0.1 9.5 180)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "500ac09b-e6fb-408f-bb4f-b30c1be14139")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8805,6 +8993,19 @@
 				)
 			)
 		)
+		(property "Config" "DNF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6a4cba68-a569-4b0d-af9b-352be4976bef")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e235f658-1906-464a-832e-0ac06e788394/3b0a1ebe-2dd7-45e2-b8c1-e9dcbb8def84")
 		(sheetname "Right")
@@ -9204,6 +9405,19 @@
 				)
 			)
 		)
+		(property "Config" "DNF"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "22bc557c-905e-466c-a954-80c2b82f1ab3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/e235f658-1906-464a-832e-0ac06e788394/ff902ed7-99a4-42cd-870c-36878037031c")
 		(sheetname "Right")
@@ -9468,6 +9682,19 @@
 				)
 			)
 		)
+		(property "Config" "DNF"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e89ede5c-8fbf-48ca-8d89-429d1f7d6962")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "MountingHole*")
 		(path "/e235f658-1906-464a-832e-0ac06e788394/e2caef57-9c94-488f-9458-a5263b216323")
 		(sheetname "Right")
@@ -9579,14 +9806,15 @@
 				)
 			)
 		)
-		(property "exclude_from_bom" ""
+		(property "Config" "DNF"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "178fab4a-0c6d-4adf-9133-5f65b17a46ce")
+			(uuid "a7abd877-9211-463e-bb1f-2944945ef292")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -9708,6 +9936,19 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Config" "DNF"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3079d386-75b4-4b60-a393-09ce772f01c5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -10091,12 +10332,38 @@
 				)
 			)
 		)
-		(property "LCSC Part #" "C2906115"
+		(property "JLC PCBA Type" "Economic"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "0cb511a7-73d4-4e97-88af-d281826c48ff")
+			(uuid "25bbdab8-7d6b-4eff-9b7f-36c07a4ff29e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Config" ""
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b4904da0-4bde-4d89-972c-d8596130db75")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "LCSC Part" "C2906115"
+			(at 0 0 -90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8b9ffe62-aa98-470b-9630-b01042888c5d")
 			(effects
 				(font
 					(size 1 1)
@@ -10448,6 +10715,20 @@
 				(justify mirror)
 			)
 		)
+		(property "Config" "DNF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8ace362b-98d8-468b-92a8-9e5089cf1939")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "SolderJumper*Open*")
 		(path "/e235f658-1906-464a-832e-0ac06e788394/4d771b77-46b7-4c5a-9fe7-05c412b1fa49")
 		(sheetname "Right")
@@ -10716,6 +10997,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Config" "DNF"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a2ae0dac-3ba7-4d4b-848c-4529928058c2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
@@ -11001,6 +11296,20 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Config" "DNF"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d833ce5f-e99d-4149-8e50-dd963f23249f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)

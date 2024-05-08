@@ -8021,15 +8021,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C221662"
-			(at 137.16 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC PCBA Type" "Standard"
 			(at 137.16 127 0)
 			(effects
@@ -8040,6 +8031,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 137.16 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C221662"
 			(at 137.16 127 0)
 			(effects
 				(font
@@ -8196,15 +8196,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C2906115"
-			(at 257.81 64.77 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC PCBA Type" "Economic"
 			(at 257.81 64.77 0)
 			(effects
@@ -8215,6 +8206,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 257.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C2906115"
 			(at 257.81 64.77 0)
 			(effects
 				(font
@@ -9448,15 +9448,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C221662"
-			(at 166.37 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC PCBA Type" "Standard"
 			(at 166.37 128.27 0)
 			(effects
@@ -9467,6 +9458,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 166.37 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C221662"
 			(at 166.37 128.27 0)
 			(effects
 				(font
@@ -9945,15 +9945,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C165948"
-			(at 26.67 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(property "JLC PCBA Type" "Economic"
 			(at 26.67 132.08 0)
 			(effects
@@ -9964,6 +9955,15 @@
 			)
 		)
 		(property "Config" ""
+			(at 26.67 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C165948"
 			(at 26.67 132.08 0)
 			(effects
 				(font
