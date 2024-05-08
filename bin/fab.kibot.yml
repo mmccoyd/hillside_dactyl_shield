@@ -8,13 +8,9 @@ preflight:
   erc: true
   check_zone_fills: true
   drc: true
-    #filters:
-    #  - filter: "Allow fiducial marks" 
-    #    change_to: "ignore"
-    #    regex: "(solder_mask_bridge)"
 
 filters:
-  - name: _only_jlc_parts
+  - name: only_jlc_parts
     comment: 'Only parts with JLC (LCSC) code'
     type: generic
     include_only:
@@ -22,14 +18,6 @@ filters:
         regex: '^C\d+'
 
 outputs:
-
-  - name: 'Print Schema as PDF'
-    comment: "Print schematic (PDF)"
-    type: pdf_sch_print
-    dir: schematics
-    options:
-      output: '%p-Schematic.%x'
-
 
   - name: _JLCPCB_gerbers
     comment: Gerbers compatible with JLCPCB
@@ -93,7 +81,6 @@ outputs:
       output: "%f%i.%x"
 
 
-
   - name: gerbers
     comment: Zip of fabrication artifacts
     type: compress
@@ -104,6 +91,7 @@ outputs:
         - from_output: _JLCPCB_drill
           dest: /
 
+
   - name: _JLCPCB_position
     comment: "Pick and place file, JLCPCB style"
     type: position
@@ -111,7 +99,7 @@ outputs:
     run_by_default: True
     options:
       pre_transform: ['_kicost_rename', '_rot_footprint']
-      dnf_filter: _only_jlc_parts
+      dnf_filter: only_jlc_parts
       output: '%f_cpl_jlc.%x'
       format: CSV
       units: millimeters
@@ -138,7 +126,7 @@ outputs:
     run_by_default: True
     options:
       output: '%f_%i_jlc.%x'
-      exclude_filter: '_only_jlc_parts'
+      exclude_filter: 'only_jlc_parts'
       ref_separator: ','
       columns:
         - field: Value
