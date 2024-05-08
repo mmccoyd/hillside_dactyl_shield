@@ -94,4 +94,4 @@ outputs:
         - from_output: _JLCPCB_gerbers
           dest: /
         - from_output: _JLCPCB_drill
-            dest: /
+          dest: /
