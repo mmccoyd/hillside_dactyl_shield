@@ -6295,7 +6295,7 @@
 		)
 		(uuid "d373a5a0-8df4-4027-96ca-c6258732b7ad")
 	)
-	(text "Breakout of unused wires \nin case they're useful."
+	(text "Breakout of unused wires \nin case we find a use."
 		(exclude_from_sim no)
 		(at 59.944 156.972 0)
 		(effects
