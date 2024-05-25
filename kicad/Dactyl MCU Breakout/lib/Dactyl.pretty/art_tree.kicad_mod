@@ -1,0 +1,129 @@
+(footprint "art_tree"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.0254 -5.9944 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "35acbc7b-cf1c-463a-baed-4242a4af1785")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "art_tree"
+		(at -0.0254 -4.4944 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "712514ec-4f63-4fc6-a65e-89c478b79245")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at -0.0254 -5.4944 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e6fa335c-fb9a-448d-8d01-b6a03db1a2a9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at -0.0254 -5.4944 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "330054b5-94e9-4e97-ae08-f7cc29ab979d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at -0.0254 -5.4944 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "15897a4d-2bed-43e8-9ab8-7d1892e47aa4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd board_only exclude_from_pos_files exclude_from_bom dnp)
+	(pad "" smd custom
+		(at 0 0.1524)
+		(size 0.254 1.5)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 0)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_circle
+				(center -0.498641 -1.19)
+				(end -0.277282 -1.19)
+				(width 0.3)
+				(fill no)
+			)
+			(gr_circle
+				(center 0.44 -1.13)
+				(end 0.661359 -1.13)
+				(width 0.3)
+				(fill no)
+			)
+			(gr_circle
+				(center 0.38 -0.86)
+				(end 0.601359 -0.86)
+				(width 0.3)
+				(fill no)
+			)
+			(gr_poly
+				(pts
+					(xy 0.17 0.74) (xy -0.12 0.74) (xy 0 0.49)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 0.02 -0.14) (xy -0.36 -0.51) (xy 0.35 -0.535)
+				)
+				(width 0.1)
+				(fill yes)
+			)
+			(gr_circle
+				(center -0.43 -0.74)
+				(end -0.224087 -0.74)
+				(width 0.3)
+				(fill no)
+			)
+			(gr_circle
+				(center 0.01 -1.122278)
+				(end 0.300854 -1.122278)
+				(width 0.7)
+				(fill no)
+			)
+		)
+		(uuid "4622aab4-26c5-4a77-9f85-2e5bc1dc47e1")
+	)
+)

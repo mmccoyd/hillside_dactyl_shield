@@ -1,0 +1,116 @@
+(footprint "art_water"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -5.969 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "88f66020-4036-4fa9-8bd3-1ad52a8623e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "art_water"
+		(at 0 -4.469 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b033a64b-1ae0-414e-af5f-9387e4a32cea")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 -5.469 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d92a3cbc-1018-4eb4-9711-176e0f21567d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 -5.469 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2871a2d6-b158-4f7d-ae4d-8e6abb6360dc")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 -5.469 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "d982761f-eca6-4fd9-bf3a-14dd942fb4c9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd board_only exclude_from_pos_files exclude_from_bom dnp)
+	(fp_text user "${REFERENCE}"
+		(at 0 -2.969 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c4c00506-cf87-4e02-80d8-1e16c6111f57")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" smd custom
+		(at -2.921 -0.0508)
+		(size 0.254 0.254)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 0)
+		(thermal_bridge_angle 90)
+		(options
+			(clearance outline)
+			(anchor circle)
+		)
+		(primitives
+			(gr_arc
+				(start 1.996623 0.001532)
+				(mid 1.015017 0.216563)
+				(end 0.030814 0.013748)
+				(width 0.254)
+			)
+			(gr_arc
+				(start 5.996623 0.001532)
+				(mid 5.015017 0.216563)
+				(end 4.030814 0.013748)
+				(width 0.254)
+			)
+			(gr_arc
+				(start 2.003377 -0.001532)
+				(mid 2.984983 -0.216563)
+				(end 3.969186 -0.013748)
+				(width 0.254)
+			)
+		)
+		(uuid "7caf8062-ebdb-49cb-8208-e103d674b736")
+	)
+)
