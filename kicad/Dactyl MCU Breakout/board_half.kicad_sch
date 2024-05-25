@@ -6037,10 +6037,10 @@
 		)
 		(uuid "ab677c01-bb75-4ed3-9353-a0922559f08a")
 	)
-	(text_box "        Case Panels\n\nBack: Battery | Host USB-C\n\nSide:  Reset | Split USC-C "
+	(text_box "        Case Panels\n\nBack: Battery | USB-C to computer\n\nSide:  Reset | USC-C to split"
 		(exclude_from_sim no)
-		(at 58.42 82.55 0)
-		(size 30.48 13.97)
+		(at 31.75 87.63 0)
+		(size 39.37 13.97)
 		(stroke
 			(width 0)
 			(type dash)
