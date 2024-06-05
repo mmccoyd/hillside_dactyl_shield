@@ -27,8 +27,8 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
+	(property "Footprint" "JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
+		(at 0 -9 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
@@ -1379,32 +1379,30 @@
 		(layer "F.Fab")
 		(uuid "b4a4adee-6def-4399-be06-059f66e56eb1")
 	)
-	(fp_text user "-"
-		(at -1.35 5.8 0)
+	(fp_text user "+"
+		(at -2.25 6 180)
 		(layer "B.SilkS")
-		(uuid "40623b96-0c31-4497-ba5e-c0d38b6462dc")
+		(uuid "4dd07c22-f7bd-41bd-bfd5-f701e2c329ba")
 		(effects
 			(font
 				(size 1.5 1.5)
 				(thickness 0.3)
 			)
-			(justify mirror)
 		)
 	)
-	(fp_text user "+"
-		(at 1.2 5.8 180)
+	(fp_text user "-"
+		(at 2.25 6 0)
 		(layer "B.SilkS")
-		(uuid "50aba94b-b92d-472b-9a1b-f2e176dcbede")
+		(uuid "76098ef3-f00e-4047-bef2-2f89214bf968")
 		(effects
 			(font
 				(size 1.5 1.5)
 				(thickness 0.3)
 			)
-			(justify mirror)
 		)
 	)
 	(fp_text user "Bat"
-		(at -4.3 0.4 -91)
+		(at -0.15 6 179)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "f6f6c3f2-3113-4a96-98e4-0db3074480f0")
@@ -1417,7 +1415,7 @@
 		)
 	)
 	(fp_text user "Bat"
-		(at -4.3 0.25 -91)
+		(at 0 6 179)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "256af959-7304-428c-a52c-f6eaa690d1b1")
@@ -1428,26 +1426,28 @@
 			)
 		)
 	)
-	(fp_text user "+"
-		(at -1.35 5.8 180)
+	(fp_text user "-"
+		(at -2.25 6 0)
 		(layer "F.SilkS")
-		(uuid "4dd07c22-f7bd-41bd-bfd5-f701e2c329ba")
+		(uuid "40623b96-0c31-4497-ba5e-c0d38b6462dc")
 		(effects
 			(font
 				(size 1.5 1.5)
 				(thickness 0.3)
 			)
+			(justify mirror)
 		)
 	)
-	(fp_text user "-"
-		(at 1.2 5.8 0)
+	(fp_text user "+"
+		(at 2.25 6 180)
 		(layer "F.SilkS")
-		(uuid "76098ef3-f00e-4047-bef2-2f89214bf968")
+		(uuid "50aba94b-b92d-472b-9a1b-f2e176dcbede")
 		(effects
 			(font
 				(size 1.5 1.5)
 				(thickness 0.3)
 			)
+			(justify mirror)
 		)
 	)
 	(fp_text user "${REFERENCE}"
@@ -1469,70 +1469,6 @@
 		(uuid "b4b7a864-814f-49f0-836a-1bae7414ea17")
 	)
 	(pad "1" smd custom
-		(at -1.268235 4.150001 270)
-		(size 1 0.5)
-		(layers "B.Cu" "B.Mask")
-		(zone_connect 2)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_circle
-				(center 0 -0.25)
-				(end 0.5 -0.25)
-				(width 0)
-				(fill yes)
-			)
-			(gr_circle
-				(center 0 0.25)
-				(end 0.5 0.25)
-				(width 0)
-				(fill yes)
-			)
-			(gr_poly
-				(pts
-					(xy 0 -0.75) (xy -0.5 -0.75) (xy -0.5 0.75) (xy 0 0.75)
-				)
-				(width 0)
-				(fill yes)
-			)
-		)
-		(uuid "12c49a88-c6fe-4f2f-b687-61564971d876")
-	)
-	(pad "1" smd custom
-		(at 1.251371 4.150001 270)
-		(size 1 0.5)
-		(layers "F.Cu" "F.Mask")
-		(zone_connect 2)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives
-			(gr_poly
-				(pts
-					(xy 0 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0 -0.75)
-				)
-				(width 0)
-				(fill yes)
-			)
-			(gr_circle
-				(center 0 -0.25)
-				(end 0.5 -0.25)
-				(width 0)
-				(fill yes)
-			)
-			(gr_circle
-				(center 0 0.25)
-				(end 0.5 0.25)
-				(width 0)
-				(fill yes)
-			)
-		)
-		(uuid "e8af6ebe-979b-439b-830a-498834b2a7a5")
-	)
-	(pad "2" smd custom
 		(at -1.268235 4.150001 270)
 		(size 1 0.5)
 		(layers "F.Cu" "F.Mask")
@@ -1564,7 +1500,7 @@
 		)
 		(uuid "ed5f3463-b097-4aaf-9890-03f3af92ad4e")
 	)
-	(pad "2" smd custom
+	(pad "1" smd custom
 		(at 1.250062 4.150002 270)
 		(size 1 0.5)
 		(layers "B.Cu" "B.Mask")
@@ -1595,6 +1531,70 @@
 			)
 		)
 		(uuid "856c26d6-8e59-468e-ab83-e50170b3a8d7")
+	)
+	(pad "2" smd custom
+		(at -1.268235 4.150001 270)
+		(size 1 0.5)
+		(layers "B.Cu" "B.Mask")
+		(zone_connect 2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_circle
+				(center 0 -0.25)
+				(end 0.5 -0.25)
+				(width 0)
+				(fill yes)
+			)
+			(gr_circle
+				(center 0 0.25)
+				(end 0.5 0.25)
+				(width 0)
+				(fill yes)
+			)
+			(gr_poly
+				(pts
+					(xy 0 -0.75) (xy -0.5 -0.75) (xy -0.5 0.75) (xy 0 0.75)
+				)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "12c49a88-c6fe-4f2f-b687-61564971d876")
+	)
+	(pad "2" smd custom
+		(at 1.251371 4.150001 270)
+		(size 1 0.5)
+		(layers "F.Cu" "F.Mask")
+		(zone_connect 2)
+		(options
+			(clearance outline)
+			(anchor rect)
+		)
+		(primitives
+			(gr_poly
+				(pts
+					(xy 0 0.75) (xy -0.5 0.75) (xy -0.5 -0.75) (xy 0 -0.75)
+				)
+				(width 0)
+				(fill yes)
+			)
+			(gr_circle
+				(center 0 -0.25)
+				(end 0.5 -0.25)
+				(width 0)
+				(fill yes)
+			)
+			(gr_circle
+				(center 0 0.25)
+				(end 0.5 0.25)
+				(width 0)
+				(fill yes)
+			)
+		)
+		(uuid "e8af6ebe-979b-439b-830a-498834b2a7a5")
 	)
 	(pad "3" thru_hole custom
 		(at 1.000061 -0.011649 180)
