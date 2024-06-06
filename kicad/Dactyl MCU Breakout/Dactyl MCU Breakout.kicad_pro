@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.0
         }
       },
       "diff_pair_dimensions": [
@@ -422,11 +422,11 @@
     ],
     "viewports": [
       {
-        "h": 74933327.3803585,
+        "h": 75531243.14165346,
         "name": "home",
-        "w": 83975726.92576279,
-        "x": 83799195.5516438,
-        "y": 41670395.32434906
+        "w": 72809396.54195426,
+        "x": 90371473.33093621,
+        "y": 41510550.03109731
       }
     ]
   },
@@ -868,6 +868,18 @@
           "label": "Config",
           "name": "Config",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
         }
       ],
       "filter_string": "",

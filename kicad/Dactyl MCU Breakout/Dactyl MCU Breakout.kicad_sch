@@ -6,8 +6,8 @@
 	(paper "USLetter")
 	(title_block
 		(title "Hillside Dactyl MCU Breakout")
-		(date "2024-02-24")
-		(rev "0.1.0-alpha")
+		(date "2024-06-04")
+		(rev "0.1.0-alpha.2")
 		(comment 1 "  Headers: MCU, key matrix and display")
 		(comment 2 "  On board: reset, battery switch and LEDs")
 		(comment 3 "Provides:")
