@@ -22,7 +22,7 @@ filters:
     rotations_and_offsets:
       - field: _field_lcsc_part
         regex: 'C2906115' # Vic
-        offset_y: -0.6  # minus is in direction of the pins
+        offset_y: -0.2  # minus is in direction of the pins
       - field: _field_lcsc_part
         regex: 'C165948' # USB-C
         angle: 180
@@ -40,7 +40,7 @@ outputs:
       exclude_pads_from_silkscreen: true
       plot_sheet_reference: false
       plot_footprint_refs: True
-      plot_footprint_values: False
+      plot_footprint_values: True
       force_plot_invisible_refs_vals: false
       tent_vias: true
       use_protel_extensions: true
