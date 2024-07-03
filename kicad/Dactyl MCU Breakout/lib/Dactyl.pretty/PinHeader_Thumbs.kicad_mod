@@ -6,8 +6,8 @@
 	(descr "Through hole straight pin header, 1x06, 2.54mm pitch, single row")
 	(tags "Through hole pin header THT 1x06 2.54mm single row")
 	(property "Reference" "J3"
-		(at 0 -2.33 0)
-		(layer "F.SilkS")
+		(at 0 6.5 90)
+		(layer "F.Fab")
 		(uuid "6d0e658b-07bc-4912-84a8-5eef4c983118")
 		(effects
 			(font
@@ -16,9 +16,9 @@
 			)
 		)
 	)
-	(property "Value" "Thumbs"
-		(at 0 15.03 0)
-		(layer "F.Fab")
+	(property "Value" "Thumb"
+		(at 0.25 -2 0)
+		(layer "F.SilkS")
 		(uuid "803d50ed-2581-4163-b287-9f80362f3cc5")
 		(effects
 			(font
@@ -28,9 +28,9 @@
 		)
 	)
 	(property "Footprint" "PinHeader_Thumbs"
-		(at 0.0254 -4.572 0)
+		(at 0 20 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "User.9")
 		(hide yes)
 		(uuid "79400fd4-73e6-493e-b8bf-0e8de11488b3")
 		(effects
@@ -52,9 +52,9 @@
 		)
 	)
 	(property "Description" "Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)"
-		(at 0.0254 -4.572 0)
+		(at 0 22.5 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "User.9")
 		(hide yes)
 		(uuid "95431bfa-c413-42b7-ac4d-1823ffc37ee8")
 		(effects
@@ -64,9 +64,9 @@
 		)
 	)
 	(property "Config" "DNF"
-		(at 0 0 0)
+		(at 0 18.75 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "User.9")
 		(hide yes)
 		(uuid "23294171-b506-40a0-88e4-97a8aea6e1ba")
 		(effects
@@ -76,7 +76,68 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr through_hole exclude_from_pos_files exclude_from_bom)
+	(private_layers "User.9")
+	(fp_line
+		(start -1.33 1.27)
+		(end 1.33 1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "42646686-8fae-4567-8155-56388694abcb")
+	)
+	(fp_line
+		(start -1.33 14.03)
+		(end -1.33 1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "aaa34675-a09f-4b65-bcce-d0c5d2bbb73c")
+	)
+	(fp_line
+		(start -1.33 14.03)
+		(end 1.33 14.03)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "e39b1bb6-565a-4e33-9a31-a19fad65b14c")
+	)
+	(fp_line
+		(start 0 -1.33)
+		(end 1.33 -1.33)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "2111b8c2-2612-490b-9a1f-c36fd2e2d9ca")
+	)
+	(fp_line
+		(start 1.33 -1.33)
+		(end 1.33 0)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "29829246-10d0-4f7e-8f0d-1de8dcb230df")
+	)
+	(fp_line
+		(start 1.33 14.03)
+		(end 1.33 1.27)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "B.SilkS")
+		(uuid "551ebbf9-bf9f-42b2-8b24-fcaabb7de580")
+	)
 	(fp_line
 		(start -1.33 -1.33)
 		(end 0 -1.33)
@@ -226,6 +287,18 @@
 		)
 		(layer "F.Fab")
 		(uuid "979ac809-8a69-4637-8c51-52e51778637a")
+	)
+	(fp_text user "${VALUE}"
+		(at 0.25 -2 180)
+		(layer "B.SilkS")
+		(uuid "20dafd9c-7641-437a-94e6-244501f4686e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
 	)
 	(fp_text user "C3"
 		(at 3.556 5.588 0)
@@ -381,17 +454,6 @@
 				(thickness 0.15)
 			)
 			(justify left bottom)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 6.35 90)
-		(layer "F.Fab")
-		(uuid "20dafd9c-7641-437a-94e6-244501f4686e")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
 		)
 	)
 	(pad "1" thru_hole rect
