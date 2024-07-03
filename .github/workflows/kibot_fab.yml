@@ -1,7 +1,7 @@
 
 name: "Build fab files for MCU breakout"
 
-# Controls when the action will run. Triggers the workflow on push or pull request
+# Trigger the workflow on push or pull request
 # events but only for the master branch
 on:
   push:
@@ -29,13 +29,13 @@ jobs:
     container: ghcr.io/inti-cmnb/kicad8_auto:latest
 
     steps:
-      # Everything should happend in kicad/
-      # with output going into kicad/kibot_output/
+      # Everything should happen in `kicad/`
+      # with output going into `kicad/kibot_output/`
 
       - name: Checkout repo
         uses: actions/checkout@v4
 
-      - name: Create PCBA and position folders with write access
+      - name: Create output folders - for PCBA and position
         run: |
           cd kicad
           #mkdir pcba
@@ -47,12 +47,12 @@ jobs:
         uses: INTI-CMNB/KiBot@v2_k8
         with:
           config: ./bin/fab.kibot.yml
-          dir: ./kicad/kibot_output
+          dir: ./kicad/kibot_outpu
           schema: ./kicad/${{ env.BOARD}}/${{ env.BOARD}}.kicad_sch
           board: ./kicad/${{ env.BOARD }}/${{ env.BOARD }}.kicad_pcb
           verbose: 1
 
-      - name: Upload outputs Gerber zip, BOM, position
+      - name: Upload outputs - Gerber zip, BOM, position
         if: ${{ always() }}
         uses: actions/upload-artifact@v4
         with:
@@ -62,7 +62,7 @@ jobs:
 
 
       ####
-      # Logs
+      # Debug: Create and upload logs
       #
       - name: Debug list directory
         if: ${{ always() }}
@@ -73,7 +73,6 @@ jobs:
           cd kibot_output
           pwd
           ls -la 
-
       - name: Upload Logs
         if: ${{ always() }}
         uses: actions/upload-artifact@v4
