@@ -1,0 +1,111 @@
+(footprint "MountingHole_3.2mm_M3_DIN965"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Mounting Hole 3.2mm, no annular, M3, DIN965")
+	(tags "mounting hole 3.2mm no annular m3 din965")
+	(property "Reference" "H1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "7cf65a27-31a4-489f-95e6-f5c8d04f0bfe")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "MountingHole"
+		(at 0 6.1 0)
+		(layer "User.9")
+		(hide yes)
+		(uuid "a00bf756-bdfe-45b9-83b6-ffcddd84d5e7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "MountingHole_3.2mm_M3_DIN965"
+		(at 0 9.8 0)
+		(unlocked yes)
+		(layer "User.9")
+		(hide yes)
+		(uuid "9c82233d-19d7-457b-868c-a7dc8255c295")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fdb7515e-a853-4bc8-86a6-aed2fd13e60c")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1d7ffcbc-4cb5-4741-a1e2-35cc9e1508e5")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Config" "DNF"
+		(at 0 8 0)
+		(unlocked yes)
+		(layer "User.9")
+		(hide yes)
+		(uuid "21ad4ff3-d176-4902-bd85-3fdbc27ea27c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr exclude_from_pos_files exclude_from_bom)
+	(private_layers "User.9")
+	(fp_circle
+		(center 0 0)
+		(end 2.8 0)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "82bf6af6-a783-49a9-a567-ff6d51a7e170")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 3.05 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "d2f100b3-82ea-4751-8a4d-13649c4b4d00")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 3.2 3.2)
+		(drill 3.2)
+		(layers "*.Cu" "*.Mask")
+		(uuid "6fb45120-f17d-4d12-81b3-98e6b426907f")
+	)
+)
