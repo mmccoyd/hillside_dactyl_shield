@@ -4,9 +4,9 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 -11.6332 0)
+		(at 0 6.2 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "User.9")
 		(hide yes)
 		(uuid "791b022a-8a66-4bbf-8c7d-4a61da2a4e27")
 		(effects
@@ -17,9 +17,9 @@
 		)
 	)
 	(property "Value" "art_name"
-		(at 0 -10.1332 0)
+		(at 0 8.4 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "User.9")
 		(hide yes)
 		(uuid "75c57899-ad50-4b17-88f4-de3606e09be1")
 		(effects
@@ -30,9 +30,9 @@
 		)
 	)
 	(property "Footprint" "art_name"
-		(at 0 -11.1332 0)
+		(at 0 7.4 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "User.9")
 		(hide yes)
 		(uuid "12b2f761-7922-426c-993b-847a0aa4d023")
 		(effects
@@ -43,9 +43,9 @@
 		)
 	)
 	(property "Datasheet" ""
-		(at 0 -11.1332 0)
+		(at 0 7.4 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "User.9")
 		(hide yes)
 		(uuid "e00bfd47-4828-430b-b167-19257c18cc89")
 		(effects
@@ -56,9 +56,9 @@
 		)
 	)
 	(property "Description" ""
-		(at 0 -11.1332 0)
+		(at 0 7.4 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "User.9")
 		(hide yes)
 		(uuid "4045fcb6-d599-4569-ae84-06b9a1de0d68")
 		(effects
@@ -69,6 +69,7 @@
 		)
 	)
 	(attr smd board_only exclude_from_pos_files exclude_from_bom dnp allow_soldermask_bridges)
+	(private_layers "User.9")
 	(fp_text user "MCU"
 		(at -3.25 0.5 0)
 		(unlocked yes)
