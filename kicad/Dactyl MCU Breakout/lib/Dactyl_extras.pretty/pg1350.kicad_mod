@@ -26,7 +26,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "pg1350"
 		(at 0 0 180)
 		(unlocked yes)
 		(layer "F.Fab")
