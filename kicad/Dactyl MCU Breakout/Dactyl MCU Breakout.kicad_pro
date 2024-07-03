@@ -422,11 +422,11 @@
     ],
     "viewports": [
       {
-        "h": 75531243.14165346,
+        "h": 65709384.579329796,
         "name": "home",
-        "w": 72809396.54195426,
-        "x": 90371473.33093621,
-        "y": 41510550.03109731
+        "w": 90936688.15309884,
+        "x": 80554424.24797128,
+        "y": 45668076.03483204
       }
     ]
   },
@@ -761,7 +761,7 @@
       },
       {
         "netclass": "power",
-        "pattern": "GND"
+        "pattern": "GND|SHIELD"
       },
       {
         "netclass": "power",
@@ -770,6 +770,10 @@
       {
         "netclass": "Display",
         "pattern": "/(Left|Right)/(LED|LED_out)"
+      },
+      {
+        "netclass": "power",
+        "pattern": "/*/RAW_*"
       }
     ]
   },
@@ -886,7 +890,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "LCSC Part"
+      "sort_field": "Footprint"
     },
     "connection_grid_size": 50.0,
     "drawing": {
