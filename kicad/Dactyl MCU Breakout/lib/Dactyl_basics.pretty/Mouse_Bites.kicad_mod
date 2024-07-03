@@ -4,11 +4,11 @@
 	(generator_version "8.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at 0 6 0)
+		(at 0 9.4 0)
 		(unlocked yes)
-		(layer "F.SilkS")
+		(layer "User.9")
 		(hide yes)
-		(uuid "1c9bb0b0-40b9-45d2-bb29-df1b404c5d92")
+		(uuid "d673a496-5797-4bc2-87c5-45b90727834b")
 		(effects
 			(font
 				(size 1 1)
@@ -17,11 +17,11 @@
 		)
 	)
 	(property "Value" "Mouse_Bites"
-		(at 0 2 0)
+		(at 0 5.4 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "User.9")
 		(hide yes)
-		(uuid "c66794e6-1fef-4c15-b933-4071dc3d8f0d")
+		(uuid "81fd5366-dd71-4258-b6bd-38462c00bbdd")
 		(effects
 			(font
 				(size 1 1)
@@ -29,12 +29,12 @@
 			)
 		)
 	)
-	(property "Footprint" ""
-		(at 0 0 0)
+	(property "Footprint" "Mouse_Bites"
+		(at 0 3.2 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "User.9")
 		(hide yes)
-		(uuid "3a022f5d-8c06-49af-a535-f2d6729cc3e3")
+		(uuid "90e67f82-4c8f-405d-8f6f-442578c1ea7f")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "1e46fa18-031a-4969-8268-4cbc0c384b51")
+		(uuid "fa6e85ac-bf90-456d-9bc6-70289f2f2ccf")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -58,7 +58,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d52674b1-4bd5-4186-a7fb-7df74a8f2c9e")
+		(uuid "9dc83e53-2022-485a-89f4-4d6e4083f8c6")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -66,12 +66,13 @@
 		)
 	)
 	(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+	(private_layers "User.9")
 	(fp_text user "${REFERENCE}"
-		(at 0 4 0)
+		(at 0 7.4 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "User.9")
 		(hide yes)
-		(uuid "a52fea9a-096a-406a-bdb3-6f738b6956fa")
+		(uuid "65ee0a80-03e1-4704-aaa2-9c1e5e44e141")
 		(effects
 			(font
 				(size 1 1)
@@ -84,48 +85,48 @@
 		(size 0.6 0.6)
 		(drill 0.6)
 		(layers "*.Mask")
-		(uuid "4f7b770d-bc4a-45d1-91b9-3d8a1d15ab94")
+		(uuid "3453a433-9bdf-4414-bce7-39e55820965a")
 	)
 	(pad "" np_thru_hole circle
 		(at -1.9 0)
 		(size 0.6 0.6)
 		(drill 0.6)
 		(layers "*.Mask")
-		(uuid "4e26fcb0-d687-434b-a943-f4ce66dda77e")
+		(uuid "ec7aa98a-cf5f-4715-b83d-395ceea5ee49")
 	)
 	(pad "" np_thru_hole circle
 		(at -0.95 0)
 		(size 0.6 0.6)
 		(drill 0.6)
 		(layers "*.Mask")
-		(uuid "fac24314-1126-4cb6-acf1-ab021f205487")
+		(uuid "bc6f4823-77e7-4c8d-b1f4-deaefc3bf3bf")
 	)
 	(pad "" np_thru_hole circle
 		(at 0 0)
 		(size 0.6 0.6)
 		(drill 0.6)
 		(layers "*.Mask")
-		(uuid "c17a0a68-aba4-40de-838a-a0ae6c8c332d")
+		(uuid "7e70b4e7-25a6-4a59-9b60-8e4b4250558d")
 	)
 	(pad "" np_thru_hole circle
 		(at 0.95 0)
 		(size 0.6 0.6)
 		(drill 0.6)
 		(layers "*.Mask")
-		(uuid "d3174af4-92a0-43e1-bee7-d2347a77ab45")
+		(uuid "9bfa0fab-d9e6-4a78-a961-3caf7b04da63")
 	)
 	(pad "" np_thru_hole circle
 		(at 1.9 0)
 		(size 0.6 0.6)
 		(drill 0.6)
 		(layers "*.Mask")
-		(uuid "b4a5ae24-b653-42b4-bcfc-97eb1a5280f2")
+		(uuid "61f59885-afc9-4f20-bb5f-d08b11169ad1")
 	)
 	(pad "" np_thru_hole circle
 		(at 2.85 0)
 		(size 0.6 0.6)
 		(drill 0.6)
 		(layers "*.Mask")
-		(uuid "a79f2d91-8b06-45c9-ab1d-c7cc7bb66d9d")
+		(uuid "123d2f45-9570-4bb7-a9c3-7d733f87f01f")
 	)
 )

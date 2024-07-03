@@ -29,7 +29,7 @@
 			)
 		)
 	)
-	(property "Footprint" ""
+	(property "Footprint" "Mouse_Bites_5mm"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
