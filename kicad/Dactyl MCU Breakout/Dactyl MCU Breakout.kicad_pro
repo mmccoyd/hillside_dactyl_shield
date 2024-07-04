@@ -983,13 +983,19 @@
           "label": "Sim.Device",
           "name": "Sim.Device",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Role",
+          "name": "Role",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "JLC PCBA Type"
     },
     "connection_grid_size": 50.0,
     "drawing": {
