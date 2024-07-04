@@ -1,8 +1,6 @@
-
 name: "Build fab files for MCU breakout"
 
-# Trigger the workflow on push or pull request
-# events but only for the master branch
+# Trigger on push or pull request
 on:
   push:
     paths:
@@ -19,6 +17,7 @@ on:
   repository_dispatch: # remove?
     types: [run_qs]
 
+# Some nicer output names
 env:
   BOARD: Dactyl MCU Breakout
   SHORT_NAME: hill_breakout
@@ -47,7 +46,7 @@ jobs:
         uses: INTI-CMNB/KiBot@v2_k8
         with:
           config: ./bin/fab.kibot.yml
-          dir: ./kicad/kibot_outpu
+          dir: ./kicad/kibot_output
           schema: ./kicad/${{ env.BOARD}}/${{ env.BOARD}}.kicad_sch
           board: ./kicad/${{ env.BOARD }}/${{ env.BOARD }}.kicad_pcb
           verbose: 1
