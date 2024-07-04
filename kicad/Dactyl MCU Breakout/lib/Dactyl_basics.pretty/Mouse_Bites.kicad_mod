@@ -38,6 +38,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -50,6 +51,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -62,11 +64,23 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
 	(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
 	(private_layers "User.9")
+	(fp_rect
+		(start -3.3 -0.4)
+		(end 3.3 0.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "0ee3e94b-bd68-4be4-9c49-2eeebcf59cbd")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 7.4 0)
 		(unlocked yes)

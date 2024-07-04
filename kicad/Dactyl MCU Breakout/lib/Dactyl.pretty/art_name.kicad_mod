@@ -70,6 +70,17 @@
 	)
 	(attr smd board_only exclude_from_pos_files exclude_from_bom dnp allow_soldermask_bridges)
 	(private_layers "User.9")
+	(fp_rect
+		(start -3.3 -2.4)
+		(end 3.6 2.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "0abd45e3-c88e-41df-b1cd-dd16c35f51f1")
+	)
 	(fp_text user "MCU"
 		(at -3.25 0.5 0)
 		(unlocked yes)
