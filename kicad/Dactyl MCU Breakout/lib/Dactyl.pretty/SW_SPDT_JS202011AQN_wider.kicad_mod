@@ -512,7 +512,7 @@
 		(uuid "f35d8025-a2d1-4e98-a7b2-594cbbce83ce")
 	)
 	(fp_text user "ON"
-		(at -5.05 2.7 0)
+		(at -5.95 2 0)
 		(layer "B.SilkS")
 		(uuid "88293cde-9244-4099-bf2b-175b3b68b639")
 		(effects
@@ -523,7 +523,7 @@
 			(justify mirror)
 		)
 	)
-	(fp_text user "Batt"
+	(fp_text user "LED"
 		(at -5.6 -0.3 -90)
 		(unlocked yes)
 		(layer "B.SilkS")
@@ -536,7 +536,7 @@
 			(justify mirror)
 		)
 	)
-	(fp_text user "Batt"
+	(fp_text user "LED"
 		(at -5.6 -0.45 -90)
 		(unlocked yes)
 		(layer "F.SilkS")
@@ -549,7 +549,7 @@
 		)
 	)
 	(fp_text user "ON"
-		(at -5 2.7 0)
+		(at -5.9 2 0)
 		(layer "F.SilkS")
 		(uuid "b830738e-8423-4dfc-b93c-bdbd7608c9bb")
 		(effects
