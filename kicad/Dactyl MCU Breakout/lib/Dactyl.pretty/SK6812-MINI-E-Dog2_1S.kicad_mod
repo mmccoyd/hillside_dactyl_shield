@@ -80,7 +80,7 @@
 			)
 		)
 	)
-	(attr through_hole)
+	(attr smd)
 	(private_layers "User.9")
 	(fp_line
 		(start -1.696447 1.176)
