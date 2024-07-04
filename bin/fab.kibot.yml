@@ -20,14 +20,18 @@ filters:
     comment: 'Adjust rotation and position of Vic and USB-C'
     type: rot_footprint
     rotations_and_offsets:
-      - field: _field_lcsc_part
-        regex: 'C2906115' # Vic
-        offset_y: -0.2  # minus is in direction of the pins
-      - field: _field_lcsc_part
-        regex: 'C165948' # USB-C
+      - field: _field_lcsc_part # Vic
+        regex: 'C2906115'
+        offset_y: -0.4  # minus is in direction of the pins
+
+      - field: _field_lcsc_part # USB-C
+        regex: 'C165948'
         angle: 180
         offset_y: -1.4 # minus is in direction of the pins
-        offset_x: 0
+
+      - field: _field_lcsc_part # ESD SRV05
+        regex: 'C20615829'
+        angle: 90
 
 outputs:
 
