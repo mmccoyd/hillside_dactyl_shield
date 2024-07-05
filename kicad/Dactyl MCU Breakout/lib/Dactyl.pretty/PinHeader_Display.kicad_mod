@@ -37,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -49,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -355,7 +358,7 @@
 		)
 	)
 	(fp_text user "COPI"
-		(at 1.2954 -0.565 180)
+		(at 1.33 -0.565 180)
 		(unlocked yes)
 		(layer "B.SilkS")
 		(uuid "c5305362-7caf-44ed-bc71-844a31bbb806")
@@ -420,7 +423,7 @@
 		)
 	)
 	(fp_text user "COPI"
-		(at 4.975 -0.565 180)
+		(at 4.7 -0.565 180)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f0aae58e-56af-49d8-9b14-4267384bf3f1")
