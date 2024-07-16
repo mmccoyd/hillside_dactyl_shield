@@ -4451,7 +4451,7 @@
 		)
 		(fp_arc
 			(start 6.938123 15.132041)
-			(mid 6.337062 14.8831)
+			(mid 6.337066 14.8831)
 			(end 6.088123 14.282041)
 			(stroke
 				(width 0.12)
@@ -4462,7 +4462,7 @@
 		)
 		(fp_arc
 			(start 8.236041 -15.740877)
-			(mid 8.837086 -15.491923)
+			(mid 8.837089 -15.491924)
 			(end 9.086041 -14.890877)
 			(stroke
 				(width 0.12)
@@ -16652,16 +16652,6 @@
 		(uuid "048a9954-d353-4ead-8ec8-e4f03892ff5a")
 	)
 	(gr_line
-		(start 194 88)
-		(end 194.0095 53.7515)
-		(stroke
-			(width 0.15)
-			(type default)
-		)
-		(layer "User.9")
-		(uuid "06659a5c-f7dc-433f-8632-3f5c3ebf32f4")
-	)
-	(gr_line
 		(start 101 76.975)
 		(end 117.525 77)
 		(stroke
@@ -16838,7 +16828,7 @@
 		)
 	)
 	(gr_text "Space for\nbottom plate\nsupport shelf"
-		(at 106.2 43.8 0)
+		(at 108.3 41.1 0)
 		(layer "User.9")
 		(uuid "4606c4a9-3b83-4211-9690-38df78ab5e9b")
 		(effects
@@ -16850,7 +16840,7 @@
 		)
 	)
 	(gr_text "Grid origin\nso mirroring\nx is easier"
-		(at 94.1 44.3 0)
+		(at 96.6 39.1 0)
 		(layer "User.9")
 		(uuid "4b631d9f-1708-4f74-8929-670c5daf6f15")
 		(effects
@@ -16916,8 +16906,8 @@
 		)
 	)
 	(gr_text_box "A grid of .1 mm is used for components that interface with the case.\nThis is to make it easier to maintain left and right board consistency.\nThis includes:\n\n- Board outline\n- Through case componentes including MCU\n- Mount holes\n- LEDs"
-		(start 82.7 116.025)
-		(end 117.1 136.1)
+		(start 86.5 120)
+		(end 120.9 140.075)
 		(layer "User.9")
 		(uuid "bdf5ae0e-034e-40e5-9ca8-d6a1ee0af860")
 		(effects
@@ -16951,9 +16941,9 @@
 			(type solid)
 		)
 	)
-	(gr_text_box "Todo:\n\n- Give corner space for 2-3 mm support for bottom plate.\n\n- Test LEDs\n- Change power switch so to right is on.\n- Shift Vic PCBA offset.\n- Check reset to case spacing\n\n- fix fiducial and tooling locations"
-		(start 152.434375 42.5)
-		(end 193.365625 68.25)
+	(gr_text_box "Todo:\n\n- Check reset to case spacing\n\n- fix fiducial and tooling locations"
+		(start 166.4 42.725)
+		(end 207.33125 68.475)
 		(layer "User.9")
 		(uuid "fcfe8023-5388-465b-90ab-4e784a20b442")
 		(effects
@@ -17536,7 +17526,7 @@
 		(uuid "7fd34caf-1e09-4605-8998-01222454b836")
 	)
 	(via
-		(at 128.2 103.5)
+		(at 128 103.6)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
@@ -17670,7 +17660,7 @@
 		(uuid "d5229078-47db-46f7-8ac9-03af244197db")
 	)
 	(via
-		(at 124.2 103.6)
+		(at 124.2 103.7)
 		(size 0.8)
 		(drill 0.4)
 		(layers "F.Cu" "B.Cu")
