@@ -8445,10 +8445,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "f8284254-519c-40e8-a9a1-74a2c6806e43")
+			(uuid "faf5b9e5-2192-4ee1-b8b0-94e3fdc0082e")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#PWR0314")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#PWR0213")
 					(unit 1)
@@ -8528,19 +8532,23 @@
 			)
 		)
 		(pin "2"
-			(uuid "2c10ecd7-36cb-4064-91b3-b0e4203750e6")
+			(uuid "ea786459-726b-4cf9-8bc2-57abf728eb34")
 		)
 		(pin "4"
-			(uuid "3ff0511e-b4e5-4670-99d7-365fde28a45c")
+			(uuid "9a470223-e6e9-438a-a1e3-d473b5516891")
 		)
 		(pin "3"
-			(uuid "14518903-1a9a-498b-a591-c012a4650dac")
+			(uuid "5855db51-0ba0-45fc-b861-089f5ebf5e37")
 		)
 		(pin "1"
-			(uuid "cbc20956-6edb-428e-a44f-5dad81be4231")
+			(uuid "5f6c96e1-5735-4f96-906d-923f3dec7db4")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "J305")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "J205")
 					(unit 1)
@@ -8602,10 +8610,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "9526226f-ddc6-454c-b652-a8e0e01854ca")
+			(uuid "5bd7e6de-4cb6-4b71-9526-a6e0764458b1")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#FLG0306")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#FLG0203")
 					(unit 1)
@@ -8669,10 +8681,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "c0c6ef74-b970-4831-8cda-3e0dcaaa1988")
+			(uuid "546e4e26-5309-46d1-b668-3400f34c8997")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#PWR0315")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#PWR0217")
 					(unit 1)
@@ -8781,13 +8797,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "54e41a1a-3d8b-490b-a561-81d3f6425790")
+			(uuid "4430b95f-3d8e-4f11-b4c6-bf494ac5744f")
 		)
 		(pin "1"
-			(uuid "c79b0e02-3d28-4c2d-a91d-9f82121a638d")
+			(uuid "6df5a4bc-bc12-4c73-b153-29f1f6ae5054")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "D302")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "D202")
 					(unit 1)
@@ -8866,13 +8886,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "46f4538e-afdd-4ff9-b243-d41ab118ae2d")
+			(uuid "27361978-d284-4c75-9067-274a0568a010")
 		)
 		(pin "1"
-			(uuid "e622877e-6caa-4a20-a29b-0aaa0a475c97")
+			(uuid "040ba80d-f563-44d6-ac3b-bee182d1d22b")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "JP301")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "JP201")
 					(unit 1)
@@ -8937,10 +8961,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "9e89d9df-908c-4091-8eed-935c9158c886")
+			(uuid "80938429-2528-4baf-be26-57f0a5a38b2c")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#PWR0302")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#PWR0203")
 					(unit 1)
@@ -9022,6 +9050,10 @@
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "H302")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "H202")
 					(unit 1)
@@ -9083,10 +9115,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "39d75795-03da-404b-86f1-a4a5a2ee99dc")
+			(uuid "e379c944-11aa-4eb8-819d-ca59b320f0c7")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#PWR0308")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#PWR0210")
 					(unit 1)
@@ -9151,10 +9187,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "359f3867-e827-4d9d-ae47-3772680de6a2")
+			(uuid "b9702eae-4828-4d12-846c-e194fe0d73e1")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#PWR0309")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#PWR0211")
 					(unit 1)
@@ -9243,13 +9283,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "50171e33-f6b6-478d-baf6-ad274ad4d10b")
+			(uuid "aecbe9dd-abae-43d7-aca9-6e6504345653")
 		)
 		(pin "1"
-			(uuid "5579dcfb-3b6b-4c63-8794-c2ff66a81a19")
+			(uuid "f7e8400c-fcfa-415e-bc01-8c17ad04112f")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "F301")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "F201")
 					(unit 1)
@@ -9339,13 +9383,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "2ac8c5df-6546-4775-819c-ddec17242512")
+			(uuid "56ef034d-5871-428a-a15d-f7ac11fba464")
 		)
 		(pin "1"
-			(uuid "00b3d68b-b327-492a-8468-9df9824e3ee3")
+			(uuid "d0c7750b-d0fc-4228-9962-81e4074c42fd")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "C302")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "C203")
 					(unit 1)
@@ -9427,25 +9475,29 @@
 			)
 		)
 		(pin "5"
-			(uuid "1b7c3b94-0c7a-4f34-904b-95bd53aff48e")
+			(uuid "0730b99d-174d-4c88-b660-95dec139b1f1")
 		)
 		(pin "6"
-			(uuid "cf15af78-ee53-4506-a7da-75a6602e0b99")
+			(uuid "35fae634-b824-4a65-8b99-799ec847f546")
 		)
 		(pin "1"
-			(uuid "df886e7c-aba4-4fb9-82ad-4e54bb97cb8c")
+			(uuid "f7bd5b91-016e-42c7-b13f-c781f4c71bbc")
 		)
 		(pin "2"
-			(uuid "2b4e2bd8-f7d4-4e67-a8da-1945defcb27b")
+			(uuid "0bdaaf34-4ac6-400c-9d42-107f6808bb9a")
 		)
 		(pin "3"
-			(uuid "cab32459-8393-4c54-be8b-b7ca58e3e5c8")
+			(uuid "f1351f24-96df-4626-bd76-0564fc55b969")
 		)
 		(pin "4"
-			(uuid "9f3a9498-d639-4ae0-a3f9-b016ac4ef9dc")
+			(uuid "606aa557-33b7-4bf2-9808-af1375821d61")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "J303")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "J203")
 					(unit 1)
@@ -9510,10 +9562,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "1fcb1d8e-53c5-4aa0-a15f-2d4cdf32bd26")
+			(uuid "13ea33c9-70b8-4a50-ab40-9032771f964d")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#PWR0311")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#PWR0214")
 					(unit 1)
@@ -9575,10 +9631,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "91416543-9ab9-41ea-885a-6dd867a67514")
+			(uuid "2b989d0b-1121-482f-9b96-3cf035d88e08")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#FLG0301")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#FLG0206")
 					(unit 1)
@@ -9641,10 +9701,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "bab100ba-8894-4ddb-bd88-28f72c798189")
+			(uuid "fb7c0eb3-6a33-4061-8a62-797033d55f87")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#PWR0312")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#PWR0215")
 					(unit 1)
@@ -9732,13 +9796,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "a39e4201-3917-4c34-8bf6-6e31b4f09ef1")
+			(uuid "193e5615-231e-4d90-8aea-02e8d2ac983e")
 		)
 		(pin "1"
-			(uuid "da8c7254-c305-4473-9903-ad5c321eac04")
+			(uuid "9aef4b77-fbf0-4324-82f3-b10419f638c6")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "FB302")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "FB202")
 					(unit 1)
@@ -9820,25 +9888,29 @@
 			)
 		)
 		(pin "3"
-			(uuid "4ddb1fcc-4d59-43a5-9d69-ed516e8b15b5")
+			(uuid "95f6b3a3-8249-40df-8cab-921b136496c4")
 		)
 		(pin "2"
-			(uuid "868b33bd-2576-4328-98e1-51553b974af7")
+			(uuid "5cd3e201-e271-469c-b657-b91c78c247f6")
 		)
 		(pin "5"
-			(uuid "0202800e-fd86-4084-8259-584f7f2c531e")
+			(uuid "7c599d8c-552d-48c0-81a7-46a9ad945aef")
 		)
 		(pin "6"
-			(uuid "b5bf301a-9792-44df-8378-915ccb18ce87")
+			(uuid "93370f91-a990-402c-8cd1-9bdeace30247")
 		)
 		(pin "4"
-			(uuid "87c4dfa3-25fb-4131-b12d-890cf313e9a7")
+			(uuid "25dc5e7c-a609-409c-a780-a82a9d319512")
 		)
 		(pin "1"
-			(uuid "65309303-cc02-43d4-bb4e-a9d121deb564")
+			(uuid "ad81e3cd-7616-4288-bb1b-64366a9d3408")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "J304")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "J204")
 					(unit 1)
@@ -9935,16 +10007,20 @@
 			)
 		)
 		(pin "2"
-			(uuid "909cb3e2-7a17-446a-b167-cebbe6d96f51")
+			(uuid "b31f16ac-ae6b-4fd1-a9ab-eac3600636d7")
 		)
 		(pin "3"
-			(uuid "9752bf65-4b9a-41ce-8731-ae2cc95aad73")
+			(uuid "00f961af-5d6a-46ee-b1b4-e21659d74a0c")
 		)
 		(pin "1"
-			(uuid "da280443-f6c2-4630-b7c7-e64807bfdf4f")
+			(uuid "cd3eb7e1-fedd-4120-8d1a-6f2ed044aa71")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "SW301")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "SW201")
 					(unit 1)
@@ -10023,13 +10099,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "84f552d8-0d83-4fb9-9971-9cfbc6555ecc")
+			(uuid "1052612e-34e7-431b-95ec-eb2fa77d6aaa")
 		)
 		(pin "1"
-			(uuid "d4c913c5-edae-48a9-9d8d-4e00a1142130")
+			(uuid "c7903cce-6bc4-4b08-960c-985fcb06259e")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "JP304")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "JP204")
 					(unit 1)
@@ -10117,13 +10197,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "4323142a-6f79-442e-bf47-4f6e24d3b8f9")
+			(uuid "750119da-cf9d-4574-8c16-bb3732f5bee9")
 		)
 		(pin "1"
-			(uuid "834231f4-3988-41f7-a534-41ac4acf3d31")
+			(uuid "ae52c39e-2636-477e-b2d3-fc529cd6ec2b")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "R301")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "R201")
 					(unit 1)
@@ -10222,43 +10306,47 @@
 			)
 		)
 		(pin "12"
-			(uuid "14fcd9c1-dd71-44fc-8584-74ae82957c6e")
+			(uuid "1f66e59d-f76b-4a5b-881f-e4e6aa177841")
 		)
 		(pin "8"
-			(uuid "27ca1217-f746-46a9-a703-8fe25e93f066")
+			(uuid "71eba290-8f80-449b-9712-e515da9e2131")
 		)
 		(pin "9"
-			(uuid "d077cd6b-974a-4c57-8513-ed2fa8e29e46")
+			(uuid "32f5712d-b6cb-4fd0-9883-ee1b0749443a")
 		)
 		(pin "4"
-			(uuid "441a96fe-6160-4be2-bd9b-8fe40b7f8b7d")
+			(uuid "39e306f8-60d9-429e-9b6c-8179a7f55d0c")
 		)
 		(pin "10"
-			(uuid "83ad1a08-694a-4da1-bedd-69bbd30f69e0")
+			(uuid "8b42a364-17a7-4664-882d-62fb4bfb7947")
 		)
 		(pin "6"
-			(uuid "33185af0-2873-428a-96e9-1489cf7a22f4")
+			(uuid "c2b93039-73e1-43a6-ba15-4dd02954fc46")
 		)
 		(pin "1"
-			(uuid "dba28669-06a0-4413-b3a4-f70461ef3874")
+			(uuid "ee8404a8-517b-429f-8c59-b8b7692333fc")
 		)
 		(pin "2"
-			(uuid "5c3b8c55-9c26-41c3-9afb-99004cfa882b")
+			(uuid "dc10b9aa-cb9d-4aa0-96d3-a3df7553e70c")
 		)
 		(pin "11"
-			(uuid "cd256340-6a58-4067-956d-0bbc9a5d0b45")
+			(uuid "4f502d6a-38d1-45ce-a819-547080f01360")
 		)
 		(pin "7"
-			(uuid "9bf2b48e-93c0-494b-9c83-51301343889e")
+			(uuid "b270278e-7474-4729-9629-7b7cda714564")
 		)
 		(pin "5"
-			(uuid "21149d21-199c-4682-85ee-d8414274a3cd")
+			(uuid "d0350251-e269-4bb5-ba95-fa264b5c2a18")
 		)
 		(pin "3"
-			(uuid "7a02e53a-5cc8-49c7-93de-51a0a65df553")
+			(uuid "628248d6-dba5-41fc-8348-9a2f2a6c5662")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "J308")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "J208")
 					(unit 1)
@@ -10321,10 +10409,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "547bf096-b7f0-4ae4-af94-1ffd182b36cb")
+			(uuid "84c75b46-4de0-4cbf-85ec-be3c3ae4ca00")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#PWR0306")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#PWR0208")
 					(unit 1)
@@ -10389,10 +10481,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "428adc05-a3aa-4bb6-b42c-b63c4122d1a1")
+			(uuid "9d6bd316-98e0-496c-b15c-e2a4132f3f00")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#PWR0303")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#PWR0206")
 					(unit 1)
@@ -10410,7 +10506,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "5d05c511-8207-4119-9b57-4a028b65e277")
-		(property "Reference" "J209"
+		(property "Reference" "J301"
 			(at 21.336 46.736 0)
 			(effects
 				(font
@@ -10472,15 +10568,19 @@
 			)
 		)
 		(pin "2"
-			(uuid "5ea13315-5669-4e7f-8b5f-e2dc032d1305")
+			(uuid "3764c55b-4d46-47c7-b265-fc346cff3dd1")
 		)
 		(pin "1"
-			(uuid "73d6b33e-c4fa-4c48-adda-c4053a835fd4")
+			(uuid "8492342b-edcc-411b-aea5-93f67751997a")
 		)
 		(instances
-			(project ""
+			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "J301")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
-					(reference "J209")
+					(reference "J201")
 					(unit 1)
 				)
 			)
@@ -10559,22 +10659,26 @@
 			)
 		)
 		(pin "4"
-			(uuid "4a1efff6-b077-47c3-b480-1d367a2d14ad")
+			(uuid "b223e9bd-ea85-4044-ad29-9645f7c1c8d4")
 		)
 		(pin "3"
-			(uuid "034b1b36-473c-495f-b358-65649a1c9112")
+			(uuid "a9c16628-ab90-4b88-894d-45a61e82fe16")
 		)
 		(pin "1"
-			(uuid "886e08da-fcc9-40de-8836-0a817c6849ae")
+			(uuid "b4c2e101-7251-487b-b50a-50acbc74c8c1")
 		)
 		(pin "5"
-			(uuid "74355d79-a894-4acb-a352-05eb812eb744")
+			(uuid "c83b920b-3e2a-4e9d-b58e-0802045fade2")
 		)
 		(pin "2"
-			(uuid "f902c968-b37b-44c2-8015-e6e99ea35b9e")
+			(uuid "12789aca-39ec-4c7b-b5ed-81a8c7cca4d2")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "J306")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "J206")
 					(unit 1)
@@ -10636,10 +10740,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "9f53e5ce-dc36-4f44-a52a-e3ac02cfd203")
+			(uuid "e7dcf527-ebb5-4e24-a624-a0924cfe4464")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#PWR0316")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#PWR0218")
 					(unit 1)
@@ -10729,13 +10837,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "5e09c5ba-67b3-495e-a5f5-3853dc4de911")
+			(uuid "99ea516b-48c9-45af-9a78-b510aab1fe43")
 		)
 		(pin "1"
-			(uuid "df5b6de7-59e9-4cfa-9cd4-ba8cd2a2ce17")
+			(uuid "c20a2531-ab8d-4551-b9d2-a399741d02ef")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "C303")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "C204")
 					(unit 1)
@@ -10798,10 +10910,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "d0727ff2-76e0-460d-a29c-cf9a0a0fa7bb")
+			(uuid "5e17c108-e608-4301-a2d3-400e0e396422")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#PWR0301")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#PWR0202")
 					(unit 1)
@@ -10891,25 +11007,29 @@
 			)
 		)
 		(pin "2"
-			(uuid "1a7b5104-2c72-40d9-906d-6af58bdf3339")
+			(uuid "a350d592-b60d-41ab-91d1-df1d345a9a3b")
 		)
 		(pin "6"
-			(uuid "00b2ae31-7b03-4313-babf-f3b06eb6541e")
+			(uuid "c074256d-3102-4765-9e41-e4c6e85aadc2")
 		)
 		(pin "5"
-			(uuid "8d4a1b44-43e6-4529-9536-8b3bb1baab95")
+			(uuid "6465977a-9780-4d7e-b77c-56a36188b91d")
 		)
 		(pin "4"
-			(uuid "c01bb490-f1df-4ef9-a1bf-bfbbc69c9250")
+			(uuid "55e964fc-364d-4e4e-b6b5-51380115831c")
 		)
 		(pin "3"
-			(uuid "86df8730-c4c8-4d12-8047-73046ab12fbf")
+			(uuid "51231a63-7805-49bb-a7d7-4a578ae1245e")
 		)
 		(pin "1"
-			(uuid "ed510543-8653-4f2b-b079-9246feea5fdb")
+			(uuid "a3a0360b-85ff-4672-b4b4-86be56757e9a")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "U301")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "U201")
 					(unit 1)
@@ -10971,10 +11091,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "1480b875-1dd0-45d0-9a2b-2b62e330d7ed")
+			(uuid "22729870-0a60-4812-923b-744ca6b2ace3")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#FLG0302")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#FLG0201")
 					(unit 1)
@@ -11056,19 +11180,23 @@
 			)
 		)
 		(pin "4"
-			(uuid "5e710064-0fa0-4cd5-840d-8457386f97f4")
+			(uuid "fdb2b734-3b1b-458d-9858-891828226575")
 		)
 		(pin "2"
-			(uuid "dc24c750-db49-4fe2-81d2-ac76ff6889f1")
+			(uuid "7d65cd4c-44a3-4aff-9999-061d67610c51")
 		)
 		(pin "1"
-			(uuid "b93da568-bbf4-468f-8eeb-60cfee0d5e8a")
+			(uuid "28987898-5a52-4c69-8f08-af4ff09f79dd")
 		)
 		(pin "3"
-			(uuid "cac3b0b4-3b6a-4998-8615-37417a938b70")
+			(uuid "fd701aec-cb40-4ef6-9f10-b09d9c0e682e")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "D304")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "D204")
 					(unit 1)
@@ -11148,13 +11276,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "f154f15b-2221-43a1-ae6c-1b2d0e0c9970")
+			(uuid "04baad74-431c-4e42-aa03-552a6e92a0f4")
 		)
 		(pin "1"
-			(uuid "51abac7b-44c3-434f-95c7-cafb2da02b62")
+			(uuid "182621cf-3534-4048-8379-39d347d32c2a")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "JP305")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "JP205")
 					(unit 1)
@@ -11244,13 +11376,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "c3ac4f93-28ca-4119-b183-1f1972292741")
+			(uuid "d823fae2-1686-40e9-bb74-d9675926085b")
 		)
 		(pin "1"
-			(uuid "2a69fbc3-5079-401d-b96f-5e95bfae9ffd")
+			(uuid "67eabc55-0f9e-4f83-82ab-3d46341161db")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "C306")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "C207")
 					(unit 1)
@@ -11329,79 +11465,83 @@
 			)
 		)
 		(pin "11"
-			(uuid "3919ea5c-5a1d-48c8-bffd-29154298122a")
+			(uuid "5910578e-2cf5-424b-8367-735546fea4c4")
 		)
 		(pin "6"
-			(uuid "90566f88-5e66-47bd-bec6-215fe3e8530b")
+			(uuid "d3b427c5-cc0a-4194-bd4b-7d22bc0bc0cc")
 		)
 		(pin "15"
-			(uuid "0ef8798e-eb08-4fbe-9c43-2f73c9ec74e0")
+			(uuid "deebd0fa-361a-484c-9361-8d643056734e")
 		)
 		(pin "7"
-			(uuid "3c9b6856-7a92-4dce-83ef-da7f249f45ee")
+			(uuid "a1a81e0c-316e-4a8f-96a5-9b30c365feee")
 		)
 		(pin "16"
-			(uuid "51043f7c-ad5e-4110-b645-5c83eb88afaa")
+			(uuid "b720e8c3-38c4-433d-ba42-21ea8d7d6d01")
 		)
 		(pin "14"
-			(uuid "9d6d8af7-fe35-450e-bbce-72f982cb66fa")
+			(uuid "7798a52f-a705-47af-be6b-644a1d79fdd1")
 		)
 		(pin "10"
-			(uuid "641c4357-428e-4adc-827a-fd1c6a2ba68b")
+			(uuid "792d0e19-8281-4d8f-b2b4-a380813c86dc")
 		)
 		(pin "3"
-			(uuid "31a3d882-6a0c-49be-8e2a-48cc0a6fd00d")
+			(uuid "4d5464d8-78c5-4d48-9fa5-3ba2b25416c9")
 		)
 		(pin "13"
-			(uuid "a5967934-7582-4f5f-9884-7504759d2a6f")
+			(uuid "2849d23f-06c4-4758-8910-16702098061c")
 		)
 		(pin "5"
-			(uuid "6b3ff28c-4325-44c7-bf77-839770f91fd9")
+			(uuid "62e8b659-d890-4eb8-a6ad-022236ddfb16")
 		)
 		(pin "17"
-			(uuid "26ab60a2-42e0-4e9e-a6be-3a3751eacf27")
+			(uuid "c167929f-23e5-4109-858b-9983c2a93666")
 		)
 		(pin "12"
-			(uuid "4dec388e-6f7f-40dd-8595-dccd55547c0c")
+			(uuid "c51cd82d-e7de-4ec2-9944-1b18e91fbf6b")
 		)
 		(pin "8"
-			(uuid "488a5a84-9abf-4f00-8055-e15e6cc0cc2b")
+			(uuid "907ed2aa-7e3b-4210-b3d3-9bf7521a6ba0")
 		)
 		(pin "9"
-			(uuid "960956b0-d4b1-4017-9632-f842f825847b")
+			(uuid "35cf1702-cad0-48db-821a-aee6a618abd5")
 		)
 		(pin "4"
-			(uuid "c29ba2cd-687e-44d9-bc3a-c133027c75c4")
+			(uuid "2ce476e4-b54d-4df4-918f-0f49b4c6c162")
 		)
 		(pin "24"
-			(uuid "184c8434-a233-427a-890a-4e7420ce239f")
+			(uuid "8b658dd2-3295-4f40-a3bb-ac00ba072534")
 		)
 		(pin "1"
-			(uuid "9c170341-5df7-4d77-b2be-52a67f87eb8b")
+			(uuid "748ca8e1-7ee7-4f8e-8f2e-a78b7e45eac7")
 		)
 		(pin "22"
-			(uuid "5b117f18-39e0-43b0-b64e-9e12048c3b88")
+			(uuid "4b5f7ab5-e651-453b-8ae8-f36fed9a95fa")
 		)
 		(pin "21"
-			(uuid "7f0531cf-e352-4a8a-a67a-3218b5506665")
+			(uuid "644221b8-5bd7-4294-8a20-63b237e76903")
 		)
 		(pin "20"
-			(uuid "cf44bfbe-8ea8-42b6-b704-f511e0846b4f")
+			(uuid "d34eb53f-c960-4f41-8144-e7577aad0860")
 		)
 		(pin "2"
-			(uuid "7e3e4f65-b876-4935-bc8a-d27f89b60ba8")
+			(uuid "e986544d-c2aa-4921-b5ed-bffbb8eb4c0c")
 		)
 		(pin "23"
-			(uuid "0feeebf5-997e-490f-803f-4fd93877e64b")
+			(uuid "2dfb13b1-e3a1-4a70-8038-89fb872d9dab")
 		)
 		(pin "19"
-			(uuid "7e06be63-dd22-4b03-a167-4c144ab1f428")
+			(uuid "17cd7cd7-efea-44e3-b4fa-9c3bdb55e14a")
 		)
 		(pin "18"
-			(uuid "81790ad4-8c54-43a4-a896-1908a49be898")
+			(uuid "34a3cc07-4df7-4a28-adfe-9b81bd5c2793")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "U302")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "U202")
 					(unit 1)
@@ -11480,13 +11620,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "a6738103-5613-4e0e-80f1-a90bc3a825fe")
+			(uuid "03bee570-02cb-4940-8d61-34c888645351")
 		)
 		(pin "2"
-			(uuid "31ed276e-1585-44a8-a735-d03911848b6d")
+			(uuid "842f0394-a9a9-46f9-944c-a8f7c54e0b34")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "JP303")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "JP203")
 					(unit 1)
@@ -11549,10 +11693,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "47eecd37-86e5-4eb0-88a4-2d34b5018233")
+			(uuid "8b2fbdb5-dbcb-4225-8b36-8f1f4e6c9e30")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#PWR0305")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#PWR0207")
 					(unit 1)
@@ -11614,10 +11762,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "254dd98a-c6a2-493f-b4fe-bd796df123b2")
+			(uuid "56f39e8d-1670-4b32-9647-363e13f3ac95")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#FLG0303")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#FLG0207")
 					(unit 1)
@@ -11698,13 +11850,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "3ce4e709-8f28-4fa7-9756-22e469810111")
+			(uuid "de1a2f0f-dd71-4ec1-b3b4-86ee09a4af63")
 		)
 		(pin "2"
-			(uuid "e6e59ad0-50cf-4f18-9a5b-418ddfa57f9c")
+			(uuid "5b1c6a36-d309-47b0-ac94-fcd930591943")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "SW302")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "SW202")
 					(unit 1)
@@ -11792,13 +11948,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "1d6073ff-0765-4ad2-880a-28848c9d75f7")
+			(uuid "969f27c5-0427-46c3-b429-98f89999c5ac")
 		)
 		(pin "1"
-			(uuid "3c5e2419-d02a-43ca-aaf6-77070d6e743e")
+			(uuid "4e863e9e-0da9-4e89-b993-f254dfef3948")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "FB301")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "FB201")
 					(unit 1)
@@ -11879,19 +12039,23 @@
 			)
 		)
 		(pin "4"
-			(uuid "d4d12216-b95e-435e-9165-3a4310beaef6")
+			(uuid "1de31681-d416-40dd-8020-cfe54d629fda")
 		)
 		(pin "2"
-			(uuid "9fabff5e-bbcd-441d-8013-528d91130f3b")
+			(uuid "2191de69-88d6-4838-90fc-b05aa23f3b09")
 		)
 		(pin "1"
-			(uuid "31eed299-e568-46b5-bd9a-2b2230f1e199")
+			(uuid "e846fbb0-891e-4203-8bce-5adad23c9753")
 		)
 		(pin "3"
-			(uuid "08851d54-74fc-4b16-8ea0-335cbfddb5df")
+			(uuid "84ba9681-7702-4957-8405-498a1d90b126")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "D303")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "D203")
 					(unit 1)
@@ -11989,16 +12153,20 @@
 			)
 		)
 		(pin "2"
-			(uuid "2840f978-b80b-4505-b36b-ac9e8bdfd4ad")
+			(uuid "822ba34a-4288-456b-9d18-fd5ec1627ad0")
 		)
 		(pin "3"
-			(uuid "6799adc3-4ad5-4ee2-90c7-a47b7eac4833")
+			(uuid "74122340-c6ca-4ec2-9caf-d4bbc5a40a64")
 		)
 		(pin "1"
-			(uuid "a5421eed-ae03-4808-b62c-0b1bcbd4c071")
+			(uuid "a4b8f2a6-ff23-4ba0-9860-61c2da3d5bc6")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "SW303")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "SW203")
 					(unit 1)
@@ -12088,13 +12256,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "e8851593-d857-4f29-aedd-56a4cb8c2ed3")
+			(uuid "c415bb63-2bfe-494b-a3c3-a1fe91dbecf3")
 		)
 		(pin "1"
-			(uuid "fa93594e-49ac-4faf-a0c7-b36bc0f69d43")
+			(uuid "2eb9b6ac-c39a-46f7-972a-ee49e0d78f14")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "C304")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "C205")
 					(unit 1)
@@ -12159,10 +12331,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "da38c235-2456-4769-a9de-df75e268928d")
+			(uuid "3a2b5a15-c5a7-4025-add7-949399063323")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#PWR0307")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#PWR0209")
 					(unit 1)
@@ -12241,13 +12417,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "6862d04a-fbdc-4e77-9291-935b155097ee")
+			(uuid "1a57bcb5-1d0a-4d29-8027-8ace5a60f03a")
 		)
 		(pin "1"
-			(uuid "48235cde-bc4b-47c4-b89d-c5d7532d2a5a")
+			(uuid "829d36a0-0c92-4ef7-8978-f667bd19c9a0")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "JP302")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "JP202")
 					(unit 1)
@@ -12337,13 +12517,17 @@
 			)
 		)
 		(pin "1"
-			(uuid "18562e7a-fe9c-4e89-aca1-e6443ec3a052")
+			(uuid "444cd585-c1cc-4d1f-b3ab-1847baa6c193")
 		)
 		(pin "2"
-			(uuid "cbdbeaf0-4818-4e7d-92e8-ce7d8693aaf6")
+			(uuid "07c84e7e-730b-403f-930f-13e9bf433a42")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "D301")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "D201")
 					(unit 1)
@@ -12405,10 +12589,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "27cc0803-c60d-4962-a46f-a5f5606df800")
+			(uuid "e0a5ecd5-e326-4f34-8a1b-48b7d414022c")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#FLG0304")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#FLG0208")
 					(unit 1)
@@ -12470,10 +12658,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "d3c9ed2b-8caf-4c1f-97f3-ac6fbc39ff06")
+			(uuid "7f4f437c-a9a4-4db0-947a-693cdeb1c99e")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#FLG0308")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#FLG0205")
 					(unit 1)
@@ -12555,6 +12747,10 @@
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "H301")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "H201")
 					(unit 1)
@@ -12616,10 +12812,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "8dc0a189-ccf1-47d2-8364-8ab6c105ae95")
+			(uuid "8129ee75-5233-4448-9b95-b796fec393fc")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#FLG0305")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#FLG0202")
 					(unit 1)
@@ -12684,10 +12884,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "977a1762-ce6e-44e2-95cf-910681c2d7fd")
+			(uuid "dd6086e5-2427-4192-8bd4-868639abe363")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#PWR0313")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#PWR0216")
 					(unit 1)
@@ -12749,10 +12953,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "231e1fee-5ad9-405c-9685-a6ebeef52660")
+			(uuid "56efe3ba-8a9a-42cb-9478-e652273d2a76")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#PWR0310")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#PWR0212")
 					(unit 1)
@@ -12814,10 +13022,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "48a5f04b-73ee-4ba3-bd86-b2f33c633648")
+			(uuid "da5918ac-6b12-4e2a-874e-9aad688bf5e6")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#FLG0307")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#FLG0204")
 					(unit 1)
@@ -12914,58 +13126,62 @@
 			)
 		)
 		(pin "A1"
-			(uuid "98a7e496-6b01-4f53-8881-7f898818a483")
+			(uuid "3e05d240-d6a6-4501-8492-6289e6117fd9")
 		)
 		(pin "A6"
-			(uuid "53e881dd-193e-430d-8648-588afe4817a9")
+			(uuid "29fe2600-c986-42f1-8162-3859b1e6d8da")
 		)
 		(pin "A12"
-			(uuid "50d5c870-dbf5-47e0-ba1f-a9a10da3c3e8")
+			(uuid "8d064540-2b13-4056-bf29-e5a4983e1245")
 		)
 		(pin "A5"
-			(uuid "6c1b75d3-a1e7-4e56-8f56-b9acef195ffb")
+			(uuid "94dd31d8-2daf-41f6-a497-e02a63bbe983")
 		)
 		(pin "A7"
-			(uuid "4064eead-732e-4a77-ae83-439d6626f4db")
+			(uuid "d7aaf60b-1364-40f0-83f0-811079cb178e")
 		)
 		(pin "A8"
-			(uuid "6d0f4d70-ed60-479e-a123-ef8b79012659")
+			(uuid "93195940-ce3e-49c0-85e5-ffa75e0db528")
 		)
 		(pin "A9"
-			(uuid "850dea85-6661-481a-83ce-3bd17cf06885")
+			(uuid "02e79fed-54b3-4276-95a5-eaca22802992")
 		)
 		(pin "B1"
-			(uuid "45913037-67ae-40ef-8a21-f2ff9cba88f4")
+			(uuid "adecb6ba-a4b7-48b4-960a-01ee83a2ef77")
 		)
 		(pin "B12"
-			(uuid "f0f9774e-591a-481a-8ca8-ec1a10a6b987")
+			(uuid "2b88f905-eab1-44ae-b4cd-30d81bfe806e")
 		)
 		(pin "B4"
-			(uuid "dd959a3b-e6a1-4b05-90ff-4809952cf0c3")
+			(uuid "b8fee385-e54e-4932-a4af-b5ab5df55418")
 		)
 		(pin "B5"
-			(uuid "43fafc7b-f776-4e52-8736-c6606ea3c9ab")
+			(uuid "e7cf35ee-6f3f-472a-9a06-02028ed4c0ca")
 		)
 		(pin "B6"
-			(uuid "04be5a08-2a21-40a4-a2e4-03f5f93893ea")
+			(uuid "cfbd8641-308e-471a-bd31-0f319a30c2e9")
 		)
 		(pin "B7"
-			(uuid "00b33d1f-874e-414f-9d75-12ae6fc1bee4")
+			(uuid "fac226a2-dea6-4e3a-832b-c0ff66b9a8e4")
 		)
 		(pin "B8"
-			(uuid "07b1bfd1-1e73-46e4-adf4-ef4cfd38f521")
+			(uuid "b67bea61-289a-428d-8c68-bb243d7a48ba")
 		)
 		(pin "B9"
-			(uuid "7e6d9e70-139d-4797-92b9-4fa361847a87")
+			(uuid "45586edb-347e-45f5-8351-041c488a693f")
 		)
 		(pin "S1"
-			(uuid "4e671494-67c4-4c7a-84f4-4150402235aa")
+			(uuid "b1755556-5307-4307-a305-5180982c3789")
 		)
 		(pin "A4"
-			(uuid "0e964822-15b7-4629-a4e8-4c6a98077b17")
+			(uuid "b80a5d31-8d71-459f-b9e5-b0a74cdd0db7")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "J302")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "J202")
 					(unit 1)
@@ -13055,13 +13271,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "ac8ca21e-0356-4c4e-875f-329dac18c74f")
+			(uuid "0330e9b6-37ed-4136-8800-c58c1c92efa3")
 		)
 		(pin "1"
-			(uuid "0c85770e-d2dc-466b-83f5-5947b563667d")
+			(uuid "5f825296-e917-405f-b02a-c31f7dc7d511")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "C301")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "C202")
 					(unit 1)
@@ -13151,13 +13371,17 @@
 			)
 		)
 		(pin "2"
-			(uuid "7b5711dc-38ca-4b3b-8f81-d4243363aada")
+			(uuid "d5dff534-cc68-47fd-844b-cca33ddbfe5d")
 		)
 		(pin "1"
-			(uuid "c47e4298-3967-426b-a9c6-e96adc08bc17")
+			(uuid "5772e913-df89-48d3-a1c8-89d5bc393488")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "C305")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "C206")
 					(unit 1)
@@ -13238,22 +13462,26 @@
 			)
 		)
 		(pin "4"
-			(uuid "b3427ba9-1767-4f5b-98b2-7bad4b5223fc")
+			(uuid "c560e7df-65b7-4fc1-a45f-25b2c15f3381")
 		)
 		(pin "3"
-			(uuid "516f0b0e-36c3-4a45-8bfc-b0b47942677e")
+			(uuid "f05eec19-487b-4e00-bf5c-fcc9ac1b81e9")
 		)
 		(pin "1"
-			(uuid "86cf1608-6238-43d2-9058-e4110d7b968f")
+			(uuid "4ec72f33-5642-4f9c-aea8-dfe2440192fb")
 		)
 		(pin "5"
-			(uuid "adc1c530-5ace-4065-906f-cbbe42e67134")
+			(uuid "ef0e5ea8-4c7a-4e1b-9afe-49fde2ce5d8c")
 		)
 		(pin "2"
-			(uuid "740af534-12a7-47b0-ba28-ad6be5c163b2")
+			(uuid "412a8e09-c4af-4e9c-b221-25e3242669e8")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "J307")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "J207")
 					(unit 1)
@@ -13318,10 +13546,14 @@
 			)
 		)
 		(pin "1"
-			(uuid "d82256c2-be8d-49f7-8971-a4cbf11a3d13")
+			(uuid "40c9bf6f-6832-444f-80c9-927be80cb6dc")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
+					(reference "#PWR0304")
+					(unit 1)
+				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#PWR0205")
 					(unit 1)

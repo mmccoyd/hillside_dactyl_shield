@@ -77,6 +77,44 @@
 		(uuid "be2d8afa-956c-4a35-b10e-e5dcc72523ca")
 	)
 	(sheet
+		(at 119.38 111.76)
+		(size 29.21 19.05)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 255 229 191 1.0000)
+		)
+		(uuid "0f72ce67-b380-481c-afb4-102f931d77e2")
+		(property "Sheetname" "Left"
+			(at 119.38 111.0484 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "board_half.kicad_sch"
+			(at 119.38 131.3946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "Dactyl MCU Breakout"
+				(path "/454146f1-d25e-490f-a0db-4f993607d919"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 157.48 111.76)
 		(size 29.21 19.05)
 		(fields_autoplaced yes)
