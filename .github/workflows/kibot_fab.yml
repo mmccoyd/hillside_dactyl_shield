@@ -21,7 +21,6 @@ on:
 env:
   BOARD: Dactyl MCU Breakout
   SHORT_NAME: hill_breakout
-  PANEL: MCU Breakout Panel
 
 jobs:
   generate_fab_files:
@@ -43,8 +42,7 @@ jobs:
           pwd
           ls -la
 
-
-      - name: Run KiBot on breakout schematic and PCB
+      - name: Run KiBot
         uses: INTI-CMNB/KiBot@v2_k8
         with:
           config: ./bin/fab.kibot.yml
@@ -52,15 +50,6 @@ jobs:
           schema: ./kicad/${{ env.BOARD}}/${{ env.BOARD}}.kicad_sch
           board: ./kicad/${{ env.BOARD }}/${{ env.BOARD }}.kicad_pcb
           verbose: 1
-
-      - name: Run KiBot on panel PCB
-        uses: INTI-CMNB/KiBot@v2_k8
-        with:
-          config: ./bin/fab.kibot.yml
-          dir: ./kicad/kibot_output
-          board: ./kicad/${{ env.PANEL }}/${{ env.PANEL }}.kicad_pcb
-          verbose: 1
-
 
       - name: Upload outputs - Gerber zip, BOM, position
         if: ${{ always() }}

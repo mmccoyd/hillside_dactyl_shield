@@ -1,5 +1,0 @@
-(fp_lib_table
-  (version 7)
-  (lib (name "Dactyl")(type "KiCad")(uri "/Users/mmccoyd/Documents/keyboard/hillside_mcu_breakout/kicad/Dactyl MCU Breakout/lib/Dactyl.pretty")(options "")(descr ""))
-  (lib (name "Dactyl_basics")(type "KiCad")(uri "/Users/mmccoyd/Documents/keyboard/hillside_mcu_breakout/kicad/Dactyl MCU Breakout/lib/Dactyl_basics.pretty")(options "")(descr ""))
-)
