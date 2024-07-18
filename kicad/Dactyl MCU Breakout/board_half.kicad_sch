@@ -2818,171 +2818,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "D_Small"
-				(at -3.81 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Device:FerriteBead"
 			(pin_numbers hide)
 			(pin_names
@@ -5231,12 +5066,6 @@
 		(uuid "009b76ae-b0d4-420b-a2f2-75a425c41962")
 	)
 	(junction
-		(at 170.18 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "022a9be2-9b3f-40db-9b47-1c6589c60b5e")
-	)
-	(junction
 		(at 39.37 49.53)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5291,12 +5120,6 @@
 		(uuid "634f2837-a6d3-4621-bafa-0a39a5820df0")
 	)
 	(junction
-		(at 129.54 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "66391716-e8ec-4c53-9818-9d9f0dca7e43")
-	)
-	(junction
 		(at 55.88 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5321,6 +5144,12 @@
 		(uuid "7e81fd94-8371-4695-84bb-5d7ba9f09a0a")
 	)
 	(junction
+		(at 129.54 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a41812e3-a897-4f2c-8fae-ebf7e7586453")
+	)
+	(junction
 		(at 53.34 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5331,6 +5160,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d4666e0c-b35f-4f65-a957-e854760b18f5")
+	)
+	(junction
+		(at 171.45 71.12)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e0006b3e-7b86-42c5-b4dd-31097f25f513")
 	)
 	(junction
 		(at 160.02 124.46)
@@ -5525,16 +5360,6 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 58.42) (xy 129.54 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "06610110-62e3-4a58-8c1d-806a649ce8bf")
-	)
-	(wire
-		(pts
 			(xy 102.87 33.02) (xy 99.06 33.02)
 		)
 		(stroke
@@ -5555,7 +5380,7 @@
 	)
 	(polyline
 		(pts
-			(xy 127 77.47) (xy 127 77.47)
+			(xy 127 80.01) (xy 127 77.47)
 		)
 		(stroke
 			(width 0)
@@ -5605,13 +5430,13 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 78.74) (xy 140.97 78.74)
+			(xy 129.54 58.42) (xy 132.08 58.42)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "1b428be2-28c5-47f9-be4d-0e5d028e6b8b")
+		(uuid "1909bc3c-6b1a-4df8-a3a7-498fbbc121fe")
 	)
 	(wire
 		(pts
@@ -5753,16 +5578,6 @@
 		)
 		(uuid "29241e12-c569-4772-8102-cf51370dd401")
 	)
-	(wire
-		(pts
-			(xy 175.26 71.12) (xy 170.18 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2c8ff419-5772-458f-b13d-1bdbc63d6693")
-	)
 	(polyline
 		(pts
 			(xy 204.47 102.87) (xy 204.47 58.42)
@@ -5792,6 +5607,16 @@
 			(type default)
 		)
 		(uuid "30717b0a-bd91-4e23-a9aa-c86e59bc8712")
+	)
+	(wire
+		(pts
+			(xy 171.45 71.12) (xy 171.45 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "307a2ea3-1226-4341-bcec-0901d0fe1ee9")
 	)
 	(wire
 		(pts
@@ -5895,7 +5720,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.72 77.47) (xy 127 77.47)
+			(xy 172.72 80.01) (xy 127 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6015,6 +5840,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 78.74) (xy 130.81 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4f477081-b51f-4399-b954-792400ea14f2")
+	)
+	(wire
+		(pts
 			(xy 185.42 50.8) (xy 205.74 50.8)
 		)
 		(stroke
@@ -6022,16 +5857,6 @@
 			(type default)
 		)
 		(uuid "4fff1ed5-2b24-4fda-8b5d-a68d3bff8810")
-	)
-	(wire
-		(pts
-			(xy 129.54 58.42) (xy 132.08 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50ad2fe3-9b07-4be2-9851-a177d7b1e4b3")
 	)
 	(wire
 		(pts
@@ -6115,7 +5940,7 @@
 	)
 	(polyline
 		(pts
-			(xy 172.72 58.42) (xy 172.72 77.47)
+			(xy 172.72 58.42) (xy 172.72 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6133,9 +5958,19 @@
 		)
 		(uuid "6070bd5a-4039-47c0-854e-7d970c9b3fd7")
 	)
+	(wire
+		(pts
+			(xy 171.45 71.12) (xy 175.26 71.12)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "641b5681-5c9a-40ec-8e6f-ec09c16d0dc8")
+	)
 	(polyline
 		(pts
-			(xy 127 55.88) (xy 127 77.47)
+			(xy 127 55.88) (xy 127 80.01)
 		)
 		(stroke
 			(width 0)
@@ -6195,16 +6030,6 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 78.74) (xy 170.18 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6bb86f74-aa64-4302-99f1-93a8041d2369")
-	)
-	(wire
-		(pts
 			(xy 184.15 71.12) (xy 190.5 71.12)
 		)
 		(stroke
@@ -6222,16 +6047,6 @@
 			(type default)
 		)
 		(uuid "6e1e251b-56b6-4889-ab94-35711782465c")
-	)
-	(wire
-		(pts
-			(xy 170.18 71.12) (xy 170.18 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7012de55-b700-40f2-b05b-a31b103cf042")
 	)
 	(wire
 		(pts
@@ -6495,7 +6310,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 71.12) (xy 167.64 71.12)
+			(xy 167.64 71.12) (xy 171.45 71.12)
 		)
 		(stroke
 			(width 0)
@@ -7075,6 +6890,16 @@
 	)
 	(wire
 		(pts
+			(xy 129.54 58.42) (xy 129.54 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f003b8de-63ca-41e1-8c60-7871830c524e")
+	)
+	(wire
+		(pts
 			(xy 161.29 134.62) (xy 171.45 134.62)
 		)
 		(stroke
@@ -7367,6 +7192,17 @@
 			(justify left bottom)
 		)
 		(uuid "987669d0-ffbe-44ba-9fcd-88399af49112")
+	)
+	(text "Wired left board detection"
+		(exclude_from_sim no)
+		(at 137.922 79.756 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c3137e2-8c11-4d56-87da-2f863d9e5d85")
 	)
 	(text "The goal is to \nprovide core keyboard functions in a board \nthat is easy to move between keywell bodies."
 		(exclude_from_sim no)
@@ -8391,6 +8227,30 @@
 		)
 		(uuid "fc82bf49-6dd6-401f-9fd2-5f7e9be19190")
 	)
+	(hierarchical_label "row4"
+		(shape input)
+		(at 171.45 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "054c6ce1-57de-4516-b08b-c8581ecde36e")
+	)
+	(hierarchical_label "col0"
+		(shape output)
+		(at 130.81 78.74 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9cab7724-3d59-44cb-89d4-9a2a84ffba6e")
+	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x04")
 		(at 189.23 86.36 0)
@@ -8551,125 +8411,6 @@
 				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "#FLG0206")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:D_Small")
-		(at 151.13 78.74 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0d76aa22-b7ca-4bad-9540-20ab6193e00c")
-		(property "Reference" "D302"
-			(at 153.162 79.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 150.114 81.534 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 151.13 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 151.13 78.74 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 151.13 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 151.13 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 151.13 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC PCBA Type" "Econom"
-			(at 151.13 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C2128"
-			(at 151.13 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "Split"
-			(at 151.13 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4430b95f-3d8e-4f11-b4c6-bf494ac5744f")
-		)
-		(pin "1"
-			(uuid "6df5a4bc-bc12-4c73-b153-29f1f6ae5054")
-		)
-		(instances
-			(project "Dactyl MCU Breakout"
-				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
-					(reference "D302")
-					(unit 1)
-				)
-				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
-					(reference "D202")
 					(unit 1)
 				)
 			)
@@ -11423,95 +11164,6 @@
 				)
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
 					(reference "C204")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 144.78 78.74 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "d03a9f56-d1cf-46c4-af16-e64664dfb372")
-		(property "Reference" "JP302"
-			(at 139.446 79.756 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Wired Left"
-			(at 144.78 81.534 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Dactyl_basics:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 144.78 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 144.78 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 144.78 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" "DNF"
-			(at 144.78 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" ""
-			(at 144.78 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "1a57bcb5-1d0a-4d29-8027-8ace5a60f03a")
-		)
-		(pin "1"
-			(uuid "829d36a0-0c92-4ef7-8978-f667bd19c9a0")
-		)
-		(instances
-			(project "Dactyl MCU Breakout"
-				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
-					(reference "JP302")
-					(unit 1)
-				)
-				(path "/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394"
-					(reference "JP202")
 					(unit 1)
 				)
 			)
