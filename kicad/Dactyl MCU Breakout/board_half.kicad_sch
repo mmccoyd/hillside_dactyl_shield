@@ -8652,7 +8652,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" " C116173"
+		(property "LCSC Part" "C116173"
 			(at 82.55 68.58 0)
 			(effects
 				(font

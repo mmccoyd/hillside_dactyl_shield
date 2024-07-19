@@ -986,7 +986,7 @@
           "group_by": false,
           "label": "Role",
           "name": "Role",
-          "show": false
+          "show": true
         }
       ],
       "filter_string": "",
