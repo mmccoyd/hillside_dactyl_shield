@@ -148,7 +148,7 @@ outputs:
       format: CSV
       units: millimeters
       separate_files_for_front_and_back: false
-      only_smd: True
+      only_smd: False
       columns:
         - id: Ref
           name: Designator
