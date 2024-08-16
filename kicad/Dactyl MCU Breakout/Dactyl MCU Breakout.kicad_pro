@@ -37,9 +37,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 0.6,
-          "height": 1.6,
-          "width": 1.0
+          "drill": 3.2,
+          "height": 5.6,
+          "width": 5.6
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -518,11 +518,11 @@
     ],
     "viewports": [
       {
-        "h": 65807913.90854277,
+        "h": 85956059.05658063,
         "name": "home",
-        "w": 62934803.32209912,
-        "x": 94022598.33895922,
-        "y": 45548845.51069747
+        "w": 118956514.1621563,
+        "x": 80301526.72317402,
+        "y": 61551754.275980555
       }
     ]
   },
@@ -811,6 +811,23 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
+        "name": "ow",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "schematic_color": "rgb(0, 0, 132)",
+        "track_width": 0.25,
+        "via_diameter": 0.8,
+        "via_drill": 0.4,
+        "wire_width": 6
+      },
+      {
+        "bus_width": 12,
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_via_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "line_style": 0,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
         "name": "power",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -828,10 +845,10 @@
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "row",
+        "name": "power_wide",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "schematic_color": "rgb(0, 0, 132)",
-        "track_width": 0.25,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.5,
         "via_diameter": 0.8,
         "via_drill": 0.4,
         "wire_width": 6
@@ -852,24 +869,40 @@
         "pattern": "/*/col*"
       },
       {
-        "netclass": "row",
+        "netclass": "ow",
         "pattern": "/*/row*"
       },
       {
-        "netclass": "power",
-        "pattern": "GND|SHIELD"
+        "netclass": "power_wide",
+        "pattern": "/*/SHIELD"
       },
       {
-        "netclass": "power",
-        "pattern": "/(Left|Right)/(RAW|split_RAW|bat.|VCC|VCC_LED.)"
+        "netclass": "power_wide",
+        "pattern": "/(Left|Right)/(split_RAW|VCC|VCC_LED.)"
       },
       {
         "netclass": "Display",
         "pattern": "/(Left|Right)/(LED|LED_out)"
       },
       {
-        "netclass": "power",
+        "netclass": "power_wide",
         "pattern": "/*/RAW_*"
+      },
+      {
+        "netclass": "power_wide",
+        "pattern": "/*/bat+"
+      },
+      {
+        "netclass": "power_wide",
+        "pattern": "/*/RAW"
+      },
+      {
+        "netclass": "power_wide",
+        "pattern": "/*/POWER_*"
+      },
+      {
+        "netclass": "Default",
+        "pattern": "/*/GND"
       }
     ]
   },
@@ -993,7 +1026,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "JLC PCBA Type"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
