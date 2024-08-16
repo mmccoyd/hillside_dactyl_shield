@@ -1,0 +1,150 @@
+(footprint "Mouse_Bites_5mm"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 8.8 0)
+		(unlocked yes)
+		(layer "User.9")
+		(hide yes)
+		(uuid "97a11d5b-6c72-4ddc-a6af-5655ecfd983c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Mouse_Bites_5mm"
+		(at 0 4.8 0)
+		(unlocked yes)
+		(layer "User.9")
+		(hide yes)
+		(uuid "45bac2f1-3a9b-4391-a30c-a9f6890275be")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "Dactyl_basics:Mouse_Bites_5mm"
+		(at 0 2.8 0)
+		(unlocked yes)
+		(layer "User.9")
+		(hide yes)
+		(uuid "1cc2b2c1-b78d-4a88-8195-5091a1d8a3e6")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e8789374-70b3-4ce7-bd54-e51c31601105")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "62663cf2-affe-49da-a13d-a8e17e3c69c1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole board_only exclude_from_pos_files exclude_from_bom)
+	(private_layers "User.9")
+	(fp_rect
+		(start -2.4 -0.4)
+		(end 2.4 0.4)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill none)
+		(layer "F.CrtYd")
+		(uuid "6596d5f2-0a5f-496f-b79f-3facd44e058d")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 6.8 0)
+		(unlocked yes)
+		(layer "User.9")
+		(hide yes)
+		(uuid "9ed54805-f685-4d0b-b145-57044942d397")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_text_box "Useful for splitting\na panel side rail"
+		(start -8.625 -6.5)
+		(end 8.625 -1.9)
+		(layer "User.9")
+		(uuid "6c733ba1-0060-48a8-b3b4-14241995b6d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left top)
+		)
+		(border yes)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -1.9 0)
+		(size 0.6 0.6)
+		(drill 0.6)
+		(layers "*.Mask")
+		(uuid "c9c0ab7f-1146-4017-845e-34e503475f15")
+	)
+	(pad "" np_thru_hole circle
+		(at -0.95 0)
+		(size 0.6 0.6)
+		(drill 0.6)
+		(layers "*.Mask")
+		(uuid "09f2665d-4db9-4df2-a8c4-fca68579260e")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 0.6 0.6)
+		(drill 0.6)
+		(layers "*.Mask")
+		(uuid "cf25bfea-b521-46e6-96b1-19f7f36735cc")
+	)
+	(pad "" np_thru_hole circle
+		(at 0.95 0)
+		(size 0.6 0.6)
+		(drill 0.6)
+		(layers "*.Mask")
+		(uuid "44bdd2a0-3d1c-4c3e-bc3b-705d9d888e2f")
+	)
+	(pad "" np_thru_hole circle
+		(at 1.9 0)
+		(size 0.6 0.6)
+		(drill 0.6)
+		(layers "*.Mask")
+		(uuid "c1bf95ef-65d6-408a-b2c9-e52eaf8c5fe9")
+	)
+)

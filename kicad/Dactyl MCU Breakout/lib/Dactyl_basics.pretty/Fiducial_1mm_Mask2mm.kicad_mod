@@ -7,7 +7,7 @@
 	(tags "fiducial")
 	(property "Reference" "REF**"
 		(at 0 -2 0)
-		(layer "F.SilkS")
+		(layer "F.Fab")
 		(uuid "c37555ce-b7e1-456d-b3c2-635dc0b61528")
 		(effects
 			(font
@@ -19,6 +19,7 @@
 	(property "Value" "Fiducial_1mm_Mask2mm"
 		(at 0 2 0)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "3acbc28f-3ec1-4fa0-88c7-c9b5881359fd")
 		(effects
 			(font
@@ -36,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -48,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -60,6 +63,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -87,7 +91,7 @@
 		(uuid "ae7ecfa2-e3b7-49f1-a311-a93e6aedc35d")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 0 0)
+		(at 0 3.4 0)
 		(layer "F.Fab")
 		(uuid "0d701298-1158-42a8-9060-c1ab8568ba0d")
 		(effects
