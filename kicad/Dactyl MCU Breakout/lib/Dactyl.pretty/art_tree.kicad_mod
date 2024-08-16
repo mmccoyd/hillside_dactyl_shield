@@ -68,7 +68,9 @@
 			)
 		)
 	)
-	(attr smd board_only exclude_from_pos_files exclude_from_bom dnp)
+	(attr smd board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+		dnp allow_soldermask_bridges
+	)
 	(pad "" smd custom
 		(at 0 0.1524)
 		(size 0.254 1.5)

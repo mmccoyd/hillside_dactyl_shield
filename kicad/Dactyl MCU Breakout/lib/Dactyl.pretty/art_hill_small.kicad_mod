@@ -68,11 +68,14 @@
 			)
 		)
 	)
-	(attr smd board_only exclude_from_pos_files exclude_from_bom dnp)
+	(attr smd board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+		dnp allow_soldermask_bridges
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -4.1628 0)
 		(unlocked yes)
 		(layer "F.Fab")
+		(hide yes)
 		(uuid "536943bd-192c-4f9a-8c9b-7188b2bcf12e")
 		(effects
 			(font
