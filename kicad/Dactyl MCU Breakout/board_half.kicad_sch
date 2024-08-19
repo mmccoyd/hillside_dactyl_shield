@@ -6203,7 +6203,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 191.77) (xy 162.56 191.77)
+			(xy 160.02 191.77) (xy 162.56 191.77)
 		)
 		(stroke
 			(width 0)
@@ -7524,7 +7524,7 @@
 	)
 	(text "Raw/Bat is:\n- 5v for 2040\n- 3.7v for Nice!Nano"
 		(exclude_from_sim no)
-		(at 93.472 49.022 0)
+		(at 92.964 48.514 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7721,7 +7721,7 @@
 		(uuid "25bdd67a-744f-40e4-8bb0-b064bd547f76")
 	)
 	(label "VCC"
-		(at 158.75 191.77 180)
+		(at 160.02 191.77 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8315,13 +8315,13 @@
 		(uuid "bf135d25-a2be-402c-853a-52bc100c3a8e")
 	)
 	(label "SHIELD"
-		(at 16.51 115.57 270)
+		(at 16.51 115.57 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
 		(uuid "bfbfc6f7-c285-4c02-9c69-38abb219953d")
 	)
@@ -10797,7 +10797,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "bb4bc30d-4ca2-4da5-84bd-1762620e59e2")
-		(property "Reference" "TP201"
+		(property "Reference" "TP301"
 			(at 67.056 82.55 0)
 			(effects
 				(font
