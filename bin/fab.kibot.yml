@@ -1,7 +1,14 @@
 # Create fabrication files for JLCPCB using KiBot
 
+# See: https://kibot.readthedocs.io/en/master/configuration/outputs.html
+
 kibot:
   version: 1
+
+# include:
+# Maybe we should have `include JLCPCB` here for the _JLCPCB_XXX below.
+# Yet it works and adding that may change it.
+# Our _JLCPCB_XX below are likely just similarly named.
 
 preflight:
   erc: true
@@ -88,6 +95,40 @@ outputs:
         suffix: 'Edge_Cuts'
         description: 'Board shape'
 
+  - name: Step_3D_file
+    comment: Step file export
+    type: step
+    dir: step
+
+  - name: Render_Top
+    comment: Render with PCBA components
+    type: render_3d
+    dir: doc
+    options:
+      dnf_filter: only_jlc_parts
+      auto_crop: true
+      clip_silk_on_via_annulus: false
+      height: 1500
+      width: 1500
+
+  - name: Render_Bottom
+    comment: Render with PCBA components
+    type: render_3d
+    dir: doc
+    options:
+      dnf_filter: only_jlc_parts
+      auto_crop: true
+      clip_silk_on_via_annulus: false
+      view: 'bottom'
+      height: 1500
+      width: 1500
+
+  - name: Schematic
+    comment: Schematic export
+    type: svg_sch_print
+    dir: doc
+    options:
+      background_color: true
 
   - name: _JLCPCB_drill
     comment: Drill files compatible with JLCPCB
