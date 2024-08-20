@@ -628,7 +628,7 @@
 			(gr_line
 				(start 0 -3.35)
 				(end 0 0)
-				(width 0.381)
+				(width 0.5)
 			)
 		)
 		(uuid "79158fa2-9c3c-4b59-80ba-33e8e66dfdfc")
@@ -662,7 +662,7 @@
 			(gr_line
 				(start 0 -3.35)
 				(end 0 0)
-				(width 0.381)
+				(width 0.5)
 			)
 		)
 		(uuid "888b9f7f-760e-4dd1-98a5-dcb51f5aff1c")
@@ -696,7 +696,7 @@
 			(gr_line
 				(start 0 -3.35)
 				(end 0 0)
-				(width 0.381)
+				(width 0.5)
 			)
 		)
 		(uuid "47ee043e-6d08-4cde-9e9d-7fa4d1911bed")
