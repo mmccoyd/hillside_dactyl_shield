@@ -16,10 +16,10 @@
 			)
 		)
 	)
-	(property "Value" "art_inner_layer_detector"
-		(at 0 8.5 0)
+	(property "Value" "Layer"
+		(at -0.1 -2.1 0)
 		(unlocked yes)
-		(layer "F.Fab")
+		(layer "F.SilkS")
 		(uuid "c87f7641-63f9-4ad5-ab7b-5b5568b463ee")
 		(effects
 			(font
@@ -60,6 +60,17 @@
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "cf583efc-ec9e-4ddd-bbbe-faa752600047")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value2" "Count"
+		(at 0 1.9 0)
+		(layer "F.SilkS")
+		(uuid "afb2250c-fe98-4941-90ad-c9b41e5a2541")
 		(effects
 			(font
 				(size 1 1)
