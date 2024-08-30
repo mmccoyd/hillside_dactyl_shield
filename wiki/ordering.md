@@ -2,16 +2,24 @@
 
 I've ordered it at JLC. The steps are:
 
-PCB:
+## PCB
 
 - Material: FR-4
-- Layers: 2
-- Thickness: 1.6 mm
+- Layers: 4
+
+- Different designs: 2
+- Delivery Format: Panel by Customer
+- Thickness: 1.6 mm (optionally 1.0 or 1.2 mm, but there is little reason to)
+- Color: green (the only choice for an economical 4 layer PCBA board)
+
+- (Impedance Control: is not needed for such short SPI use)
 
 - Confirm production file: yes
-- Remove order number: specify location
+- Mark on PCB (order number): specify location
 
-PCBA:
+- cost: $52  (if it were two layers without SPI display it would be only $12)
+
+## PCBA
 
 - PCB Type: Economic
 - Side: Top
@@ -21,13 +29,34 @@ PCBA:
 
 - Advanced: defaults
 
-Bill of Materials:
-
-The battery and LED power switches require the Standard PCBA process,
-  not just the Economic one;
-  but they're easy to hand solder if you want to do it manually.
-If you select Economic PCBA,
-  you'll get a warning about it missing data for those two switches, which is fine.
+### Upload bill of materials and position files
 
 Upload the bill of material and position files from
- the pcba folder.
+ the PCBA folder.
+
+### Deselect unneeded components
+
+Some parts are rather expensive to have the fab install,
+  and others you may not need if you are not doing a wired split.
+
+The biggest cost saving is to skip using PCBA for the
+  battery and LED power switches.
+They are easy to solder by hand and I would recommend that.
+Done with PCBA, they require the more expensive Standard PCBA process,
+  not just the Economic one.
+
+If you will never use the breakouts for a wired split,
+  you can eliminate some costs by not fitting those parts.
+These are the: USB_C, SRV05, Ferrite Bead, Fuse, and ESD5Z5V0.
+All of which are listed as extended parts.
+
+That leaves just the Vic connector as an extended cost part.
+Which you also may not need.
+
+Staying with the Economic PCBA,
+  you'll get a warning about it missing data for any components you deselect,
+  which is fine.
+
+### Cost
+
+- $37
