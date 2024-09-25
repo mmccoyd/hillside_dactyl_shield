@@ -71,8 +71,8 @@
 	(attr smd board_only exclude_from_pos_files exclude_from_bom dnp allow_soldermask_bridges)
 	(private_layers "User.9")
 	(fp_rect
-		(start -3.3 -2.4)
-		(end 3.6 2.2)
+		(start -2.8 -2.4)
+		(end 3.1 2.2)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -81,8 +81,8 @@
 		(layer "F.CrtYd")
 		(uuid "0abd45e3-c88e-41df-b1cd-dd16c35f51f1")
 	)
-	(fp_text user "MCU"
-		(at -3.25 0.5 0)
+	(fp_text user "Dactyl"
+		(at -2.75 0.5 0)
 		(unlocked yes)
 		(layer "F.Cu")
 		(uuid "58667a8a-455d-4bb1-9c96-5e6c71ee6009")
@@ -95,7 +95,7 @@
 		)
 	)
 	(fp_text user "Hillside"
-		(at -3.25 -1 0)
+		(at -2.75 -1 0)
 		(unlocked yes)
 		(layer "F.Cu")
 		(uuid "c0b877fc-f0b9-4359-8d93-681fd93a19c5")
@@ -107,8 +107,8 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "Breakout"
-		(at -3.25 2 0)
+	(fp_text user "Shield"
+		(at -2.75 2 0)
 		(unlocked yes)
 		(layer "F.Cu")
 		(uuid "ffd49c4f-8abb-419c-b4e1-a0cb251b3a7c")
@@ -121,7 +121,7 @@
 		)
 	)
 	(fp_text user "Hillside"
-		(at -3.25 -1 0)
+		(at -2.75 -1 0)
 		(unlocked yes)
 		(layer "F.Mask")
 		(uuid "41bb0831-fd45-44d5-9446-d3ee2f9e2907")
@@ -133,8 +133,8 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "Breakout"
-		(at -3.25 2 0)
+	(fp_text user "Shield"
+		(at -2.75 2 0)
 		(unlocked yes)
 		(layer "F.Mask")
 		(uuid "5cfd8e45-2eff-4b3f-a157-6e53a6c65cab")
@@ -146,8 +146,8 @@
 			(justify left bottom)
 		)
 	)
-	(fp_text user "MCU"
-		(at -3.25 0.5 0)
+	(fp_text user "Dactyl"
+		(at -2.75 0.5 0)
 		(unlocked yes)
 		(layer "F.Mask")
 		(uuid "9b515d84-e48f-4a93-94aa-81bd07e027af")
