@@ -5,13 +5,13 @@
 	(uuid "454146f1-d25e-490f-a0db-4f993607d919")
 	(paper "USLetter")
 	(title_block
-		(title "Hillside Dactyl MCU Breakout")
+		(title "Hillside Dactyl Shield")
 		(date "2024-06-04")
 		(rev "0.1.0-alpha.2")
 		(comment 1 "  Headers: MCU, key matrix and display")
 		(comment 2 "  On board: reset, battery switch and LEDs")
 		(comment 3 "Provides:")
-		(comment 4 "MCU breakout for Dactyl split keyboards ")
+		(comment 4 "Shield for Dactyl split keyboards ")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint_Small"
@@ -480,7 +480,7 @@
 	)
 	(polyline
 		(pts
-			(xy 90.17 57.15) (xy 182.88 57.15)
+			(xy 90.17 57.15) (xy 158.75 57.15)
 		)
 		(stroke
 			(width 0)
@@ -500,7 +500,7 @@
 	)
 	(polyline
 		(pts
-			(xy 182.88 67.31) (xy 90.17 67.31)
+			(xy 158.75 67.31) (xy 90.17 67.31)
 		)
 		(stroke
 			(width 0)
@@ -580,7 +580,7 @@
 	)
 	(polyline
 		(pts
-			(xy 182.88 57.15) (xy 182.88 67.31)
+			(xy 158.75 57.15) (xy 158.75 67.31)
 		)
 		(stroke
 			(width 0)
@@ -2000,7 +2000,7 @@
 			(uuid "caa45f48-0bbf-452f-b9b1-091908c59536")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919"
 					(page "3")
 				)
@@ -2078,7 +2078,7 @@
 			(uuid "4deb81d2-5d64-42a9-843a-6770200fecc2")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919"
 					(page "2")
 				)

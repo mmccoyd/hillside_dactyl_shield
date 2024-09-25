@@ -5,13 +5,13 @@
 	(uuid "1f4ab7a4-9aa3-47d6-9f69-ed29e43707c0")
 	(paper "A4")
 	(title_block
-		(title "Hillside Dactyl MCU Breakout")
-		(date "2024-08-15")
+		(title "Hillside Dactyl Shield")
+		(date "2024-09-25")
 		(rev "0.1.0-alpha.2")
 		(comment 1 "  Headers: MCU, key matrix and display")
 		(comment 2 "  On board: reset, battery switch and LEDs")
 		(comment 3 "Provides:")
-		(comment 4 "MCU breakout for Dactyl split keyboards ")
+		(comment 4 "Shield for Dactyl split keyboards ")
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint_Small"
@@ -7573,7 +7573,7 @@
 	)
 	(text "Board Half"
 		(exclude_from_sim no)
-		(at 136.398 25.908 0)
+		(at 132.08 25.908 0)
 		(effects
 			(font
 				(size 4 4)
@@ -7650,7 +7650,7 @@
 	)
 	(text "${TITLE}"
 		(exclude_from_sim no)
-		(at 104.648 19.05 0)
+		(at 113.284 18.796 0)
 		(effects
 			(font
 				(size 4 4)
