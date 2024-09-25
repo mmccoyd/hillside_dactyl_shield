@@ -116,352 +116,6 @@
 				)
 			)
 		)
-		(symbol "Device:D_Small"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "D_Small"
-				(at -3.81 -2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Diode, small symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "D_Small_0_1"
-				(polyline
-					(pts
-						(xy -0.762 -1.016) (xy -0.762 1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.762 0) (xy 0.762 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 -1.016) (xy -0.762 0) (xy 0.762 1.016) (xy 0.762 -1.016)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "D_Small_1_1"
-				(pin passive line
-					(at -2.54 0 0)
-					(length 1.778)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 1.778)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "Jumper:SolderJumper_2_Open"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.032 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "SolderJumper_2_Open"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Solder Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "solder jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "SolderJumper*Open*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SolderJumper_2_Open_0_1"
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start -0.254 1.016)
-					(mid -1.2656 0)
-					(end -0.254 -1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.254 1.016) (xy -0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.254 1.016) (xy 0.254 -1.016)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 -1.016)
-					(mid 1.2656 0)
-					(end 0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-			)
-			(symbol "SolderJumper_2_Open_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim yes)
 			(in_bom no)
@@ -744,33 +398,35 @@
 		(color 0 0 0 0)
 		(uuid "dc030cb0-a05b-436f-bcea-05c467646817")
 	)
-	(no_connect
-		(at 147.32 125.73)
-		(uuid "67295750-3927-4b61-8302-520df5f73b4a")
-	)
-	(no_connect
-		(at 176.53 125.73)
-		(uuid "f31ccb39-a470-4d15-a6a8-b65fcc36dd9e")
-	)
 	(wire
 		(pts
-			(xy 109.22 137.16) (xy 95.25 137.16)
+			(xy 142.24 127) (xy 142.24 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "122c78b7-27b0-4d32-8d53-d3f1b1ef02b0")
+		(uuid "03127271-ffdd-466f-8009-55a5ce3f9c2a")
 	)
 	(wire
 		(pts
-			(xy 132.08 137.16) (xy 132.08 125.73)
+			(xy 146.05 127) (xy 142.24 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "34e648c0-7ef1-4d2a-8c7c-62ae10713023")
+		(uuid "3944070e-47ea-4e9c-9006-8e5de999cd1d")
+	)
+	(polyline
+		(pts
+			(xy 131.064 119.507) (xy 138.049 119.507)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3ca298bd-03c5-4263-8724-87f1ff72aedc")
 	)
 	(wire
 		(pts
@@ -792,6 +448,16 @@
 		)
 		(uuid "411cb71f-b1c7-454a-9a61-f65927b0308c")
 	)
+	(wire
+		(pts
+			(xy 123.19 119.38) (xy 127 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "45445a0d-02b4-4f31-b6eb-24b900e88000")
+	)
 	(polyline
 		(pts
 			(xy 36.83 171.45) (xy 36.83 203.2)
@@ -802,9 +468,19 @@
 		)
 		(uuid "4667cc5e-ef36-4d76-80c3-4b461706b3d9")
 	)
+	(wire
+		(pts
+			(xy 146.05 119.38) (xy 142.24 119.38)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4bc98a6b-ca3d-4b07-b81b-cd4030a2916b")
+	)
 	(polyline
 		(pts
-			(xy 93.98 71.12) (xy 186.69 71.12)
+			(xy 90.17 57.15) (xy 182.88 57.15)
 		)
 		(stroke
 			(width 0)
@@ -812,19 +488,19 @@
 		)
 		(uuid "4cf133c8-6e04-4cb3-9f6e-6f19f2064de2")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 129.54 125.73) (xy 132.08 125.73)
+			(xy 137.16 125.73) (xy 138.43 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "4ea47154-e28a-4802-add1-9e0ff431ccde")
+		(uuid "4d1e3548-81dd-4f7c-a0f8-17cdd7d2bacc")
 	)
 	(polyline
 		(pts
-			(xy 186.69 81.28) (xy 93.98 81.28)
+			(xy 182.88 67.31) (xy 90.17 67.31)
 		)
 		(stroke
 			(width 0)
@@ -834,13 +510,43 @@
 	)
 	(polyline
 		(pts
-			(xy 93.98 71.12) (xy 93.98 81.28)
+			(xy 90.17 57.15) (xy 90.17 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "61ddb8a0-806a-4600-9492-232c248ba944")
+	)
+	(polyline
+		(pts
+			(xy 131.445 127) (xy 138.43 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "63d11100-ca5e-4c9e-acdd-1c33ef44547e")
+	)
+	(wire
+		(pts
+			(xy 142.24 121.92) (xy 146.05 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66d99270-b698-4e2a-994c-7e82a9020df7")
+	)
+	(wire
+		(pts
+			(xy 123.19 129.54) (xy 127 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "71a792ce-7378-467b-8fee-a897e07de96b")
 	)
 	(wire
 		(pts
@@ -852,15 +558,55 @@
 		)
 		(uuid "730b4166-6348-4344-8813-44a7e679ce84")
 	)
+	(wire
+		(pts
+			(xy 127 127) (xy 127 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7790c360-322b-49b6-a930-4d2db3309e2a")
+	)
+	(wire
+		(pts
+			(xy 123.19 121.92) (xy 127 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7c01bfa6-c5b7-4aea-b39a-e63e0f89ca25")
+	)
 	(polyline
 		(pts
-			(xy 186.69 71.12) (xy 186.69 81.28)
+			(xy 182.88 57.15) (xy 182.88 67.31)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "849152e2-a089-4cd7-bbc2-6596357b01a9")
+	)
+	(wire
+		(pts
+			(xy 123.19 127) (xy 127 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "92a966d9-dc04-431c-b373-071da8960c6a")
+	)
+	(wire
+		(pts
+			(xy 142.24 119.38) (xy 142.24 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ab56f80-7da8-49df-b0c8-be670833f865")
 	)
 	(wire
 		(pts
@@ -874,33 +620,33 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 125.73) (xy 100.33 125.73)
+			(xy 142.24 129.54) (xy 146.05 129.54)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b4d16df6-66d7-4d7b-a8f0-a3fedd4a9ea3")
+		(uuid "b1e7b2e8-c640-4d25-9234-afb84c4be488")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 121.92 137.16) (xy 132.08 137.16)
+			(xy 131.064 112.522) (xy 138.049 112.522)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "c795fa23-3f0b-417b-b873-9435d4abb69b")
+		(uuid "bda1f172-ee34-4154-b33d-672e6d0cdb10")
 	)
-	(wire
+	(polyline
 		(pts
-			(xy 95.25 137.16) (xy 95.25 125.73)
+			(xy 137.16 128.27) (xy 138.43 127)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "ce22ea6a-02db-45c5-a021-8bb77f678dc9")
+		(uuid "bddfbbad-2704-4dd5-8b8f-db8b9b5fdc20")
 	)
 	(wire
 		(pts
@@ -911,6 +657,26 @@
 			(type default)
 		)
 		(uuid "dabf8a7f-6e9e-4032-b6e6-70538944598d")
+	)
+	(wire
+		(pts
+			(xy 127 119.38) (xy 127 121.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e833eab5-4592-4152-9352-5df06fc03c1e")
+	)
+	(polyline
+		(pts
+			(xy 131.064 115.824) (xy 138.049 115.824)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eb6deb92-50ac-4fef-9646-d9b424943016")
 	)
 	(polyline
 		(pts
@@ -941,6 +707,102 @@
 		)
 		(uuid "4a61862d-abae-43fc-8344-e4e4a9158739")
 	)
+	(text_box "USB-C cable use:\nWe are not sending USB protocal over the split USB-C cable.\nOur resistors ask for no power, but we accept 5v power."
+		(exclude_from_sim no)
+		(at 162.56 145.415 0)
+		(size 29.21 15.24)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "509be962-c49d-4344-b305-0a366525b293")
+	)
+	(text_box "Caveat:\nI'm not an electrical engineer. This is my best cut at the right approach after much reading and creating a few boards that do work. I had EE classes within my CS degrees, but this is outside of that."
+		(exclude_from_sim no)
+		(at 201.93 55.88 0)
+		(size 29.21 21.59)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "531de7d3-36e7-40e3-bc08-ba77e9b67edc")
+	)
+	(text_box "The wired split can be:\n\n- One wire:\n  D+: Left RX <-> Right TX\n      mainy right to left.\n\n- Two wire: \n  D+: Left RX <- Right TX \n  D-: Left TX -> Right RX"
+		(exclude_from_sim no)
+		(at 111.76 139.7 0)
+		(size 45.72 20.955)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c2529e81-f8d6-4bd5-9461-3cd12e46bbdd")
+	)
+	(text_box "Split\nUSB-C\ncable"
+		(exclude_from_sim no)
+		(at 129.54 109.22 0)
+		(size 10.16 27.94)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "fdf9090b-46df-49b4-824a-deb043a569d8")
+	)
+	(text "D-"
+		(exclude_from_sim no)
+		(at 135.128 125.984 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06e227ad-8049-419a-aaf1-2a234308d522")
+	)
+	(text "5v"
+		(exclude_from_sim no)
+		(at 133.985 111.125 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c3a8d0b-0af9-4260-aaa8-636f44876f33")
+	)
 	(text "KiCad"
 		(exclude_from_sim no)
 		(at 127.508 175.26 0)
@@ -963,7 +825,7 @@
 	)
 	(text "${TITLE}"
 		(exclude_from_sim no)
-		(at 95.25 78.74 0)
+		(at 91.44 64.77 0)
 		(effects
 			(font
 				(size 4 4)
@@ -972,9 +834,29 @@
 		)
 		(uuid "3219a71e-3be5-40a4-aaab-931cf5d72b17")
 	)
-	(text "The keyboard uses left and right mirrored  \nPCBs of the same schematic. See the shared \nsub sheet for details and descriptions."
+	(text "D+"
 		(exclude_from_sim no)
-		(at 94.742 99.822 0)
+		(at 134.493 118.491 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7ec564ef-b384-497e-9563-5a02b6c7d199")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 133.985 114.935 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "94f86e60-72bc-4f82-930d-0a5fb3a5965f")
+	)
+	(text "The keyboard uses left and right mirrored  \nPCB halves of mostly the same schematic.\n\nThe schematic differences are to use the hardware TX/RX\nfor two wire split.\n\nSee the shared sub sheet for details and descriptions."
+		(exclude_from_sim no)
+		(at 90.678 96.266 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -1607,91 +1489,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 113.03 137.16 0)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "97a6218b-6b93-4652-8aa1-b9705723272f")
-		(property "Reference" "JP101"
-			(at 107.696 138.176 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "Wired Left"
-			(at 113.03 139.954 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Dactyl_basics:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 113.03 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 113.03 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 113.03 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Config" "DNF"
-			(at 113.03 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" ""
-			(at 113.03 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "339ac86c-4020-437d-931b-d52279eb2de2")
-		)
-		(pin "1"
-			(uuid "3f7efc23-4b11-4b44-bc2c-05a977e27233")
-		)
-		(instances
-			(project "Dactyl MCU Breakout"
-				(path "/454146f1-d25e-490f-a0db-4f993607d919"
-					(reference "JP101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Mechanical:MountingHole")
 		(at 49.53 184.15 0)
 		(unit 1)
@@ -1938,121 +1735,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:D_Small")
-		(at 119.38 137.16 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b81d23fb-9eb2-44a8-a2ed-5cdc8635f4fa")
-		(property "Reference" "D101"
-			(at 121.412 138.176 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "D_Small"
-			(at 118.364 139.954 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Diode_SMD:D_SOD-323"
-			(at 119.38 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 137.16 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Diode, small symbol"
-			(at 119.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 119.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 119.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "JLC PCBA Type" "Econom"
-			(at 119.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "C2128"
-			(at 119.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Role" "Split"
-			(at 119.38 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "fc481333-510a-404b-8e6f-46c2c926f99a")
-		)
-		(pin "1"
-			(uuid "1849c2c5-605a-43af-8b83-7fb691d1f937")
-		)
-		(instances
-			(project "Dactyl MCU Breakout"
-				(path "/454146f1-d25e-490f-a0db-4f993607d919"
-					(reference "D101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:PWR_FLAG")
 		(at 139.7 191.77 180)
 		(unit 1)
@@ -2248,8 +1930,8 @@
 		)
 	)
 	(sheet
-		(at 100.33 110.49)
-		(size 29.21 19.05)
+		(at 97.155 109.22)
+		(size 26.035 22.86)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2260,7 +1942,7 @@
 		)
 		(uuid "0f72ce67-b380-481c-afb4-102f931d77e2")
 		(property "Sheetname" "Left"
-			(at 100.33 109.7784 0)
+			(at 97.155 108.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2269,7 +1951,7 @@
 			)
 		)
 		(property "Sheetfile" "board_half.kicad_sch"
-			(at 100.33 130.1246 0)
+			(at 97.155 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2277,25 +1959,45 @@
 				(justify left top)
 			)
 		)
-		(pin "col0" output
-			(at 100.33 125.73 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "6f426efb-b2db-4354-b96f-6faa0824e140")
-		)
-		(pin "row4" input
-			(at 129.54 125.73 0)
+		(pin "SPLIT+_VICAD1" input
+			(at 123.19 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "d322196c-91db-45cf-b3a3-a9cccde9ed81")
+			(uuid "aa78d625-e00c-4fe4-8f94-35ee0a4e19f6")
+		)
+		(pin "SPLIT-_R5" input
+			(at 123.19 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "5a90e8b1-9f70-477a-af51-4ff0a5073bce")
+		)
+		(pin "UART_RX" input
+			(at 123.19 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "64c8b20e-899b-466f-b997-6fbc90e6bd0d")
+		)
+		(pin "UART_TX" input
+			(at 123.19 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "caa45f48-0bbf-452f-b9b1-091908c59536")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
@@ -2306,8 +2008,8 @@
 		)
 	)
 	(sheet
-		(at 147.32 110.49)
-		(size 29.21 19.05)
+		(at 146.05 109.22)
+		(size 26.035 22.86)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2318,7 +2020,7 @@
 		)
 		(uuid "e235f658-1906-464a-832e-0ac06e788394")
 		(property "Sheetname" "Right"
-			(at 147.32 109.7784 0)
+			(at 146.05 108.5084 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2327,7 +2029,7 @@
 			)
 		)
 		(property "Sheetfile" "board_half.kicad_sch"
-			(at 147.32 130.1246 0)
+			(at 146.05 132.6646 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2335,25 +2037,45 @@
 				(justify left top)
 			)
 		)
-		(pin "col0" output
-			(at 147.32 125.73 180)
+		(pin "SPLIT+_VICAD1" input
+			(at 146.05 119.38 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "7d1bfe43-daab-4df2-ac02-2972d2a5c347")
+			(uuid "914fe057-8dff-44de-b8d9-02334466de66")
 		)
-		(pin "row4" input
-			(at 176.53 125.73 0)
+		(pin "SPLIT-_R5" input
+			(at 146.05 127 180)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
-			(uuid "c98e7bf1-dab6-4925-aa29-0d6d947aee6c")
+			(uuid "1b91c976-d431-462a-be67-38f8d61d04c2")
+		)
+		(pin "UART_RX" input
+			(at 146.05 129.54 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "f6c47502-3b9d-4b6a-a7a5-dfa7a245a389")
+		)
+		(pin "UART_TX" input
+			(at 146.05 121.92 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "4deb81d2-5d64-42a9-843a-6770200fecc2")
 		)
 		(instances
 			(project "Dactyl MCU Breakout"
