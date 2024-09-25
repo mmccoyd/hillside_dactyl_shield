@@ -8773,7 +8773,7 @@
 			(uuid "5f6c96e1-5735-4f96-906d-923f3dec7db4")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "J305")
 					(unit 1)
@@ -8842,7 +8842,7 @@
 			(uuid "5bd7e6de-4cb6-4b71-9526-a6e0764458b1")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "#FLG0306")
 					(unit 1)
@@ -8930,7 +8930,7 @@
 			(uuid "69ceec44-d0a4-41cc-98d8-74ea9326b917")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "H302")
 					(unit 1)
@@ -9029,7 +9029,7 @@
 			(uuid "f7e8400c-fcfa-415e-bc01-8c17ad04112f")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "F301")
 					(unit 1)
@@ -9133,7 +9133,7 @@
 			(uuid "606aa557-33b7-4bf2-9808-af1375821d61")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "J303")
 					(unit 1)
@@ -9231,7 +9231,7 @@
 			(uuid "9aef4b77-fbf0-4324-82f3-b10419f638c6")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "FB302")
 					(unit 1)
@@ -9335,7 +9335,7 @@
 			(uuid "ad81e3cd-7616-4288-bb1b-64366a9d3408")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "J304")
 					(unit 1)
@@ -9445,7 +9445,7 @@
 			(uuid "cd3eb7e1-fedd-4120-8d1a-6f2ed044aa71")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "SW301")
 					(unit 1)
@@ -9534,7 +9534,7 @@
 			(uuid "c7903cce-6bc4-4b08-960c-985fcb06259e")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "JP304")
 					(unit 1)
@@ -9632,7 +9632,7 @@
 			(uuid "ae52c39e-2636-477e-b2d3-fc529cd6ec2b")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "R301")
 					(unit 1)
@@ -9771,7 +9771,7 @@
 			(uuid "628248d6-dba5-41fc-8348-9a2f2a6c5662")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "J308")
 					(unit 1)
@@ -9861,7 +9861,7 @@
 			(uuid "8492342b-edcc-411b-aea5-93f67751997a")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "J301")
 					(unit 1)
@@ -9961,7 +9961,7 @@
 			(uuid "12789aca-39ec-4c7b-b5ed-81a8c7cca4d2")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "J306")
 					(unit 1)
@@ -10073,7 +10073,7 @@
 			(uuid "a3a0360b-85ff-4672-b4b4-86be56757e9a")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "U301")
 					(unit 1)
@@ -10142,7 +10142,7 @@
 			(uuid "22729870-0a60-4812-923b-744ca6b2ace3")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "#FLG0302")
 					(unit 1)
@@ -10240,7 +10240,7 @@
 			(uuid "fd701aec-cb40-4ef6-9f10-b09d9c0e682e")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "D304")
 					(unit 1)
@@ -10330,7 +10330,7 @@
 			(uuid "182621cf-3534-4048-8379-39d347d32c2a")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "JP305")
 					(unit 1)
@@ -10430,7 +10430,7 @@
 			(uuid "67eabc55-0f9e-4f83-82ab-3d46341161db")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "C306")
 					(unit 1)
@@ -10585,7 +10585,7 @@
 			(uuid "34a3cc07-4df7-4a28-adfe-9b81bd5c2793")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "U302")
 					(unit 1)
@@ -10674,7 +10674,7 @@
 			(uuid "842f0394-a9a9-46f9-944c-a8f7c54e0b34")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "JP303")
 					(unit 1)
@@ -10765,7 +10765,7 @@
 			(uuid "5b1c6a36-d309-47b0-ac94-fcd930591943")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "SW302")
 					(unit 1)
@@ -10862,7 +10862,7 @@
 			(uuid "84ba9681-7702-4957-8405-498a1d90b126")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "D303")
 					(unit 1)
@@ -10973,7 +10973,7 @@
 			(uuid "a4b8f2a6-ff23-4ba0-9860-61c2da3d5bc6")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "SW303")
 					(unit 1)
@@ -11062,7 +11062,7 @@
 			(uuid "a04b8191-87a7-40e8-ab92-2ef2b0a08518")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "JP301")
 					(unit 1)
@@ -11162,7 +11162,7 @@
 			(uuid "2eb9b6ac-c39a-46f7-972a-ee49e0d78f14")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "C304")
 					(unit 1)
@@ -11252,7 +11252,7 @@
 			(uuid "22d3e296-ef09-4355-9dc5-a7678fe1f813")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "JP306")
 					(unit 1)
@@ -11342,7 +11342,7 @@
 			(uuid "c3a3cc4c-6dfc-4b6d-bb56-fe92ef16d830")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "JP302")
 					(unit 1)
@@ -11442,7 +11442,7 @@
 			(uuid "07c84e7e-730b-403f-930f-13e9bf433a42")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "D301")
 					(unit 1)
@@ -11511,7 +11511,7 @@
 			(uuid "7f4f437c-a9a4-4db0-947a-693cdeb1c99e")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "#FLG0308")
 					(unit 1)
@@ -11596,7 +11596,7 @@
 			)
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "H301")
 					(unit 1)
@@ -11665,7 +11665,7 @@
 			(uuid "8129ee75-5233-4448-9b95-b796fec393fc")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "#FLG0305")
 					(unit 1)
@@ -11736,7 +11736,7 @@
 			(uuid "c1eb0352-814d-4f17-b9b4-e0a5f74796fd")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "TP301")
 					(unit 1)
@@ -11805,7 +11805,7 @@
 			(uuid "da5918ac-6b12-4e2a-874e-9aad688bf5e6")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "#FLG0307")
 					(unit 1)
@@ -11957,7 +11957,7 @@
 			(uuid "b80a5d31-8d71-459f-b9e5-b0a74cdd0db7")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "J302")
 					(unit 1)
@@ -12057,7 +12057,7 @@
 			(uuid "5772e913-df89-48d3-a1c8-89d5bc393488")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "C305")
 					(unit 1)
@@ -12157,7 +12157,7 @@
 			(uuid "412a8e09-c4af-4e9c-b221-25e3242669e8")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2"
 					(reference "J307")
 					(unit 1)

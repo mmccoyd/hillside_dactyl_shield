@@ -968,7 +968,7 @@
 			(uuid "a25845b3-1583-4a68-962a-41195391989a")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919"
 					(reference "TP104")
 					(unit 1)
@@ -1100,7 +1100,7 @@
 			(uuid "95d07882-e7c0-4001-a43b-a0ff5597620a")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919"
 					(reference "#FLG0104")
 					(unit 1)
@@ -1182,7 +1182,7 @@
 			)
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919"
 					(reference "H102")
 					(unit 1)
@@ -1264,7 +1264,7 @@
 			)
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919"
 					(reference "FID102")
 					(unit 1)
@@ -1346,7 +1346,7 @@
 			)
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919"
 					(reference "FID103")
 					(unit 1)
@@ -1480,7 +1480,7 @@
 			(uuid "19b0f20a-8e38-4928-9380-ff6b92cdd3d7")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919"
 					(reference "TP103")
 					(unit 1)
@@ -1726,7 +1726,7 @@
 			)
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919"
 					(reference "H103")
 					(unit 1)
@@ -1791,7 +1791,7 @@
 			(uuid "391abfc5-9ad7-45e2-ace7-493b0f585b5f")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919"
 					(reference "#FLG0102")
 					(unit 1)
@@ -1921,7 +1921,7 @@
 			(uuid "b65442ca-6b98-47e0-b0eb-1ed074552ba7")
 		)
 		(instances
-			(project "Dactyl MCU Breakout"
+			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919"
 					(reference "#FLG0103")
 					(unit 1)

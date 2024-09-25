@@ -746,7 +746,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Dactyl MCU Breakout.kicad_pro",
+    "filename": "Dactyl Shield.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -914,7 +914,7 @@
       "plot": "./mcu_breakout",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Dactyl MCU Breakout.step",
+      "step": "Dactyl Shield.step",
       "svg": "",
       "vrml": ""
     },
