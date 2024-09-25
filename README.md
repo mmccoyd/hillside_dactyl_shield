@@ -1,6 +1,6 @@
 # Readme
 
-These MCU breakout boards link the parts of a small Dactyl keyboard:
+These shields link the parts of a small Dactyl keyboard:
  the MCU, key matrix, battery, USB-C split, display, and underglow.
 The board fits below the index columns and display area of a
   choc Dactyl keyboard.
@@ -12,7 +12,7 @@ Though designed for the [Hillside Dactyl 50 xxx],
 
 There are three main choice points in a features vs cost trade off.
 
-- A simple breakout for rows, columns, reset, and battery with switch
+- A simple shield for rows, columns, reset, and a battery with a switch
   using a two layer board at low cost.
 - Wired split with ESD protection,
   by adding PCBA parts placement; though you could hand solder most of that.
@@ -62,7 +62,7 @@ Currently, the outer layer ground fills also provide at least a low
 But with two layers,
   the signal integrity for the matrix, the LED, and the display is unknown
   and an improper spurious emissions profile seems likely.
-Leaving the outer ground unconnected to ensure the breakout is only used
+Leaving the outer ground unconnected to ensure the shield is only used
   as designed as a four layer board
   would seem to just ensure someone forked it, connected ground,
   and everyone then missed all the
@@ -97,7 +97,7 @@ A broader example of its use in a keyboard can be found in the
 
 ## Firmware
 
-These breakouts were used to create the Hillside Dactyl 50,
+These shields were used to create the Hillside Dactyl 50,
   so its [ZMK firmware xxx] should be a helpful starting point
   when creating similar Dactyls.
 
@@ -122,9 +122,9 @@ If you want to build directly from the source,
 - The PCBA is configured for the Vik connector and battery and LED switches.
   It uses KiBot and is being tested using JLC's Economic PCBA.
 
-## Other breakouts
+## Other controller boards
 
-- A breakout with a built-in processor is
+- A board with a built-in processor is
 [BastardKB](https://bastardkb.com/)'s [Splinktegrated](https://bastardkb.com/product/splinktegrated-rp2040-controller/)
 - The [Keebio Stampy](https://keeb.io/products/stampy-prototypes-rp2040-usb-c-controller-board-for-handwiring)
    RP2040 has three integrated switch footprints plus 26 pin breakouts.
