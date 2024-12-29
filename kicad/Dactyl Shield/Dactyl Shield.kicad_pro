@@ -878,7 +878,7 @@
       },
       {
         "netclass": "power_wide",
-        "pattern": "/(Left|Right)/(split_RAW|VCC|VCC_LED.)"
+        "pattern": "/(Left|Right)/(split_RAW|VCC|VCC_LED.*|VCC_RGB.)"
       },
       {
         "netclass": "Display",
@@ -1026,7 +1026,7 @@
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Role"
     },
     "connection_grid_size": 50.0,
     "drawing": {

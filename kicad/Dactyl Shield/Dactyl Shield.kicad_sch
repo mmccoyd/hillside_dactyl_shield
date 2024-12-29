@@ -408,6 +408,16 @@
 		)
 		(uuid "03127271-ffdd-466f-8009-55a5ce3f9c2a")
 	)
+	(polyline
+		(pts
+			(xy 135.89 121.285) (xy 138.43 119.38)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "17559f36-8b56-485e-b664-89e890c3b53e")
+	)
 	(wire
 		(pts
 			(xy 146.05 127) (xy 142.24 127)
@@ -468,6 +478,16 @@
 		)
 		(uuid "4667cc5e-ef36-4d76-80c3-4b461706b3d9")
 	)
+	(polyline
+		(pts
+			(xy 130.81 119.38) (xy 133.35 117.475)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4b49d009-e0ec-4987-a0b5-12657ff62b16")
+	)
 	(wire
 		(pts
 			(xy 146.05 119.38) (xy 142.24 119.38)
@@ -490,7 +510,7 @@
 	)
 	(polyline
 		(pts
-			(xy 137.16 125.73) (xy 138.43 127)
+			(xy 136.525 125.095) (xy 138.43 127)
 		)
 		(stroke
 			(width 0)
@@ -588,6 +608,16 @@
 		)
 		(uuid "849152e2-a089-4cd7-bbc2-6596357b01a9")
 	)
+	(polyline
+		(pts
+			(xy 135.89 117.475) (xy 138.43 119.38)
+		)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(uuid "8fd00fb7-2dd1-4647-897e-3236158e6c93")
+	)
 	(wire
 		(pts
 			(xy 123.19 127) (xy 127 127)
@@ -640,7 +670,7 @@
 	)
 	(polyline
 		(pts
-			(xy 137.16 128.27) (xy 138.43 127)
+			(xy 136.525 128.905) (xy 138.43 127)
 		)
 		(stroke
 			(width 0)
@@ -680,6 +710,16 @@
 	)
 	(polyline
 		(pts
+			(xy 130.81 119.38) (xy 133.35 121.285)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee7c3266-afb3-4e0a-bbfd-3da876a21150")
+	)
+	(polyline
+		(pts
 			(xy 158.75 171.45) (xy 36.83 171.45)
 		)
 		(stroke
@@ -707,10 +747,10 @@
 		)
 		(uuid "4a61862d-abae-43fc-8344-e4e4a9158739")
 	)
-	(text_box "USB-C cable use:\nWe are not sending USB protocal over the split USB-C cable.\nOur resistors ask for no power, but we accept 5v power."
+	(text_box "USB-C cable use:\n- We aren't sending USB protocal over the split USB-C cable.\n- Our split USB resistors ask for no power, but we accept 5v power in case some accidental computer host isn't doing what it should."
 		(exclude_from_sim no)
-		(at 162.56 145.415 0)
-		(size 29.21 15.24)
+		(at 162.56 141.605 0)
+		(size 48.26 17.78)
 		(stroke
 			(width 0)
 			(type dash)
@@ -726,10 +766,10 @@
 		)
 		(uuid "509be962-c49d-4344-b305-0a366525b293")
 	)
-	(text_box "Caveat:\nI'm not an electrical engineer. This is my best cut at the right approach after much reading and creating a few boards that do work. I had EE classes within my CS degrees, but this is outside of that."
+	(text_box "Caveat:\nI'm not an electrical engineer. This is my best cut at the right approach after much reading plus creating a few boards that seem to work fine. I had EE classes within my CS degrees, but this is outside of that."
 		(exclude_from_sim no)
-		(at 201.93 55.88 0)
-		(size 29.21 21.59)
+		(at 194.945 45.72 0)
+		(size 61.595 24.13)
 		(stroke
 			(width 0)
 			(type dash)
@@ -739,13 +779,13 @@
 		)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 2 2)
 			)
 			(justify left top)
 		)
 		(uuid "531de7d3-36e7-40e3-bc08-ba77e9b67edc")
 	)
-	(text_box "The wired split can be:\n\n- One wire:\n  D+: Left RX <-> Right TX\n      mainy right to left.\n\n- Two wire: \n  D+: Left RX <- Right TX \n  D-: Left TX -> Right RX"
+	(text_box "The wired split can be:\n\n- One wire, though mainly right to left:\n  D+:   Left RX <-> Right TX\n\n- Two wire: \n  D+:   Left RX <-- Right TX \n  D-:   Left TX --> Right RX"
 		(exclude_from_sim no)
 		(at 111.76 139.7 0)
 		(size 45.72 20.955)
@@ -836,7 +876,7 @@
 	)
 	(text "D+"
 		(exclude_from_sim no)
-		(at 134.493 118.491 0)
+		(at 134.874 118.618 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -964,6 +1004,42 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 139.7 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 139.7 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "DNF"
+			(at 139.7 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" "Split"
+			(at 139.7 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a25845b3-1583-4a68-962a-41195391989a")
 		)
@@ -1023,6 +1099,42 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 139.7 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 139.7 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 139.7 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "DNF"
+			(at 139.7 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" "Split"
 			(at 139.7 191.77 0)
 			(effects
 				(font
@@ -1181,6 +1293,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 49.53 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 49.53 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919"
@@ -1255,6 +1385,24 @@
 			)
 		)
 		(property "Role" "Assembly"
+			(at 73.66 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 73.66 190.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 73.66 190.5 0)
 			(effects
 				(font
@@ -1345,6 +1493,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 73.66 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 73.66 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project "Dactyl Shield"
 				(path "/454146f1-d25e-490f-a0db-4f993607d919"
@@ -1401,6 +1567,42 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 110.49 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 110.49 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 110.49 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "DNF"
+			(at 110.49 191.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" "Split"
 			(at 110.49 191.77 0)
 			(effects
 				(font
@@ -1468,6 +1670,42 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 110.49 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 110.49 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 110.49 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Config" "DNF"
+			(at 110.49 198.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Role" "Split"
 			(at 110.49 198.12 0)
 			(effects
 				(font
@@ -1561,6 +1799,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 49.53 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 49.53 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/454146f1-d25e-490f-a0db-4f993607d919"
@@ -1643,6 +1899,24 @@
 				(hide yes)
 			)
 		)
+		(property "Sim.Device" ""
+			(at 73.66 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
+			(at 73.66 184.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(instances
 			(project ""
 				(path "/454146f1-d25e-490f-a0db-4f993607d919"
@@ -1717,6 +1991,24 @@
 			)
 		)
 		(property "Role" "Assembly"
+			(at 49.53 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" ""
+			(at 49.53 196.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" ""
 			(at 49.53 196.85 0)
 			(effects
 				(font
