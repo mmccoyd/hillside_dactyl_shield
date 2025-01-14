@@ -747,7 +747,7 @@
 		)
 		(uuid "4a61862d-abae-43fc-8344-e4e4a9158739")
 	)
-	(text_box "Split USB-C cable use:\n\n- We don't send USB protocal over the split USB-C cable.\n- Yet we follow the protocal in having our split USB resistors ask for no power, and we accept 5v power in case some accidental computer host isn't doing what it should."
+	(text_box "Split USB-C cable use:\n\n- We don't send USB protocal over the split USB-C cable.\n- Yet we follow the protocal in asking for no power using our split USB resistors, and we accept 5v power in case some accidental computer host ignores that."
 		(exclude_from_sim no)
 		(at 43.815 139.065 0)
 		(size 63.5 13.97)
