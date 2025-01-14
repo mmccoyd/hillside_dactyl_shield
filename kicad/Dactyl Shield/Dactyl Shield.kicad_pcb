@@ -9,8 +9,9 @@
 	(paper "USLetter")
 	(title_block
 		(title "Hillside Dactyl Shield")
-		(date "2024-09-25")
+		(date "2025-01-14")
 		(rev "0.1.0-alpha.2")
+		(comment 4 "Shield for Dactyl split keyboards")
 	)
 	(layers
 		(0 "F.Cu" signal)
@@ -10228,7 +10229,7 @@
 		)
 		(fp_arc
 			(start 6.938123 15.132041)
-			(mid 6.337062 14.8831)
+			(mid 6.337066 14.8831)
 			(end 6.088123 14.282041)
 			(stroke
 				(width 0.12)
@@ -10239,7 +10240,7 @@
 		)
 		(fp_arc
 			(start 8.236041 -15.740877)
-			(mid 8.837086 -15.491923)
+			(mid 8.837089 -15.491924)
 			(end 9.086041 -14.890877)
 			(stroke
 				(width 0.12)
@@ -21244,7 +21245,7 @@
 		)
 		(fp_arc
 			(start 6.938123 15.132041)
-			(mid 6.337062 14.8831)
+			(mid 6.337066 14.8831)
 			(end 6.088123 14.282041)
 			(stroke
 				(width 0.12)
@@ -21255,7 +21256,7 @@
 		)
 		(fp_arc
 			(start 8.236041 -15.740877)
-			(mid 8.837086 -15.491923)
+			(mid 8.837089 -15.491924)
 			(end 9.086041 -14.890877)
 			(stroke
 				(width 0.12)

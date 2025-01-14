@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Hillside Dactyl Shield")
-		(date "2024-06-04")
+		(date "2025-01-14")
 		(rev "0.1.0-alpha.2")
 		(comment 1 "  Headers: MCU, key matrix and display")
 		(comment 2 "  On board: reset, battery switch and LEDs")
@@ -470,7 +470,7 @@
 	)
 	(polyline
 		(pts
-			(xy 36.83 171.45) (xy 36.83 203.2)
+			(xy 36.83 172.085) (xy 36.83 203.835)
 		)
 		(stroke
 			(width 0)
@@ -500,7 +500,7 @@
 	)
 	(polyline
 		(pts
-			(xy 90.17 57.15) (xy 158.75 57.15)
+			(xy 102.87 50.165) (xy 171.45 50.165)
 		)
 		(stroke
 			(width 0)
@@ -520,7 +520,7 @@
 	)
 	(polyline
 		(pts
-			(xy 158.75 67.31) (xy 90.17 67.31)
+			(xy 171.45 60.325) (xy 102.87 60.325)
 		)
 		(stroke
 			(width 0)
@@ -530,7 +530,7 @@
 	)
 	(polyline
 		(pts
-			(xy 90.17 57.15) (xy 90.17 67.31)
+			(xy 102.87 50.165) (xy 102.87 60.325)
 		)
 		(stroke
 			(width 0)
@@ -600,7 +600,7 @@
 	)
 	(polyline
 		(pts
-			(xy 158.75 57.15) (xy 158.75 67.31)
+			(xy 171.45 50.165) (xy 171.45 60.325)
 		)
 		(stroke
 			(width 0)
@@ -720,7 +720,7 @@
 	)
 	(polyline
 		(pts
-			(xy 158.75 171.45) (xy 36.83 171.45)
+			(xy 158.75 172.085) (xy 36.83 172.085)
 		)
 		(stroke
 			(width 0)
@@ -728,10 +728,10 @@
 		)
 		(uuid "fc1d237c-c6fd-483c-bd56-cd332188001d")
 	)
-	(text_box "Hack to avoid isolated fill warnings\non the paneling side rails."
+	(text_box "Hack to avoid warnins about\nisolated fills on the panel side rails."
 		(exclude_from_sim no)
 		(at 107.95 181.61 0)
-		(size 36.83 6.35)
+		(size 38.735 6.35)
 		(stroke
 			(width -0.0001)
 			(type default)
@@ -747,10 +747,10 @@
 		)
 		(uuid "4a61862d-abae-43fc-8344-e4e4a9158739")
 	)
-	(text_box "USB-C cable use:\n- We aren't sending USB protocal over the split USB-C cable.\n- Our split USB resistors ask for no power, but we accept 5v power in case some accidental computer host isn't doing what it should."
+	(text_box "Split USB-C cable use:\n\n- We don't send USB protocal over the split USB-C cable.\n- Yet we follow the protocal in having our split USB resistors ask for no power, and we accept 5v power in case some accidental computer host isn't doing what it should."
 		(exclude_from_sim no)
-		(at 162.56 141.605 0)
-		(size 48.26 17.78)
+		(at 43.815 139.065 0)
+		(size 63.5 13.97)
 		(stroke
 			(width 0)
 			(type dash)
@@ -766,9 +766,9 @@
 		)
 		(uuid "509be962-c49d-4344-b305-0a366525b293")
 	)
-	(text_box "Caveat:\nI'm not an electrical engineer. This is my best cut at the right approach after much reading plus creating a few boards that seem to work fine. I had EE classes within my CS degrees, but this is outside of that."
+	(text_box "Caveat:\nI'm not an electrical engineer. This is my best cut at the right approach after much reading plus creating a few boards that seem to work fine. I had EE classes in my CS degrees, but this is outside of that."
 		(exclude_from_sim no)
-		(at 194.945 45.72 0)
+		(at 194.945 48.895 0)
 		(size 61.595 24.13)
 		(stroke
 			(width 0)
@@ -785,10 +785,29 @@
 		)
 		(uuid "531de7d3-36e7-40e3-bc08-ba77e9b67edc")
 	)
-	(text_box "The wired split can be:\n\n- One wire, though mainly right to left:\n  D+:   Left RX <-> Right TX\n\n- Two wire: \n  D+:   Left RX <-- Right TX \n  D-:   Left TX --> Right RX"
+	(text_box "With a wireless split: The UART RX and TX pins can be used for other things.\nSuch as a fifth row or the additional signal line to the Vic connector.\nThough they are wired differently on each board half.\n\nWith a one-wire split: The left RX and right TX pins carry the split, \nand the other can be used for something else.\n\nWith a two-wire split: Both UART RX and TX are used for the split."
 		(exclude_from_sim no)
-		(at 111.76 139.7 0)
-		(size 45.72 20.955)
+		(at 162.56 139.065 0)
+		(size 78.74 18.415)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b75d0081-e112-4703-ba95-3737b77c7294")
+	)
+	(text_box "The wired split can be:\n\n- One wire, though mainly right to left:\n  D+:   Left RX <-> Right TX\n\n- Two wire: \n  D+:   Left RX <-- Right TX \n  D-:   Left TX --> Right RX\n\nBased on firmware needs."
+		(exclude_from_sim no)
+		(at 111.76 139.065 0)
+		(size 45.72 21.59)
 		(stroke
 			(width 0)
 			(type dash)
@@ -865,7 +884,7 @@
 	)
 	(text "${TITLE}"
 		(exclude_from_sim no)
-		(at 91.44 64.77 0)
+		(at 104.14 57.785 0)
 		(effects
 			(font
 				(size 4 4)
@@ -894,9 +913,9 @@
 		)
 		(uuid "94f86e60-72bc-4f82-930d-0a5fb3a5965f")
 	)
-	(text "The keyboard uses left and right mirrored  \nPCB halves of mostly the same schematic.\n\nThe schematic differences are to use the hardware TX/RX\nfor two wire split.\n\nSee the shared sub sheet for details and descriptions."
+	(text "The keyboard uses left and right mirrored  \nPCB halves of mostly the same schematic.\n\nThe schematic differences (below) are for use of the \nhardware TX/RX for the two wire split.\n\nSee the shared sub sheet for other details and descriptions."
 		(exclude_from_sim no)
-		(at 90.678 96.266 0)
+		(at 90.678 95.631 0)
 		(effects
 			(font
 				(size 2.5 2.5)
@@ -907,7 +926,6 @@
 	)
 	(label "rail_LL"
 		(at 102.87 198.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -918,7 +936,6 @@
 	)
 	(label "rail_UL"
 		(at 102.87 191.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -929,7 +946,6 @@
 	)
 	(label "rail_UR"
 		(at 132.08 191.77 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -940,7 +956,6 @@
 	)
 	(label "rail_LR"
 		(at 132.08 198.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
