@@ -19,8 +19,8 @@ on:
 
 # Some nicer output names
 env:
-  BOARD: Dactyl MCU Breakout
-  SHORT_NAME: hill_breakout
+  BOARD: Dactyl Shield
+  SHORT_NAME: hill_dac_shield
 
 jobs:
   generate_fab_files:
