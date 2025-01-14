@@ -1,3 +1,9 @@
+# Four or two layer PCB
+
+The board is designed as a four layer board,
+but xxx 
+with more signal noise. 
+
 # Two layer board option
 
 The four layer board construction,

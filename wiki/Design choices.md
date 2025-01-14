@@ -1,5 +1,12 @@
 # Design choices for use in a Dactyl
 
+## Dumb and smart LED options, for low idle draw or RGB color.
+
+For mobile use low draw is important, making smart RGB LEDs an issue.
+A simple red LED can provide a helpful mode indicator, with no idle draw.
+Yet pretty colors can be nice at a desk, when idle draw is not an issue.
+So we provide the option of either.
+
 ## No extra ESD protection in front of MCU board
 
 The ProMicro footprint we're using doesn't break out the USB data pins.
