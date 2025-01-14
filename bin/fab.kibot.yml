@@ -6,8 +6,7 @@ kibot:
   version: 1
 
 # include:
-# Maybe we should have `include JLCPCB` here for the _JLCPCB_XXX below.
-# Yet it works and adding that may change it.
+
 # Our _JLCPCB_XX below are likely just similarly named.
 
 preflight:
@@ -24,7 +23,7 @@ filters:
         regex: '^C\d+'
 
   - name: rot_hillside
-    comment: 'Adjust rotation and position of Vic and USB-C'
+    comment: 'Adjust rotation and position of some parts'
     type: rot_footprint
     rotations_and_offsets:
       - field: _field_lcsc_part # Vic
@@ -39,6 +38,10 @@ filters:
       - field: _field_lcsc_part # ESD SRV05
         regex: 'C20615829'
         angle: 90
+
+      # - field: _field_lcsc_part # LED transistor. But angle doesn't change.
+      #   regex: 'C20917'
+      #   angle: 180
 
 outputs:
 
