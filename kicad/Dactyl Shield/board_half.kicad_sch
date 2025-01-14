@@ -9078,7 +9078,6 @@
 	)
 	(label "GND"
 		(at 250.19 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9089,7 +9088,6 @@
 	)
 	(label "GND"
 		(at 25.4 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9100,7 +9098,6 @@
 	)
 	(label "SPI0.COPI{slash}SCL"
 		(at 220.98 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9111,7 +9108,6 @@
 	)
 	(label "LED"
 		(at 152.4 163.83 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9122,7 +9118,6 @@
 	)
 	(label "GND"
 		(at 119.38 160.02 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9133,7 +9128,6 @@
 	)
 	(label "row3"
 		(at 194.31 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9144,7 +9138,6 @@
 	)
 	(label "col3"
 		(at 120.65 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9155,7 +9148,6 @@
 	)
 	(label "VCC_RGB1"
 		(at 176.53 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9166,7 +9158,6 @@
 	)
 	(label "SPI0.SCK{slash}SDA"
 		(at 222.25 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9177,7 +9168,6 @@
 	)
 	(label "SPI0{SPI}"
 		(at 208.28 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9188,7 +9178,6 @@
 	)
 	(label "row4"
 		(at 120.65 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9199,7 +9188,6 @@
 	)
 	(label "VCC"
 		(at 160.02 191.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9210,7 +9198,6 @@
 	)
 	(label "LED_out"
 		(at 203.2 148.59 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9221,7 +9208,6 @@
 	)
 	(label "VCC"
 		(at 109.22 116.84 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9232,7 +9218,6 @@
 	)
 	(label "RAW_BEADED"
 		(at 53.34 73.66 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9243,7 +9228,6 @@
 	)
 	(label "GND"
 		(at 127 119.38 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9254,7 +9238,6 @@
 	)
 	(label "GND"
 		(at 60.96 116.84 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9265,7 +9248,6 @@
 	)
 	(label "SPI0.SCK{slash}SDA"
 		(at 190.5 45.72 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9276,7 +9258,6 @@
 	)
 	(label "VCC_LED1"
 		(at 158.75 120.65 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9287,7 +9268,6 @@
 	)
 	(label "col0"
 		(at 194.31 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9298,7 +9278,6 @@
 	)
 	(label "col2"
 		(at 120.65 78.74 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9309,7 +9288,6 @@
 	)
 	(label "row4"
 		(at 175.26 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9320,7 +9298,6 @@
 	)
 	(label "SPI0.CIPO"
 		(at 222.25 77.47 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9331,7 +9308,6 @@
 	)
 	(label "GND"
 		(at 160.02 195.58 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9342,7 +9318,6 @@
 	)
 	(label "GND"
 		(at 179.07 125.73 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9353,7 +9328,6 @@
 	)
 	(label "VCC_LED2"
 		(at 158.75 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9364,7 +9338,6 @@
 	)
 	(label "SPI0.COPI{slash}SCL"
 		(at 222.25 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9375,7 +9348,6 @@
 	)
 	(label "col4"
 		(at 125.73 63.5 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9386,7 +9358,6 @@
 	)
 	(label "LED_out"
 		(at 250.19 62.23 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9397,7 +9368,6 @@
 	)
 	(label "LED"
 		(at 167.64 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9408,7 +9378,6 @@
 	)
 	(label "split_RAW"
 		(at 43.18 73.66 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9419,7 +9388,6 @@
 	)
 	(label "col5"
 		(at 194.31 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9430,7 +9398,6 @@
 	)
 	(label "SPI0.COPI{slash}SCL"
 		(at 190.5 49.53 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9441,7 +9408,6 @@
 	)
 	(label "VCC_RGB2"
 		(at 162.56 186.69 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9452,7 +9418,6 @@
 	)
 	(label "SPI0.SC"
 		(at 190.5 40.64 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9463,7 +9428,6 @@
 	)
 	(label "VCC_LED3"
 		(at 158.75 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9474,7 +9438,6 @@
 	)
 	(label "col5"
 		(at 125.73 66.04 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9485,7 +9448,6 @@
 	)
 	(label "col0"
 		(at 125.73 53.34 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9496,7 +9458,6 @@
 	)
 	(label "col4"
 		(at 194.31 81.28 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9507,7 +9468,6 @@
 	)
 	(label "RAW"
 		(at 250.19 64.77 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9518,7 +9478,6 @@
 	)
 	(label "SPI0.SC"
 		(at 220.98 97.79 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9529,7 +9488,6 @@
 	)
 	(label "VCC_LED"
 		(at 120.65 110.49 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9540,7 +9498,6 @@
 	)
 	(label "row1"
 		(at 184.15 58.42 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9551,7 +9508,6 @@
 	)
 	(label "SPLIT-"
 		(at 73.66 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9562,7 +9518,6 @@
 	)
 	(label "VCC"
 		(at 240.03 92.71 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9573,7 +9528,6 @@
 	)
 	(label "VCC"
 		(at 132.08 45.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9584,7 +9538,6 @@
 	)
 	(label "col5"
 		(at 120.65 86.36 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9595,7 +9548,6 @@
 	)
 	(label "VCC_RGB1"
 		(at 162.56 182.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9606,7 +9558,6 @@
 	)
 	(label "GND"
 		(at 198.12 125.73 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9617,7 +9568,6 @@
 	)
 	(label "RST"
 		(at 109.22 160.02 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9628,7 +9578,6 @@
 	)
 	(label "GND"
 		(at 17.78 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9639,7 +9588,6 @@
 	)
 	(label "SPI0.COPI{slash}SCL"
 		(at 222.25 55.88 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9650,7 +9598,6 @@
 	)
 	(label "SPI0.CIPO"
 		(at 190.5 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9661,7 +9608,6 @@
 	)
 	(label "col1"
 		(at 120.65 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9672,7 +9618,6 @@
 	)
 	(label "RAW"
 		(at 87.63 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9683,7 +9628,6 @@
 	)
 	(label "VCC"
 		(at 250.19 52.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9694,7 +9638,6 @@
 	)
 	(label "col1"
 		(at 125.73 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9705,7 +9648,6 @@
 	)
 	(label "GND"
 		(at 240.03 95.25 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9716,7 +9658,6 @@
 	)
 	(label "row2"
 		(at 184.15 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9727,7 +9668,6 @@
 	)
 	(label "bat+"
 		(at 38.1 48.26 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9738,7 +9678,6 @@
 	)
 	(label "VCC_LED"
 		(at 162.56 179.07 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9749,7 +9688,6 @@
 	)
 	(label "GND"
 		(at 139.7 156.21 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9760,7 +9698,6 @@
 	)
 	(label "SPI0.SC"
 		(at 222.25 74.93 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9771,7 +9708,6 @@
 	)
 	(label "col4"
 		(at 120.65 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9782,7 +9718,6 @@
 	)
 	(label "POWER_SPLIT"
 		(at 82.55 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9793,7 +9728,6 @@
 	)
 	(label "GND"
 		(at 204.47 139.7 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9804,7 +9738,6 @@
 	)
 	(label "GND"
 		(at 57.15 81.28 270)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9815,7 +9748,6 @@
 	)
 	(label "CASE_SHIELD"
 		(at 123.19 186.69 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9826,7 +9758,6 @@
 	)
 	(label "GND"
 		(at 170.18 43.18 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9837,7 +9768,6 @@
 	)
 	(label "CASE_SHIELD"
 		(at 31.75 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9848,7 +9778,6 @@
 	)
 	(label "POWER_BAT"
 		(at 52.07 46.99 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9859,7 +9788,6 @@
 	)
 	(label "VCC_RGB2"
 		(at 195.58 111.76 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9870,7 +9798,6 @@
 	)
 	(label "GND"
 		(at 132.08 40.64 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9881,7 +9808,6 @@
 	)
 	(label "RAW"
 		(at 60.96 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9892,7 +9818,6 @@
 	)
 	(label "row0"
 		(at 167.64 38.1 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9903,7 +9828,6 @@
 	)
 	(label "row3"
 		(at 184.15 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9914,7 +9838,6 @@
 	)
 	(label "SPI0.SCK{slash}SDA"
 		(at 220.98 88.9 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9925,7 +9848,6 @@
 	)
 	(label "RAW"
 		(at 132.08 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9936,7 +9858,6 @@
 	)
 	(label "col3"
 		(at 125.73 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9947,7 +9868,6 @@
 	)
 	(label "RST"
 		(at 132.08 43.18 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9958,7 +9878,6 @@
 	)
 	(label "col2"
 		(at 125.73 58.42 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9969,7 +9888,6 @@
 	)
 	(label "SPI0.SCK{slash}SDA"
 		(at 222.25 52.07 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9980,7 +9898,6 @@
 	)
 	(label "VCC_LED4"
 		(at 158.75 138.43 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9991,7 +9908,6 @@
 	)
 	(label "row0"
 		(at 189.23 55.88 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10003,7 +9919,6 @@
 	(hierarchical_label "SPLIT+_VICAD1"
 		(shape input)
 		(at 250.19 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10015,7 +9930,6 @@
 	(hierarchical_label "SPLIT+_VICAD1"
 		(shape input)
 		(at 82.55 118.11 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10027,7 +9941,6 @@
 	(hierarchical_label "UART_RX"
 		(shape input)
 		(at 127 46.99 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10039,7 +9952,6 @@
 	(hierarchical_label "SPLIT-_R5"
 		(shape input)
 		(at 85.09 100.33 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10051,7 +9963,6 @@
 	(hierarchical_label "SPLIT-_R5"
 		(shape input)
 		(at 250.19 72.39 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10063,7 +9974,6 @@
 	(hierarchical_label "SPLIT-_R5"
 		(shape input)
 		(at 184.15 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -10075,7 +9985,6 @@
 	(hierarchical_label "UART_TX"
 		(shape input)
 		(at 127 49.53 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
