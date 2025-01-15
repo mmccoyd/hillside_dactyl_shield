@@ -110,9 +110,6 @@ In alpha.2 testing.
 [Releases]() has Gerber and PCBA files for ordering,
   those are where to start.
 
-If you want to build directly from the source,
-  a GitHub action creates Gerber and PCBA files using KiBot files in bin/.
-
 ## Design notes
 
 - The MCU goes face down.
@@ -123,6 +120,8 @@ If you want to build directly from the source,
   It uses KiBot and is being tested using JLC's Economic PCBA.
 
 ## Other controller boards
+
+Some other shields provide related abilities, including:
 
 - A board with a built-in processor is
 [BastardKB](https://bastardkb.com/)'s [Splinktegrated](https://bastardkb.com/product/splinktegrated-rp2040-controller/)

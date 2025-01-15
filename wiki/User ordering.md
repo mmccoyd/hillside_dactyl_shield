@@ -4,28 +4,31 @@ I've ordered it at JLC. The steps are:
 
 ## PCB
 
-- Material: FR-4
-- Layers: 4
-
-- Different designs: 2
-- Delivery Format: Panel by Customer
-- Thickness: 1.6 mm (optionally 1.0 or 1.2 mm, but there is little reason to)
-- Color: green (the only choice for an economical 4 layer PCBA board)
-
-- (Impedance Control: is not needed for such short SPI use)
-
-- Confirm production file: yes
-- Mark on PCB (order number): specify location
-
+-   Board
+    -   (Material: FR-4)
+    -   (Layers: 4)
+    -   (Type: Industrial/Consumer)
+-   PCB spec
+    -   Different designs: 2
+    -   Format: Panel by Customer
+    -   (Thickness: 1.6 mm. Optionally 1.0 or 1.2 mm, but little reason to)
+    -   (Color: green. The only choice for an economical 4 layer PCBA board)
+    -   (Material: standard)
+    -   Surface finish: 
+-   High-spec options
+    -   (Impedance Control: No. It isn't needed for such short SPI use)
+    -   Confirm production file: yes
+    -   Mark on PCB (order number): specify location
 - cost: $52  (if it were two layers without SPI display it would be only $12)
 
 ## PCBA
 
-- PCB Type: Economic
-- Side: Top
-- Qty: 5
-- Tooling: Added by Customer
-- Confirm parts: Yes
+-   (PCB Type: Economic)
+-   (Side: Top)
+-   (Qty: 5)
+-   Tooling: Added by Customer
+-   Confirm parts: Yes
+-   (Parts selection: Customer)
 
 - Advanced: defaults
 

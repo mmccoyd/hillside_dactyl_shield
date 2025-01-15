@@ -1,7 +1,7 @@
 # MCU options
 
-The Nice!nano wireless and ProMicro RP2040 wired are the main
-  MCU targets for this shield.
+The intended MCU's for this shield are the 
+    Nice!nano wireless and ProMicro RP2040 wired.
 
 ## Some relevant specs
 
