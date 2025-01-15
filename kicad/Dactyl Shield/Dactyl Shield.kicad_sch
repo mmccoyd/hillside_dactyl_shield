@@ -6,7 +6,7 @@
 	(paper "USLetter")
 	(title_block
 		(title "Hillside Dactyl Shield")
-		(date "2025-01-14")
+		(date "2025-01-15")
 		(rev "0.1.0-alpha.2")
 		(comment 1 "  Headers: MCU, key matrix and display")
 		(comment 2 "  On board: reset, battery switch and LEDs")

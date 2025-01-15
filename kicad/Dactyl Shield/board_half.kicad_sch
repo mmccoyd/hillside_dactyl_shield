@@ -6537,12 +6537,6 @@
 		(uuid "27dba73a-915d-47d6-a918-155311186823")
 	)
 	(junction
-		(at 82.55 46.99)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3239a8b8-8659-49ee-a32e-81d947839ae0")
-	)
-	(junction
 		(at 24.13 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6565,6 +6559,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ddff132-60ab-49fa-a0dc-e956d3ba6f8d")
+	)
+	(junction
+		(at 82.55 50.8)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "584859ad-2545-45af-bce1-d57f28aeacce")
 	)
 	(junction
 		(at 151.13 120.65)
@@ -6689,7 +6689,7 @@
 		(uuid "4d8e7401-f6ff-47e8-97f3-8a1d1f422881")
 	)
 	(no_connect
-		(at 49.53 52.07)
+		(at 49.53 45.72)
 		(uuid "5b3acb18-3c44-4700-9337-4517ac9a346d")
 	)
 	(no_connect
@@ -6823,7 +6823,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 46.99) (xy 82.55 46.99)
+			(xy 76.2 50.8) (xy 82.55 50.8)
 		)
 		(stroke
 			(width 0)
@@ -6903,7 +6903,7 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 46.99) (xy 82.55 49.53)
+			(xy 82.55 50.8) (xy 82.55 52.07)
 		)
 		(stroke
 			(width 0)
@@ -7190,16 +7190,6 @@
 			(type default)
 		)
 		(uuid "3204d291-a2cb-4f07-98cc-19fce5cf4977")
-	)
-	(wire
-		(pts
-			(xy 49.53 46.99) (xy 68.58 46.99)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3674cd50-5fc1-432a-8ff3-57d8b1479f2c")
 	)
 	(wire
 		(pts
@@ -7623,7 +7613,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 38.1) (xy 87.63 46.99)
+			(xy 87.63 38.1) (xy 87.63 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7833,7 +7823,7 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 46.99) (xy 82.55 46.99)
+			(xy 87.63 50.8) (xy 82.55 50.8)
 		)
 		(stroke
 			(width 0)
@@ -7923,7 +7913,17 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 57.15) (xy 82.55 73.66)
+			(xy 49.53 50.8) (xy 68.58 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "940ecee3-a9fa-48d4-a2ee-d7830b3aeb5a")
+	)
+	(wire
+		(pts
+			(xy 82.55 59.69) (xy 82.55 73.66)
 		)
 		(stroke
 			(width 0)
@@ -7933,7 +7933,7 @@
 	)
 	(polyline
 		(pts
-			(xy 13.97 36.83) (xy 13.97 57.15)
+			(xy 13.97 35.56) (xy 13.97 55.88)
 		)
 		(stroke
 			(width 0)
@@ -8143,7 +8143,7 @@
 	)
 	(polyline
 		(pts
-			(xy 63.5 36.83) (xy 63.5 57.15)
+			(xy 63.5 35.56) (xy 63.5 55.88)
 		)
 		(stroke
 			(width 0)
@@ -8213,7 +8213,7 @@
 	)
 	(polyline
 		(pts
-			(xy 13.97 36.83) (xy 63.5 36.83)
+			(xy 13.97 35.56) (xy 63.5 35.56)
 		)
 		(stroke
 			(width 0)
@@ -8263,7 +8263,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 49.53) (xy 39.37 49.53)
+			(xy 26.67 48.26) (xy 39.37 48.26)
 		)
 		(stroke
 			(width 0)
@@ -8583,7 +8583,7 @@
 	)
 	(polyline
 		(pts
-			(xy 63.5 57.15) (xy 13.97 57.15)
+			(xy 63.5 55.88) (xy 13.97 55.88)
 		)
 		(stroke
 			(width 0)
@@ -8834,7 +8834,7 @@
 	)
 	(text "Battery"
 		(exclude_from_sim no)
-		(at 29.972 40.64 0)
+		(at 29.972 39.37 0)
 		(effects
 			(font
 				(size 2 2)
@@ -9085,7 +9085,7 @@
 		(uuid "0414289b-b012-4f2e-88b4-7e25e5b168e7")
 	)
 	(label "GND"
-		(at 26.67 52.07 0)
+		(at 26.67 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9615,7 +9615,7 @@
 		(uuid "98b2b007-20e6-4c5f-82f6-89ba9b915060")
 	)
 	(label "RAW"
-		(at 87.63 46.99 0)
+		(at 87.63 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9665,7 +9665,7 @@
 		(uuid "9d197d19-3ab1-477f-b379-889aef0eee03")
 	)
 	(label "bat+"
-		(at 36.83 49.53 180)
+		(at 36.83 48.26 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9775,7 +9775,7 @@
 		(uuid "bfbfc6f7-c285-4c02-9c69-38abb219953d")
 	)
 	(label "POWER_BAT"
-		(at 52.07 46.99 0)
+		(at 50.8 50.8 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -11359,7 +11359,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_SPDT")
-		(at 44.45 49.53 0)
+		(at 44.45 48.26 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11367,7 +11367,7 @@
 		(dnp no)
 		(uuid "422df5b3-43cd-4d8d-aa89-7c31459d6630")
 		(property "Reference" "SW301"
-			(at 44.196 43.942 0)
+			(at 44.196 42.672 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11375,7 +11375,7 @@
 			)
 		)
 		(property "Value" "Battery"
-			(at 44.45 41.91 0)
+			(at 44.45 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11383,7 +11383,7 @@
 			)
 		)
 		(property "Footprint" "Dactyl:SW_SPDT_Battery"
-			(at 44.45 49.53 0)
+			(at 44.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11392,7 +11392,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 44.45 57.15 0)
+			(at 44.45 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11401,7 +11401,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 44.45 49.53 0)
+			(at 44.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11410,7 +11410,7 @@
 			)
 		)
 		(property "JLC PCBA Type" "Standard"
-			(at 44.45 49.53 0)
+			(at 44.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11419,7 +11419,7 @@
 			)
 		)
 		(property "Config" ""
-			(at 44.45 49.53 0)
+			(at 44.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11428,7 +11428,7 @@
 			)
 		)
 		(property "LCSC Part" "C221662"
-			(at 44.45 49.53 0)
+			(at 44.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11437,7 +11437,7 @@
 			)
 		)
 		(property "Role" "Batt"
-			(at 44.45 49.53 0)
+			(at 44.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11446,7 +11446,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 44.45 49.53 0)
+			(at 44.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11455,7 +11455,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 44.45 49.53 0)
+			(at 44.45 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11867,7 +11867,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
-		(at 21.59 49.53 0)
+		(at 21.59 48.26 0)
 		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11876,7 +11876,7 @@
 		(dnp no)
 		(uuid "5d05c511-8207-4119-9b57-4a028b65e277")
 		(property "Reference" "J301"
-			(at 21.336 46.736 0)
+			(at 21.336 45.466 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11884,7 +11884,7 @@
 			)
 		)
 		(property "Value" "JST"
-			(at 21.59 44.704 0)
+			(at 21.59 43.434 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11892,7 +11892,7 @@
 			)
 		)
 		(property "Footprint" "Dactyl:JST_PH_S2B-PH-K_1x02_P2.00mm_Horizontal"
-			(at 21.59 49.53 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11901,7 +11901,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 21.59 49.53 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11910,7 +11910,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 21.59 49.53 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11919,7 +11919,7 @@
 			)
 		)
 		(property "Config" "DNF"
-			(at 21.59 49.53 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11928,7 +11928,7 @@
 			)
 		)
 		(property "Role" "Battery"
-			(at 21.59 49.53 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11937,7 +11937,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 21.59 49.53 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11946,7 +11946,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 21.59 49.53 0)
+			(at 21.59 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13946,7 +13946,7 @@
 	)
 	(symbol
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 72.39 46.99 0)
+		(at 72.39 50.8 0)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -13954,7 +13954,7 @@
 		(dnp no)
 		(uuid "bc3a9039-58c8-4333-9c3d-cf018c678f03")
 		(property "Reference" "JP301"
-			(at 69.85 44.704 0)
+			(at 69.85 48.514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13962,7 +13962,7 @@
 			)
 		)
 		(property "Value" "Power Bat 3.7v"
-			(at 74.422 42.164 0)
+			(at 74.422 45.974 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13970,7 +13970,7 @@
 			)
 		)
 		(property "Footprint" "Dactyl_basics:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 72.39 46.99 0)
+			(at 72.39 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13979,7 +13979,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 72.39 46.99 0)
+			(at 72.39 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13988,7 +13988,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 72.39 46.99 0)
+			(at 72.39 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13997,7 +13997,7 @@
 			)
 		)
 		(property "Config" "DNF"
-			(at 72.39 46.99 0)
+			(at 72.39 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14006,7 +14006,7 @@
 			)
 		)
 		(property "Role" "Power"
-			(at 72.39 46.99 0)
+			(at 72.39 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14015,7 +14015,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 72.39 46.99 0)
+			(at 72.39 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14024,7 +14024,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 72.39 46.99 0)
+			(at 72.39 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14280,7 +14280,7 @@
 	(symbol
 		(lib_name "SolderJumper_2_Open_1")
 		(lib_id "Jumper:SolderJumper_2_Open")
-		(at 82.55 53.34 90)
+		(at 82.55 55.88 90)
 		(unit 1)
 		(exclude_from_sim yes)
 		(in_bom no)
@@ -14288,7 +14288,7 @@
 		(dnp no)
 		(uuid "cd607a73-787e-490a-b375-06967c526550")
 		(property "Reference" "JP302"
-			(at 87.63 54.61 90)
+			(at 87.63 57.15 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14296,7 +14296,7 @@
 			)
 		)
 		(property "Value" "Power Split 5v"
-			(at 91.948 52.324 90)
+			(at 91.948 54.864 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14304,7 +14304,7 @@
 			)
 		)
 		(property "Footprint" "Dactyl_basics:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 82.55 53.34 0)
+			(at 82.55 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14313,7 +14313,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 82.55 53.34 0)
+			(at 82.55 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14322,7 +14322,7 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 2-pole, open"
-			(at 82.55 53.34 0)
+			(at 82.55 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14331,7 +14331,7 @@
 			)
 		)
 		(property "Config" "DNF"
-			(at 82.55 53.34 0)
+			(at 82.55 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14340,7 +14340,7 @@
 			)
 		)
 		(property "Role" "Power"
-			(at 82.55 53.34 0)
+			(at 82.55 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14349,7 +14349,7 @@
 			)
 		)
 		(property "Sim.Device" ""
-			(at 82.55 53.34 0)
+			(at 82.55 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14358,7 +14358,7 @@
 			)
 		)
 		(property "Sim.Pins" ""
-			(at 82.55 53.34 0)
+			(at 82.55 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
