@@ -1,7 +1,7 @@
 (footprint "SK6812-MINI-E-Dog2_1S"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "D1"
 		(at 0 0.8 0)
@@ -25,19 +25,6 @@
 			(font
 				(size 0.7 0.7)
 				(thickness 0.11)
-			)
-		)
-	)
-	(property "Footprint" "SK6812-MINI-E-Dog2_1S"
-		(at 0 11.7 0)
-		(unlocked yes)
-		(layer "User.9")
-		(hide yes)
-		(uuid "cef4b823-f588-4dce-afd9-f045ac30aa11")
-		(effects
-			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
 			)
 		)
 	)
@@ -82,6 +69,18 @@
 	)
 	(attr smd)
 	(private_layers "User.9")
+	(fp_poly
+		(pts
+			(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "34d90bd8-e61a-41d9-9352-0372deebf190")
+	)
 	(fp_line
 		(start -1.696447 1.176)
 		(end -1.696447 -1.170447)
@@ -165,18 +164,6 @@
 		)
 		(layer "B.Adhes")
 		(uuid "7c83c246-40e4-4079-82eb-541cc4996db2")
-	)
-	(fp_poly
-		(pts
-			(xy 2.8 -1.4) (xy 2.2 -1.4) (xy 2.2 -2)
-		)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.SilkS")
-		(uuid "34d90bd8-e61a-41d9-9352-0372deebf190")
 	)
 	(fp_line
 		(start -1.6 -1.4)
@@ -716,6 +703,7 @@
 	(fp_text_box "One sided"
 		(start -4.572 4.064)
 		(end 4.826 6.35)
+		(margins 0.8 0.8 0.8 0.8)
 		(layer "User.9")
 		(uuid "6749bc41-2635-492e-8f4f-cd721bc02b63")
 		(effects
@@ -734,28 +722,30 @@
 	(pad "1" smd rect
 		(at -2.7 0.75)
 		(size 1.4 0.82)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b5dc559b-61f1-4505-9287-80d6b969436e")
 	)
 	(pad "2" smd rect
 		(at -2.7 -0.75)
 		(size 1.4 0.82)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "1fbfc4f4-3ffc-4297-a043-b7f0adc8e985")
 	)
 	(pad "3" smd roundrect
 		(at 2.7 -0.75)
 		(size 1.4 0.82)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
+		(zone_connect 0)
 		(uuid "c647c336-4f77-494a-addd-9f9cea91a10d")
 	)
 	(pad "4" smd rect
 		(at 2.7 0.75)
 		(size 1.4 0.82)
-		(layers "F.Cu" "F.Paste" "F.Mask")
+		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b8c85927-c29c-4432-8908-efe33e3dfde0")
 	)
+	(embedded_fonts no)
 	(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/SK6812MINI-E v1.step"
 		(offset
 			(xyz 0 0 0)
