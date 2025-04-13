@@ -8,6 +8,12 @@ Though designed for the [Hillside Dactyl 50 xxx],
   they should be useful in any similar Dactyl with at least a
   modest case volume.
 
+> [!Note]
+> I recommend waiting for an issue fixing release that should be
+> up shortly, hopefully within about a week.
+> See the change log for those known issues.
+> Some links are broken as I stage related parts of the keyboard.
+
 ## Feature levels and ordering
 
 There are three main choice points in a features vs cost trade off.
