@@ -1,7 +1,7 @@
 (kicad_sch
-	(version 20231120)
+	(version 20250114)
 	(generator "eeschema")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(uuid "454146f1-d25e-490f-a0db-4f993607d919")
 	(paper "USLetter")
 	(title_block
@@ -15,9 +15,13 @@
 	)
 	(lib_symbols
 		(symbol "Connector:TestPoint_Small"
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0.762) hide)
+				(offset 0.762)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -115,6 +119,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:Fiducial"
 			(exclude_from_sim yes)
@@ -194,6 +199,7 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "Mechanical:MountingHole"
 			(pin_names
@@ -276,12 +282,17 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
 		(symbol "power:PWR_FLAG"
 			(power)
-			(pin_numbers hide)
+			(pin_numbers
+				(hide yes)
+			)
 			(pin_names
-				(offset 0) hide)
+				(offset 0)
+				(hide yes)
+			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -372,7 +383,210 @@
 					)
 				)
 			)
+			(embedded_fonts no)
 		)
+	)
+	(text "D-"
+		(exclude_from_sim no)
+		(at 135.128 125.984 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "06e227ad-8049-419a-aaf1-2a234308d522")
+	)
+	(text "5v"
+		(exclude_from_sim no)
+		(at 133.985 111.125 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "0c3a8d0b-0af9-4260-aaa8-636f44876f33")
+	)
+	(text "KiCad"
+		(exclude_from_sim no)
+		(at 127.508 175.26 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "1bd31d2d-271e-4517-923e-467cb711076e")
+	)
+	(text "Fabrication"
+		(exclude_from_sim no)
+		(at 64.77 175.26 0)
+		(effects
+			(font
+				(size 2 2)
+			)
+		)
+		(uuid "3188a5d9-e77f-4996-8558-2b789d0db8a5")
+	)
+	(text "${TITLE}"
+		(exclude_from_sim no)
+		(at 104.14 57.785 0)
+		(effects
+			(font
+				(size 4 4)
+			)
+			(justify left bottom)
+		)
+		(uuid "3219a71e-3be5-40a4-aaab-931cf5d72b17")
+	)
+	(text "D+"
+		(exclude_from_sim no)
+		(at 134.874 118.618 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "7ec564ef-b384-497e-9563-5a02b6c7d199")
+	)
+	(text "GND"
+		(exclude_from_sim no)
+		(at 133.985 114.935 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "94f86e60-72bc-4f82-930d-0a5fb3a5965f")
+	)
+	(text "The keyboard uses left and right mirrored  \nPCB halves of mostly the same schematic.\n\nThe schematic differences (below) are for use of the \nhardware TX/RX for the two wire split.\n\nSee the shared sub sheet for other details and descriptions."
+		(exclude_from_sim no)
+		(at 90.678 95.631 0)
+		(effects
+			(font
+				(size 2.5 2.5)
+			)
+			(justify left bottom)
+		)
+		(uuid "be2d8afa-956c-4a35-b10e-e5dcc72523ca")
+	)
+	(text_box "Hack to avoid warnins about\nisolated fills on the panel side rails."
+		(exclude_from_sim no)
+		(at 107.95 181.61 0)
+		(size 38.735 6.35)
+		(margins 0.9524 0.9524 0.9524 0.9524)
+		(stroke
+			(width -0.0001)
+			(type default)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "4a61862d-abae-43fc-8344-e4e4a9158739")
+	)
+	(text_box "Split USB-C cable use:\n\n- We don't send USB protocal over the split USB-C cable.\n- Yet we follow the protocal in asking for no power using our split USB resistors, and we accept 5v power in case some accidental computer host ignores that."
+		(exclude_from_sim no)
+		(at 43.815 139.065 0)
+		(size 63.5 13.97)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "509be962-c49d-4344-b305-0a366525b293")
+	)
+	(text_box "Caveat:\nI'm not an electrical engineer. This is my best cut at the right approach after much reading plus creating a few boards that seem to work fine. I had EE classes in my CS degrees, but this is outside of that."
+		(exclude_from_sim no)
+		(at 194.945 48.895 0)
+		(size 61.595 24.13)
+		(margins 1.5 1.5 1.5 1.5)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 2 2)
+			)
+			(justify left top)
+		)
+		(uuid "531de7d3-36e7-40e3-bc08-ba77e9b67edc")
+	)
+	(text_box "With a wireless split: The UART RX and TX pins can be used for other things.\nSuch as a fifth row or the additional signal line to the Vic connector.\nThough they are wired differently on each board half.\n\nWith a one-wire split: The left RX and right TX pins carry the split, \nand the other can be used for something else.\n\nWith a two-wire split: Both UART RX and TX are used for the split."
+		(exclude_from_sim no)
+		(at 162.56 139.065 0)
+		(size 78.74 18.415)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "b75d0081-e112-4703-ba95-3737b77c7294")
+	)
+	(text_box "The wired split can be:\n\n- One wire, though mainly right to left:\n  D+:   Left RX <-> Right TX\n\n- Two wire: \n  D+:   Left RX <-- Right TX \n  D-:   Left TX --> Right RX\n\nBased on firmware needs."
+		(exclude_from_sim no)
+		(at 111.76 139.065 0)
+		(size 45.72 21.59)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left top)
+		)
+		(uuid "c2529e81-f8d6-4bd5-9461-3cd12e46bbdd")
+	)
+	(text_box "Split\nUSB-C\ncable"
+		(exclude_from_sim no)
+		(at 129.54 109.22 0)
+		(size 10.16 27.94)
+		(margins 0.9525 0.9525 0.9525 0.9525)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify bottom)
+		)
+		(uuid "fdf9090b-46df-49b4-824a-deb043a569d8")
 	)
 	(junction
 		(at 110.49 191.77)
@@ -728,202 +942,6 @@
 		)
 		(uuid "fc1d237c-c6fd-483c-bd56-cd332188001d")
 	)
-	(text_box "Hack to avoid warnins about\nisolated fills on the panel side rails."
-		(exclude_from_sim no)
-		(at 107.95 181.61 0)
-		(size 38.735 6.35)
-		(stroke
-			(width -0.0001)
-			(type default)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "4a61862d-abae-43fc-8344-e4e4a9158739")
-	)
-	(text_box "Split USB-C cable use:\n\n- We don't send USB protocal over the split USB-C cable.\n- Yet we follow the protocal in asking for no power using our split USB resistors, and we accept 5v power in case some accidental computer host ignores that."
-		(exclude_from_sim no)
-		(at 43.815 139.065 0)
-		(size 63.5 13.97)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "509be962-c49d-4344-b305-0a366525b293")
-	)
-	(text_box "Caveat:\nI'm not an electrical engineer. This is my best cut at the right approach after much reading plus creating a few boards that seem to work fine. I had EE classes in my CS degrees, but this is outside of that."
-		(exclude_from_sim no)
-		(at 194.945 48.895 0)
-		(size 61.595 24.13)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 2 2)
-			)
-			(justify left top)
-		)
-		(uuid "531de7d3-36e7-40e3-bc08-ba77e9b67edc")
-	)
-	(text_box "With a wireless split: The UART RX and TX pins can be used for other things.\nSuch as a fifth row or the additional signal line to the Vic connector.\nThough they are wired differently on each board half.\n\nWith a one-wire split: The left RX and right TX pins carry the split, \nand the other can be used for something else.\n\nWith a two-wire split: Both UART RX and TX are used for the split."
-		(exclude_from_sim no)
-		(at 162.56 139.065 0)
-		(size 78.74 18.415)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "b75d0081-e112-4703-ba95-3737b77c7294")
-	)
-	(text_box "The wired split can be:\n\n- One wire, though mainly right to left:\n  D+:   Left RX <-> Right TX\n\n- Two wire: \n  D+:   Left RX <-- Right TX \n  D-:   Left TX --> Right RX\n\nBased on firmware needs."
-		(exclude_from_sim no)
-		(at 111.76 139.065 0)
-		(size 45.72 21.59)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left top)
-		)
-		(uuid "c2529e81-f8d6-4bd5-9461-3cd12e46bbdd")
-	)
-	(text_box "Split\nUSB-C\ncable"
-		(exclude_from_sim no)
-		(at 129.54 109.22 0)
-		(size 10.16 27.94)
-		(stroke
-			(width 0)
-			(type dash)
-		)
-		(fill
-			(type none)
-		)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify bottom)
-		)
-		(uuid "fdf9090b-46df-49b4-824a-deb043a569d8")
-	)
-	(text "D-"
-		(exclude_from_sim no)
-		(at 135.128 125.984 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "06e227ad-8049-419a-aaf1-2a234308d522")
-	)
-	(text "5v"
-		(exclude_from_sim no)
-		(at 133.985 111.125 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "0c3a8d0b-0af9-4260-aaa8-636f44876f33")
-	)
-	(text "KiCad"
-		(exclude_from_sim no)
-		(at 127.508 175.26 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-		)
-		(uuid "1bd31d2d-271e-4517-923e-467cb711076e")
-	)
-	(text "Fabrication"
-		(exclude_from_sim no)
-		(at 64.77 175.26 0)
-		(effects
-			(font
-				(size 2 2)
-			)
-		)
-		(uuid "3188a5d9-e77f-4996-8558-2b789d0db8a5")
-	)
-	(text "${TITLE}"
-		(exclude_from_sim no)
-		(at 104.14 57.785 0)
-		(effects
-			(font
-				(size 4 4)
-			)
-			(justify left bottom)
-		)
-		(uuid "3219a71e-3be5-40a4-aaab-931cf5d72b17")
-	)
-	(text "D+"
-		(exclude_from_sim no)
-		(at 134.874 118.618 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "7ec564ef-b384-497e-9563-5a02b6c7d199")
-	)
-	(text "GND"
-		(exclude_from_sim no)
-		(at 133.985 114.935 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "94f86e60-72bc-4f82-930d-0a5fb3a5965f")
-	)
-	(text "The keyboard uses left and right mirrored  \nPCB halves of mostly the same schematic.\n\nThe schematic differences (below) are for use of the \nhardware TX/RX for the two wire split.\n\nSee the shared sub sheet for other details and descriptions."
-		(exclude_from_sim no)
-		(at 90.678 95.631 0)
-		(effects
-			(font
-				(size 2.5 2.5)
-			)
-			(justify left bottom)
-		)
-		(uuid "be2d8afa-956c-4a35-b10e-e5dcc72523ca")
-	)
 	(label "rail_LL"
 		(at 102.87 198.12 0)
 		(effects
@@ -1239,7 +1257,7 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 49.53 190.5 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -1339,7 +1357,7 @@
 		(lib_id "Mechanical:Fiducial")
 		(at 73.66 190.5 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -1439,7 +1457,7 @@
 		(lib_id "Mechanical:Fiducial")
 		(at 73.66 196.85 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -1745,7 +1763,7 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 49.53 184.15 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -1845,7 +1863,7 @@
 		(lib_id "Mechanical:Fiducial")
 		(at 73.66 184.15 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -1945,7 +1963,7 @@
 		(lib_id "Mechanical:MountingHole")
 		(at 49.53 196.85 0)
 		(unit 1)
-		(exclude_from_sim yes)
+		(exclude_from_sim no)
 		(in_bom no)
 		(on_board yes)
 		(dnp no)
@@ -2239,6 +2257,10 @@
 	(sheet
 		(at 97.155 109.22)
 		(size 26.035 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2268,43 +2290,43 @@
 		)
 		(pin "SPLIT+_VICAD1" input
 			(at 123.19 119.38 0)
+			(uuid "aa78d625-e00c-4fe4-8f94-35ee0a4e19f6")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "aa78d625-e00c-4fe4-8f94-35ee0a4e19f6")
 		)
 		(pin "SPLIT-_R5" input
 			(at 123.19 127 0)
+			(uuid "5a90e8b1-9f70-477a-af51-4ff0a5073bce")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "5a90e8b1-9f70-477a-af51-4ff0a5073bce")
 		)
 		(pin "UART_RX" input
 			(at 123.19 121.92 0)
+			(uuid "64c8b20e-899b-466f-b997-6fbc90e6bd0d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "64c8b20e-899b-466f-b997-6fbc90e6bd0d")
 		)
 		(pin "UART_TX" input
 			(at 123.19 129.54 0)
+			(uuid "caa45f48-0bbf-452f-b9b1-091908c59536")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
 			)
-			(uuid "caa45f48-0bbf-452f-b9b1-091908c59536")
 		)
 		(instances
 			(project "Dactyl Shield"
@@ -2317,6 +2339,10 @@
 	(sheet
 		(at 146.05 109.22)
 		(size 26.035 22.86)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
 		(fields_autoplaced yes)
 		(stroke
 			(width 0.1524)
@@ -2346,43 +2372,43 @@
 		)
 		(pin "SPLIT+_VICAD1" input
 			(at 146.05 119.38 180)
+			(uuid "914fe057-8dff-44de-b8d9-02334466de66")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "914fe057-8dff-44de-b8d9-02334466de66")
 		)
 		(pin "SPLIT-_R5" input
 			(at 146.05 127 180)
+			(uuid "1b91c976-d431-462a-be67-38f8d61d04c2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "1b91c976-d431-462a-be67-38f8d61d04c2")
 		)
 		(pin "UART_RX" input
 			(at 146.05 129.54 180)
+			(uuid "f6c47502-3b9d-4b6a-a7a5-dfa7a245a389")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "f6c47502-3b9d-4b6a-a7a5-dfa7a245a389")
 		)
 		(pin "UART_TX" input
 			(at 146.05 121.92 180)
+			(uuid "4deb81d2-5d64-42a9-843a-6770200fecc2")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
 			)
-			(uuid "4deb81d2-5d64-42a9-843a-6770200fecc2")
 		)
 		(instances
 			(project "Dactyl Shield"
@@ -2397,4 +2423,5 @@
 			(page "1")
 		)
 	)
+	(embedded_fonts no)
 )
