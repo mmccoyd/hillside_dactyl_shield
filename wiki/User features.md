@@ -1,4 +1,0 @@
-# Summary of shield features
-
-
-
