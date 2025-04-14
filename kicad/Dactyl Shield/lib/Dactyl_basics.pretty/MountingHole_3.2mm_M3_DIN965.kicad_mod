@@ -1,7 +1,7 @@
 (footprint "MountingHole_3.2mm_M3_DIN965"
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(layer "F.Cu")
 	(descr "Mounting Hole 3.2mm, no annular, M3, DIN965")
 	(tags "mounting hole 3.2mm no annular m3 din965")
@@ -28,18 +28,6 @@
 			)
 		)
 	)
-	(property "Footprint" "MountingHole_3.2mm_M3_DIN965"
-		(at 0 9.8 0)
-		(unlocked yes)
-		(layer "User.9")
-		(hide yes)
-		(uuid "9c82233d-19d7-457b-868c-a7dc8255c295")
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-	)
 	(property "Datasheet" ""
 		(at 0 0 0)
 		(unlocked yes)
@@ -49,6 +37,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -61,6 +50,7 @@
 		(effects
 			(font
 				(size 1.27 1.27)
+				(thickness 0.15)
 			)
 		)
 	)
@@ -81,12 +71,23 @@
 	(private_layers "User.9")
 	(fp_circle
 		(center 0 0)
+		(end 0 -4)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "051b0fe8-92c9-4207-9909-5416bdf6c2a5")
+	)
+	(fp_circle
+		(center 0 0)
 		(end 2.8 0)
 		(stroke
 			(width 0.15)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "82bf6af6-a783-49a9-a567-ff6d51a7e170")
 	)
@@ -97,7 +98,7 @@
 			(width 0.05)
 			(type solid)
 		)
-		(fill none)
+		(fill no)
 		(layer "F.CrtYd")
 		(uuid "d2f100b3-82ea-4751-8a4d-13649c4b4d00")
 	)
@@ -108,4 +109,5 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "6fb45120-f17d-4d12-81b3-98e6b426907f")
 	)
+	(embedded_fonts no)
 )
