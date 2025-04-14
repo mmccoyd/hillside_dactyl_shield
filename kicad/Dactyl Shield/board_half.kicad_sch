@@ -7085,6 +7085,12 @@
 		(uuid "be502595-82d9-414b-9b11-4ee6cd978d6c")
 	)
 	(junction
+		(at 177.8 144.78)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c87ac263-0a8c-4306-a1ad-474d4c1d41ef")
+	)
+	(junction
 		(at 39.37 93.98)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8331,6 +8337,16 @@
 		)
 		(uuid "8f25a5a5-bb38-4ec5-9636-d4ed6c8fb7af")
 	)
+	(wire
+		(pts
+			(xy 175.26 144.78) (xy 177.8 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "90074057-ccc2-40ae-b67f-e5d293cb9ac5")
+	)
 	(polyline
 		(pts
 			(xy 102.235 50.8) (xy 102.235 97.79)
@@ -8540,16 +8556,6 @@
 			(type default)
 		)
 		(uuid "a9c21ff7-a749-48a3-b0f9-c6bb34a14bb6")
-	)
-	(wire
-		(pts
-			(xy 167.64 62.23) (xy 167.64 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "aa693e90-b678-44a3-9b0a-4cd1dfaded86")
 	)
 	(polyline
 		(pts
@@ -9090,16 +9096,6 @@
 			(type default)
 		)
 		(uuid "fc4a358b-29a3-43f4-b55b-37b5c213d540")
-	)
-	(wire
-		(pts
-			(xy 167.64 62.23) (xy 170.18 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fd9b1a8d-8e9f-4a7a-8bfa-1c40005bd607")
 	)
 	(wire
 		(pts
@@ -13350,7 +13346,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint_Small")
-		(at 170.18 62.23 0)
+		(at 175.26 144.78 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13358,7 +13354,7 @@
 		(dnp no)
 		(uuid "9bdee682-2b2b-4d6c-84ca-1f873055e2ce")
 		(property "Reference" "TP202"
-			(at 170.942 62.23 0)
+			(at 172.974 147.32 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13367,7 +13363,7 @@
 			)
 		)
 		(property "Value" "TestPoint_Small"
-			(at 171.45 63.4999 0)
+			(at 173.9901 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13377,7 +13373,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_THTPad_D1.0mm_Drill0.5mm"
-			(at 175.26 62.23 0)
+			(at 175.26 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13386,7 +13382,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 175.26 62.23 0)
+			(at 175.26 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13395,7 +13391,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 170.18 62.23 0)
+			(at 175.26 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13404,7 +13400,7 @@
 			)
 		)
 		(property "Config" "DNF"
-			(at 170.18 62.23 0)
+			(at 175.26 144.78 0)
 			(effects
 				(font
 					(size 1.27 1.27)
