@@ -3764,7 +3764,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C23025"
+		(property "LCSC Part" "C17634"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6583,7 +6583,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C23025"
+		(property "LCSC Part" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9075,7 +9075,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C23025"
+		(property "LCSC Part" "C25804"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -13073,7 +13073,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C23025"
+		(property "LCSC Part" "C17634"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -15150,7 +15150,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C23025"
+		(property "LCSC Part" "C17634"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -30316,7 +30316,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C23025"
+		(property "LCSC Part" "C17634"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -32907,7 +32907,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C23025"
+		(property "LCSC Part" "C17634"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -35192,7 +35192,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C23025"
+		(property "LCSC Part" "C17634"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")

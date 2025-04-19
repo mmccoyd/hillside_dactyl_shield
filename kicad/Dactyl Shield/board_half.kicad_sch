@@ -6,7 +6,7 @@
 	(paper "A4")
 	(title_block
 		(title "Hillside Dactyl Shield")
-		(date "2025-04-13")
+		(date "2025-04-19")
 		(rev "0.1.0-alpha.3")
 		(comment 1 "  Headers: MCU, key matrix and display")
 		(comment 2 "  On board: reset, battery switch and LEDs")
@@ -10107,7 +10107,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23025"
+		(property "LCSC Part" "C17634"
 			(at 148.59 130.81 0)
 			(effects
 				(font
@@ -10879,7 +10879,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23025"
+		(property "LCSC Part" "C17634"
 			(at 148.59 125.73 0)
 			(effects
 				(font
@@ -12232,7 +12232,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23025"
+		(property "LCSC Part" "C17634"
 			(at 148.59 135.89 0)
 			(effects
 				(font
@@ -12786,7 +12786,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part" "C23025"
+		(property "LCSC Part" "C25804"
 			(at 129.54 151.13 0)
 			(effects
 				(font
