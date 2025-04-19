@@ -12051,7 +12051,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C173752"
+		(property "LCSC Part" "C157932"
 			(at 21.59 48.26 0)
 			(effects
 				(font
@@ -13731,6 +13731,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C20616203"
+			(at 271.78 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
