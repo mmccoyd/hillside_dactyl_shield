@@ -5,9 +5,16 @@
 kibot:
   version: 1
 
-# include:
+globals:
+  field_lcsc_part: LCSC Part # So JLCPCB template knows where part numbers are
 
-# Our _JLCPCB_XX below are likely just similarly named.
+import:
+  # Internal template does most of the JLC work
+  - file: JLCPCB
+    definitions:
+      _KIBOT_POS_DNF_FILTER: remove_extra
+      _KIBOT_POS_ONLY_SMD: false
+      _KIBOT_POS_PRE_TRANSFORM: fix_rotation
 
 preflight:
   erc: true
@@ -15,88 +22,33 @@ preflight:
   drc: true
 
 filters:
-  - name: only_jlc_parts
-    comment: 'Only parts with JLC (LCSC) code'
-    type: generic
-    include_only:
-      - column: LCSC Part
-        regex: '^C\d+'
 
-  - name: rot_hillside
-    comment: 'Adjust rotation and position of some parts'
-    type: rot_footprint
-    rotations_and_offsets:
-      - field: _field_lcsc_part # Vic
-        regex: 'C2906115'
-        offset_y: -0.5  # minus is in direction of the pins
+- name: fix_rotation
+  comment: 'Adjust rotation for JLC'
+  type: rot_footprint
+  negative_bottom: false
+  mirror_bottom: true
+  rotations_and_offsets:
+    - field: _field_lcsc_part # Vic  - need in toward pins / center of panel
+      regex: 'C2906115'
+      offset_y: -0.5  # minus is in direction of the pins
 
-      - field: _field_lcsc_part # USB-C
-        regex: 'C165948'
-        angle: 180
-        offset_y: -1.4 # minus is in direction of the pins
+    - field: _field_lcsc_part # SRV05 ESD: need 90° counter clockwise
+      regex: 'C20615829'
+      angle: -90
 
-      - field: _field_lcsc_part # ESD SRV05
-        regex: 'C20615829'
-        angle: 90
+    - field: _field_lcsc_part # USB-C
+      regex: 'C165948'
+      offset_y: -1.4 # minus is in direction of the pins
 
-      # - field: _field_lcsc_part # LED transistor. But angle doesn't change.
-      #   regex: 'C20917'
-      #   angle: 180
+- name: remove_extra
+  comment: 'Keep only those with a LCSC Part number'
+  type: generic
+  include_only:
+    - column: LCSC Part
+      regex: "^C\\d+"
 
 outputs:
-
-  - name: _JLCPCB_gerbers
-    comment: Gerbers compatible with JLCPCB
-    type: gerber
-    dir: gerbers_and_drill
-    options: &gerber_options
-      exclude_edge_layer: true
-      exclude_pads_from_silkscreen: true
-      plot_sheet_reference: false
-      plot_footprint_refs: True
-      plot_footprint_values: True
-      force_plot_invisible_refs_vals: false
-      tent_vias: true
-      use_protel_extensions: true
-      create_gerber_job_file: false
-      disable_aperture_macros: true
-      gerber_precision: 4.6
-      use_gerber_x2_attributes: false
-      use_gerber_net_attributes: false
-      line_width: 0.1
-      subtract_mask_from_silk: true
-      inner_extension_pattern: '.g%n'
-    layers:
-      - layer: 'F.Cu'
-        suffix: 'F_Cu'
-        description: 'Front copper'
-      - layer: 'In1.Cu'
-        suffix: 'In1_Cu'
-        description: 'Inner 1 copper'
-      - layer: 'In2.Cu'
-        suffix: 'In2_Cu'
-        description: 'Inner 2 copper'
-      - layer: 'B.Cu'
-        suffix: 'B_Cu'
-        description: 'Bottom copper'
-      - layer: 'F.Paste'
-        suffix: 'F_Paste'
-        description: 'Front solder paste'
-      - layer: 'B.Silkscreen'
-        suffix: 'B_Silkscreen'
-        description: 'Bottom silkscreen (artwork)'
-      - layer: 'F.Silkscreen'
-        suffix: 'F_Silkscreen'
-        description: 'Front silkscreen (artwork)'
-      - layer: 'B.Mask'
-        suffix: 'B_Mask'
-        description: 'Bottom soldermask (negative)'
-      - layer: 'F.Mask'
-        suffix: 'F_Mask'
-        description: 'Front soldermask (negative)'
-      - layer: 'Edge.Cuts'
-        suffix: 'Edge_Cuts'
-        description: 'Board shape'
 
   - name: Step_3D_file
     comment: Step file export
@@ -108,7 +60,7 @@ outputs:
     type: render_3d
     dir: doc
     options:
-      dnf_filter: only_jlc_parts
+      dnf_filter:  remove_extra
       auto_crop: true
       clip_silk_on_via_annulus: false
       height: 1500
@@ -119,7 +71,7 @@ outputs:
     type: render_3d
     dir: doc
     options:
-      dnf_filter: only_jlc_parts
+      dnf_filter:  remove_extra
       auto_crop: true
       clip_silk_on_via_annulus: false
       view: 'bottom'
@@ -132,78 +84,3 @@ outputs:
     dir: doc
     options:
       background_color: true
-
-  - name: _JLCPCB_drill
-    comment: Drill files compatible with JLCPCB
-    type: excellon
-    dir: gerbers_and_drill
-    options:
-      pth_and_npth_single_file: false
-      pth_id: '-PTH'
-      npth_id: '-NPTH'
-      metric_units: true
-      map: gerber
-      route_mode_for_oval_holes: false
-      output: "%f%i.%x"
-
-
-  - name: gerbers
-    comment: Zip of fabrication artifacts
-    type: compress
-    options:
-      files:
-        - from_output: _JLCPCB_gerbers
-          dest: /
-        - from_output: _JLCPCB_drill
-          dest: /
-
-
-  - name: _JLCPCB_bom
-    comment: "BoM for JLCPCB"
-    type: bom
-    dir: pcba
-    run_by_default: True
-    options:
-      output: '%f_%i_jlc.%x'
-      exclude_filter: 'only_jlc_parts'
-      ref_separator: ','
-      columns:
-        - field: Value
-          name: Comment
-        - field: References
-          name: Designator
-        - Footprint
-        - field: _field_lcsc_part
-          name: 'LCSC Part #'
-      csv:
-        hide_pcb_info: true
-        hide_stats_info: true
-        quote_all: true
-
-  - name: _JLCPCB_position
-    comment: "Pick and place file, JLCPCB style"
-    type: position
-    dir: pcba
-    run_by_default: True
-    options:
-      pre_transform: ['_kicost_rename', '_rot_footprint_jlcpcb', 'rot_hillside']
-      dnf_filter: only_jlc_parts
-      output: '%f_cpl_jlc.%x'
-      format: CSV
-      units: millimeters
-      separate_files_for_front_and_back: false
-      only_smd: False
-      columns:
-        - id: Ref
-          name: Designator
-        - Val
-        - Package
-        - id: PosX
-          name: "Mid X"
-        - id: PosY
-          name: "Mid Y"
-        - id: Rot
-          name: Rotation
-        - id: Side
-          name: Layer
-
