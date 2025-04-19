@@ -494,7 +494,24 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "four_way_junction|241300|1117600|3e05d240-d6a6-4501-8492-6289e6117fd9|8d064540-2b13-4056-bf29-e5a4983e1245|/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2||",
+        "internal to stock component"
+      ],
+      [
+        "four_way_junction|241300|1117600|3e05d240-d6a6-4501-8492-6289e6117fd9|8d064540-2b13-4056-bf29-e5a4983e1245|/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394||",
+        "internal to stock component"
+      ],
+      [
+        "four_way_junction|393700|736600|02e79fed-54b3-4276-95a5-eaca22802992|b8fee385-e54e-4932-a4af-b5ab5df55418|/454146f1-d25e-490f-a0db-4f993607d919/0f72ce67-b380-481c-afb4-102f931d77e2||",
+        "internal to stock component"
+      ],
+      [
+        "four_way_junction|393700|736600|02e79fed-54b3-4276-95a5-eaca22802992|b8fee385-e54e-4932-a4af-b5ab5df55418|/454146f1-d25e-490f-a0db-4f993607d919/e235f658-1906-464a-832e-0ac06e788394||",
+        "internal to stock component"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -1012,7 +1029,7 @@
       "include_excluded_from_bom": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Footprint"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
