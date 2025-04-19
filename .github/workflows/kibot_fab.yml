@@ -1,4 +1,4 @@
-name: "Build fab files for MCU breakout"
+name: "Build fab files for Dactyl shield"
 
 # Trigger on push or pull request
 on:
@@ -6,8 +6,8 @@ on:
     paths:
       - '**.kicad_sch' # fix
       - '**.kicad_pcb'
-      - '.github/workflows/kibot_fab.yml'
-      - 'bin/fab.kibot.yml'
+      - '.github/workflows/kibot_fab.yml'  # this GitHub file
+      - 'bin/fab.kibot.yml'                # KiBot script 
   pull_request:
     paths:
       - '*.kicad_sch'
@@ -25,7 +25,7 @@ env:
 jobs:
   generate_fab_files:
     runs-on: ubuntu-latest
-    container: ghcr.io/inti-cmnb/kicad8_auto:latest
+    container: ghcr.io/inti-cmnb/kicad9_auto:latest
 
     steps:
       # Everything should happen in `kicad/`
@@ -43,7 +43,7 @@ jobs:
           ls -la
 
       - name: Run KiBot
-        uses: INTI-CMNB/KiBot@v2_k8
+        uses: INTI-CMNB/KiBot@v2_k9
         with:
           config: ./bin/fab.kibot.yml
           dir: ./kicad/kibot_output
