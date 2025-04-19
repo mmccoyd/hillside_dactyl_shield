@@ -12007,7 +12007,7 @@
 				(hide yes)
 			)
 		)
-		(property "Config" "DNF"
+		(property "Config" ""
 			(at 21.59 48.26 0)
 			(effects
 				(font
@@ -12041,6 +12041,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "JLC PCBA Type" "Extended"
+			(at 21.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC Part" "C173752"
+			(at 21.59 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
