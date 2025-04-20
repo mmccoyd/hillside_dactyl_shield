@@ -1,6 +1,6 @@
 # Change log
 
-## v0.1.0-alpha.3: Cleanup soldering issues.
+## v0.1.0-alpha.3: Fix soldering and resistors; easier hand wiring
 
 Thou planned for only crucial fixes, this also reorganizes the lower board half
 and keywell edge for clarity and easier keywell wiring.
@@ -9,8 +9,9 @@ and keywell edge for clarity and easier keywell wiring.
 
 Fixes
 
--   Ground pins have good manual thermal relief, not massive auto spoke counts.
+-   Ground pins have manual thermal relief, not massive auto spoke counts.
 -   LED configuration jumpers are all open, not cut-a-trace to open.
+-   LED resistors have the intended values.
 -   Bare LED can now reach its spot in the side wall, in a lengthened PCB.
 
 Enhancements
@@ -22,11 +23,13 @@ Enhancements
 -   Small test pads allow routing the LED data line to the second LED, to see
     if the first LED got fried by overzealous soldering. Or to bodge wire to
     the second LED with some solid core 26 AGW wire.
+-   Reset and battery JST are included in PCBA. Though reset is out of stock.
+-   CI uses KiBot JLCPCB template to create four and two layer versions.
 
 
 ## v0.1.0-alpha.2: Left side and bare LED
 
-The major add is having a left hand board. It is my daily board and works well.
+The major addition is a left hand side. It is my daily board and works well.
 
 ### Known issues
 
