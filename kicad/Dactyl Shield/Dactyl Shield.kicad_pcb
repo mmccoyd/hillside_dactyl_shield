@@ -45608,7 +45608,7 @@
 			(type solid)
 		)
 	)
-	(gr_text_box "A grid of .1 mm is used for components that interface with the case to make it \neasier to maintain a left and right board mirrored layout.\n\nThis includes:\n\n- Board outline\n- Through case componentes: MCU, power switch, reset, USB split\n- Mount holes\n- LEDs"
+	(gr_text_box "A grid of .1 mm is used for components that interface with the case to make it \neasier to maintain a left and right board mirrored layout.\n\nThis includes\n\n- Board outline\n- Through case componentes: MCU, power switch, reset, USB split\n- Mount holes\n- LEDs"
 		(start 89.65 40.475)
 		(end 143.75 60.55)
 		(margins 0.825 0.825 0.825 0.825)
