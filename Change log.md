@@ -7,6 +7,14 @@ and keywell edge for clarity and easier keywell wiring.
 
 ### Changes
 
+Breaking change with respect to the body
+
+The alpha.3 shield mounts and fits within the alpha.2 body, but the
+    smart LEDs and their power switch moved,
+    so the holes in the bottom plate needed to move as well
+    for the alpha.3 body.
+Or some extra holes need to be cut into the alpha.2 bottom plate.
+
 Fixes
 
 -   Ground pins have manual thermal relief, not massive auto spoke counts.

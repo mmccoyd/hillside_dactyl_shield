@@ -1,4 +1,9 @@
-# Readme
+# Hillside Dactyl Shield
+
+|                 |                 |
+|:-----------     |:----------------|
+| ![Render front](./image/Dactyl_Shield-3D_top.png) | ![Use in Dactyl](./image/D50_insides.png) |
+
 
 These shields link the parts of a small Dactyl keyboard:
     the MCU, key matrix, battery, USB-C split, display, and underglow.
@@ -8,16 +13,14 @@ They should be useful for creating any modest sized choc Dactyl,
     though they were designed for the [Hillside Dactyl 50 xxx].
 
 > [!Note]
-> This test branch seems ready to order.
+> I've ordered alpha.3, but not yet built it.
+> I'll update this when I've build it.
 >
-> I'll update this when I've done that and when I've tested it.
->
-> See the change log for what it fixes and adds.
+> See the change log for the alpha.2 to alpha.3 differences.
 >
 > Some links are broken as I stage related parts of the keyboard.
-> This test branch is subject to being re-based.
 
-## Feature levels and ordering
+## Feature levels
 
 There are three main choice points in a shield cost vs features trade off.
 See the wiki ordering page for costs.
@@ -38,7 +41,7 @@ See the wiki ordering page for costs.
 - Extensive ESD protection on the USB-C split connection.
 - Four or two layer construction options and PCBA construction.
 
-## Designed as a four layer board, it *should* work as two layers
+## Designed as a four layer board, but also to work with two layers
 
 Our highest priority was a cleanly working key matrix,
  followed by an informational display or LED.
@@ -73,10 +76,10 @@ But with two layers,
 [Ordering](https://github.com/mmccoyd/hillside_dactyl_shield/wiki/User-ordering)
     has an outline of the process of ordering from a fabrication house.
 
-The [wiki](https://github.com/mmccoyd/hillside_dactyl_shield/wiki)
-  has details for the parts, ordering and building.
+The [shield wiki](https://github.com/mmccoyd/hillside_dactyl_shield/wiki)
+  has additional information.
 A broader example of its use in a keyboard can be found in the
-  separate [Hillside D50 wiki]().
+  separate [not yet released Hillside D50 wiki].
 
 ## Firmware
 
@@ -86,7 +89,7 @@ These shields were used to create the Hillside Dactyl 50,
 
 ## Status
 
-In alpha.3 preparation.
+In alpha.3 fabrication.
 
 ## Design notes
 
@@ -108,9 +111,13 @@ Some other shields provide related abilities, including:
 
 ## Images
 
-Currently in the GitHub Actions tab run result downloads.
+There is also a STEP file in the GitHub action result files.
 
-TODO:
-Render with components shown, but excluding those not in the POS file.
-Schematic
-PCB
+![Front](./image/Dactyl_Shield-3D_top.png)
+
+![Back](./image/Dactyl_Shield-3D_bottom.png)
+
+![Schematic side](./image/Dactyl_Shield-Right.svg)
+
+![Schematic](./image/Dactyl_Shield-schematic.svg)
+
