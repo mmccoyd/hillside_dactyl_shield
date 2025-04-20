@@ -13477,7 +13477,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+		(property "Footprint" "Dactyl_basics:SOT-23"
 			(at 151.13 149.225 0)
 			(effects
 				(font
