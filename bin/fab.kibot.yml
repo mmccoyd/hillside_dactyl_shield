@@ -9,12 +9,31 @@ globals:
   field_lcsc_part: LCSC Part # So JLCPCB template knows where part numbers are
 
 import:
-  # Internal template does most of the JLC work
+  # Internal JLCPCB template does most of the work
+
   - file: JLCPCB
     definitions:
+      _KIBOT_IMPORT_ID: '_four_layer'
+      _KIBOT_IMPORT_DIR: 'JLC_four_layer'
       _KIBOT_POS_DNF_FILTER: remove_extra
       _KIBOT_POS_ONLY_SMD: false
       _KIBOT_POS_PRE_TRANSFORM: fix_rotation
+
+  - file: JLCPCB
+    definitions:
+      _KIBOT_IMPORT_ID: '_two_layer'
+      _KIBOT_IMPORT_DIR: 'JLC_two_layer'
+      _KIBOT_POS_DNF_FILTER: remove_extra
+      _KIBOT_POS_ONLY_SMD: false
+      _KIBOT_POS_PRE_TRANSFORM: fix_rotation
+      _KIBOT_GERBER_LAYERS:
+        - F.Cu
+        - B.Cu
+        - F.SilkS
+        - B.SilkS
+        - F.Mask
+        - B.Mask
+        - Edge.Cuts
 
 preflight:
   erc: true
