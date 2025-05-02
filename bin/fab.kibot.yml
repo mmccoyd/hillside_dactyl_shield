@@ -18,6 +18,7 @@ import:
       _KIBOT_POS_DNF_FILTER: remove_extra
       _KIBOT_POS_ONLY_SMD: false
       _KIBOT_POS_PRE_TRANSFORM: fix_rotation
+      _KIBOT_PLOT_FOOTPRINT_VALUES: true
 
   - file: JLCPCB
     definitions:
@@ -26,6 +27,7 @@ import:
       _KIBOT_POS_DNF_FILTER: remove_extra
       _KIBOT_POS_ONLY_SMD: false
       _KIBOT_POS_PRE_TRANSFORM: fix_rotation
+      _KIBOT_PLOT_FOOTPRINT_VALUES: true
       _KIBOT_GERBER_LAYERS:
         - F.Cu
         - B.Cu
