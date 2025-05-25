@@ -7,6 +7,7 @@ kibot:
 
 globals:
   field_lcsc_part: LCSC Part # So JLCPCB template knows where part numbers are
+  output: '%f_rev_%r-%i%I%v.%x'  # Include board revision number 
 
 import:
   # Internal JLCPCB template does most of the work
@@ -42,6 +43,7 @@ preflight:
   check_zone_fills: true
   drc: true
 
+
 filters:
 
 - name: fix_rotation
@@ -71,10 +73,15 @@ filters:
 
 outputs:
 
-  - name: Step_3D_file
-    comment: Step file export
-    type: step
-    dir: step
+  - name: Bill_of_Materials
+    comment: BoM
+    type: bom
+    dir: doc
+
+  - name: I_Bill_of_Materials
+    comment: I_BoM
+    type: ibom
+    dir: doc
 
   - name: Render_Top
     comment: Render with PCBA components
@@ -105,3 +112,9 @@ outputs:
     dir: doc
     options:
       background_color: true
+
+  - name: Step_3D_file
+    comment: Step file export
+    type: step
+    dir: step
+
