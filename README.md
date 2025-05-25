@@ -2,23 +2,16 @@
 
 |                 |                 |
 |:-----------     |:----------------|
-| ![Render front](./image/Dactyl_Shield-3D_top.png) | ![Use in Dactyl](./image/D50_insides.png) |
+| ![Render front](./image/Dactyl_Shield-3D_top.png) | ![Use in Dactyl](./image/D50_build_open.png) |
 
 
 These shields link the parts of a small Dactyl keyboard:
     the MCU, key matrix, battery, USB-C split, display, and underglow.
 The shield fits below the index columns and display area of a
     choc Dactyl keyboard.
-They should be useful for creating any modest sized choc Dactyl,
-    though they were designed for the [Hillside Dactyl 50 xxx].
-
-> [!Note]
-> I've ordered alpha.3, but not yet built it.
-> I'll update this when I've build it.
->
-> See the change log for the alpha.2 to alpha.3 differences.
->
-> Some links are broken as I stage related parts of the keyboard.
+They should be useful for creating any modest sized Dactyl,
+    but were designed for the
+    [Hillside Dactyl 50](https://github.com/mmccoyd/hillside_dactyl_50).
 
 ## Feature levels
 
@@ -30,6 +23,7 @@ See the wiki ordering page for costs.
 - Vic link, LED underglow, and a decently clean emissions profile,
   using a four layer board with higher setup fees.
 
+
 ## What the shield provides
 
 - A header to socket or solder a ProMicro footprint MCU.
@@ -40,6 +34,7 @@ See the wiki ordering page for costs.
 - Underglow or side indicator LEDs with power switch and cutoff solder jumpers.
 - Extensive ESD protection on the USB-C split connection.
 - Four or two layer construction options and PCBA construction.
+
 
 ## Designed as a four layer board, but also to work with two layers
 
@@ -73,23 +68,16 @@ But with two layers,
 [Releases](https://github.com/mmccoyd/hillside_dactyl_shield/releases)
     has the files for fabrication.
 
-[Ordering](https://github.com/mmccoyd/hillside_dactyl_shield/wiki/User-ordering)
-    has an outline of the process of ordering from a fabrication house.
-
-The [shield wiki](https://github.com/mmccoyd/hillside_dactyl_shield/wiki)
-  has additional information.
-A broader example of its use in a keyboard can be found in the
-  separate [not yet released Hillside D50 wiki].
+The [wiki](https://github.com/mmccoyd/hillside_dactyl_shield/wiki)
+  has information on parts and ordering.
+An example of its use in a keyboard can be found in the
+    [Hillside Dactyl 50](https://github.com/mmccoyd/hillside_dactyl_50).
 
 ## Firmware
 
-These shields were used to create the Hillside Dactyl 50,
-   so its [ZMK firmware](https://github.com/mmccoyd/zmk-hillsideD50)
-   should be a helpful starting point when creating similar Dactyls.
-
-## Status
-
-In alpha.3 fabrication.
+The [Hillside Dactyl 50](https://github.com/mmccoyd/hillside_dactyl_50),
+    keyboard's ZMK and QMK firmware
+    should be good starting points for creating similar Dactyls.
 
 ## Design notes
 

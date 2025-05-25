@@ -2,12 +2,12 @@
 
 ## v0.1.0-alpha.3: Fix soldering and resistors; easier hand wiring
 
-Thou planned for only crucial fixes, this also reorganizes the lower board half
-and keywell edge for clarity and easier keywell wiring.
+Thou planned for just crucial fixes, this also reorganized the lower board half
+    and keywell edge for clarity and easier keywell wiring.
 
 ### Changes
 
-Breaking change with respect to the body
+Breaking change (with respect to the body)
 
 The alpha.3 shield mounts and fits within the alpha.2 body, but the
     smart LEDs and their power switch moved,
@@ -20,19 +20,19 @@ Fixes
 -   Ground pins have manual thermal relief, not massive auto spoke counts.
 -   LED configuration jumpers are all open, not cut-a-trace to open.
 -   LED resistors have the intended values.
--   Bare LED can now reach its spot in the side wall, in a lengthened PCB.
+-   Bare LED can now reach its side wall hole, in a lengthened PCB.
 
 Enhancements
 
--   The physical layout of the key-matrix contacts matches the layout of the
-    thumb cluster and keywell edges they connect to. This makes it easier to
-    see which wire connects where. At least for the Hillside Dactyl 50, but it
-    does have a typical layout.
+-   The physical layout of the contacts for the key-matrix matches the layout
+    of the thumb cluster and keywell edges they connect to.
+    This makes it easier to see which wire connects where.
+    At least for the Hillside Dactyl 50, which does have a typical layout.
 -   Small test pads allow routing the LED data line to the second LED, to see
     if the first LED got fried by overzealous soldering. Or to bodge wire to
     the second LED with some solid core 26 AGW wire.
--   Reset and battery JST are included in PCBA. Though reset is out of stock.
--   CI uses KiBot JLCPCB template to create four and two layer versions.
+-   Reset and battery JST are included in PCBA.
+-   CI uses KiBot JLCPCB template to create both four and two layer versions.
 
 
 ## v0.1.0-alpha.2: Left side and bare LED
